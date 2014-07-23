@@ -1,0 +1,337 @@
+
+<!Doctype HTML>
+<html>
+	<head>
+		<title> Children in Cambridge, MA </title>
+		<!---   Styles   -->
+		<link href="http://youarehere.cc/w/static/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+		<link href="http://youarehere.cc/w/static/bootstrap-select/bootstrap-select.css" rel="stylesheet"/>
+		<!-- <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'> -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+		
+<meta property="og:image" content="http://youarehere.cc/static/media/coffeeshops/cambridge.jpg" />
+<meta property="og:title" content="Children in Cambridge, MA" />
+<link rel="stylesheet" href="http://youarehere.cc/w/static/css/histograms.css" />
+<link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="http://youarehere.cc/w/static/css/coffeeshops.css" />
+
+		<!---   Scripts    -->
+		<script src="http://youarehere.cc/w/static/libs/d3.v3.min.js"></script>
+		<script src="http://youarehere.cc/w/static/libs/jquery.min.js"></script>
+		<script src="http://youarehere.cc/w/static/libs/d3.tip.js"></script>
+		<script src="http://youarehere.cc/w/static/bootstrap/js/bootstrap.min.js"></script>
+		<script src="http://youarehere.cc/w/static/bootstrap-select/bootstrap-select.js"></script>
+		<script src="http://youarehere.cc/w/static/js/d3-utils.js"></script>
+		<script>
+		
+		function loadAppropriateFonts() {
+			if (navigator.platform.toLowerCase().indexOf('mac') == -1) {
+				$('body, h1, h2, h3, h4, h5').css('font-family', "'Open Sans', sans-serif");
+			}
+		}
+		$(function(){
+		  if (/embed/i.test(window.location.search)){
+		    $('body').addClass('embedded');
+		    var showOriginal = $(document.createElement('a'));
+		    showOriginal.attr('target', 'new');
+		    showOriginal.attr('href', window.location.href.replace(window.location.search, '?more=1'));
+		    showOriginal.html('... more');
+		    showOriginal.attr('id', 'showOriginal');
+		    $('#showMore').replaceWith(showOriginal);
+		  }
+		  if (/more/i.test(window.location.search)){
+		    setTimeout(function(){$('#showMore').click();},1000);
+		  }
+		});
+		</script>
+
+		<style type="text/css">
+		  .embedded {
+		    overflow: hidden;
+		  }
+		  .embedded .navElements {
+		    display: none;
+		  }
+		  .embedded #footer {
+		    display: none;
+		  }
+		  #showOriginal { color: #DE1028 }
+		  .embedded .title-container {
+		    margin-top: 0;
+		  }
+		  .title-logo {
+		    display: none;
+		    float: left;
+		    width: 40px;
+		    height: 40px;
+		    margin-right: 5px;
+		  }
+		  .title-logo img { width: 100%; height: 100% }
+		  .embedded .title-logo {
+		    display: block;
+		  }
+		  .embedded > .container {
+		    margin-bottom: 0;
+		  }
+		  .embedded .title {
+		    font-size: 18px !important;
+		  }
+		  .embedded .subtitle {
+		    font-size: 12px !important;
+		  }
+		</style>
+
+<script src="http://youarehere.cc/w/static/libs/topojson.v1.min.js"></script>
+
+<script>
+var places, map, points; 
+var placePoints = d3.map();
+var placeIdToName = d3.map(); 
+var tip;
+var kmToMile = 0.621371; 
+
+var gridColors = ['#4CBA96', '#96C957', '#D1ED1C', '#EDB51C', '#ED731C', '#ED1C1C',
+'#3DB3A3', '#1CD5ED', '#1C81ED', '#5F1CED', '#AB1CED', '#ED1CED',
+'#ED1CAB', '#ED1C69', '#F77F6D', '#F7B76D', '#F7DC6D', '#F0F76D', 
+'#BBF76D', '#3DBA4C', '#07A0A8', '#568791', '#6DA7F7', '#E36DF7', 
+'#686869', '#2182D1', '#8576B3'];
+var line = d3.svg.line()
+	.interpolate("basis-closed")
+	.x(function (d) { return d[0]})
+	.y(function (d) { return d[1]});
+
+var notInCambridge = d3.set([48,12,67,93])
+window.onload = function () {
+	// Load fonts.
+	loadAppropriateFonts();
+
+	// Set up map.
+	var mapOptions = {
+		src: 'static/data/boundaries/cambridge.geojson', 
+		width: 1000, 
+		height: 600,
+		scale: 1.0,
+		svgContainer: '#mapContainer',
+		roads: 'static/data/roads/cambridge.json',
+		lookup: 'cambridge',
+	}
+	map = new D3Map(mapOptions); 
+	
+	map.loadGeoJSON(function () {
+		// Set up map color?
+		map.svg.select('path').attr('fill', '#ededed').attr('opacity', 0.0)
+			.on('mouseenter', function () { 
+			})
+			.on('mouseleave', function () { 
+				map.svg.select('.tip').attr('opacity', 0.0);
+			})
+		var path = d3.geo.path().projection(map.projection);
+		// Populate places, placepoint  map.
+		d3.json('static/data/children/children2012.json', function (error, pointsData) {
+			points = pointsData.points;
+			draw();
+		});
+	}); 
+}
+
+function draw() {
+	map.tip.direction('ne');
+	var color = gridColors[0];
+	var vertices = points.map(function (d, i) { d.coords = map.projection([d.lng, d.lat]); return d.coords;}); 
+	
+	// Place children dots.	
+	
+	map.svg.selectAll('.circle')
+		.data(points)
+		.enter().append('circle')
+		.attr('cx', function (d) { return d.coords[0];})
+		.attr('cy', function (d) { return d.coords[1];})
+		.attr('r', 1.5)
+		.attr('fill', function (d) { d.color = color; return color; })
+		.attr('opacity', 0)
+		// Set opacity porportional to distance.
+		.attr('opacity', function (d, i) {
+			if (d.max_distance < 1000) {
+				return 0.8 * Math.pow(1.0 - (d.distance / d.max_distance), 2);
+			}
+			return 0.8 * Math.pow(1.0 - (d.distance / 1000), 2);
+		});
+
+	var legend = map.svg.append('g')
+		.attr('transform', 'translate(100, 500)'); 
+	
+	var tip = map.svg.append('g')
+		.attr('class', 'tip')
+		.attr('transform', 'translate(20,20)')
+		.attr('pointer-events', 'none')
+		.attr('opacity', 0.0)
+
+	tip.append('rect')
+		.attr('x', 30).attr('y', 0)
+		.attr('width', 20)
+		.attr('height', 20)
+		.attr('fill', 'black')
+		.attr('rx', 2)
+		.attr('ry', 2);
+		
+	tip.append('text')
+		.attr('class', 'tip-text')
+		.attr('x', 40)
+		.attr('y', 16)
+		.attr('fill', 'white')
+		.text('hello');
+
+	var line2 = d3.svg.line()
+		.x(function (d) { return d[0]})
+		.y(function (d) { return d[1]});
+	tip.append('path')
+		.attr('d', line2([[0,12], [30,12]]))
+		.attr('stroke', 'black')
+		.attr('fill', 'none');
+	
+	tip.append('circle')
+		.attr('cx', 0)
+		.attr('cy', 12)
+		.attr('r', 3);
+	
+	var essayBoxShown = false;
+	$('#showMore').click(function(e){
+		e.preventDefault();
+		map.svg.select('.tip').attr('opacity', 0.0);
+		window.location.hash = '#/description';
+	    essayBoxShown = !essayBoxShown;
+		if (essayBoxShown) {
+			$('#essayBox').css('display', 'block');
+		    $('#essayBox').animate({'opacity':1.0}, 500);
+			$(this).text(' ... view map ');
+		} else {
+			closeEssayBox();
+			$(this).text(' ... more ');
+		}
+		
+	  })
+ 
+ 
+	  $('#essayBox-close').click(function(){
+	    closeEssayBox();
+		$('#showMore').text(' ... more ');
+	  });
+	  
+	  $('#essayBox').click(function () {
+		  closeEssayBox(); 
+		  $('#showMore').text(' ... more ');
+	  });
+  
+	 function closeEssayBox(){
+	  $('#essayBox').animate({'opacity':0.0}, 500, function () {
+	  	$('#essayBox').css('display', 'none');
+	  })
+      essayBoxShown = false;
+	}
+	
+	$('#viewMap').on('click', function (e) {
+		e.preventDefault(); 
+	}); 
+	
+	
+	window.onhashchange = function () {
+		console.log('event', location.hash)
+		if (location.hash == '') {
+			closeEssayBox(); 
+		}
+	}
+}
+</script>
+
+	</head>
+	<body>
+		
+<div class="container">
+	<div class="title-container">
+			<a id="logo" href="http://youarehere.cc">
+				<img src="http://youarehere.cc/w/static/img/logo.jpg" style="width: 50px">
+			</a>
+			<div class="title-text">
+				<a href="http://youarehere.cc/#/maps/by-city/cambridge" id="mapClass">
+					<h3 class="title" style="font-size: 36px; color:#545454"> Cambridge </h3>
+				</a> 
+				<div class="subtitle">
+					This map shows the location of households with children in cambridge
+					<a id="showMore" href="#"> ... more </a>
+				</div>
+			</div>
+			<div class="spacer"></div>
+	</div>
+	<div id="content">
+		<div id="mapContainer">
+		</div>
+		<div id="legend">
+			<img src="http://youarehere.cc/w/static/img/coffeeshops/legend.png"/>
+		</div>
+	</div>
+		<div id='essayBox'>
+		    <div id='essayBox-close' class="glyphicon glyphicon-remove"></div>
+
+		    <div id='essayContent'>
+		 		<p>
+		 			This map shows the location of independent coffee shops in Cambridge and the walking-shed communities associated with them. 
+		 		</p>
+
+		 		<p>
+		 			Independent coffee shops are positive markers of a living community.   They function as social spaces, urban offices, and places to see the world go by.  Communities are often formed by having spaces in which people can have casual interactions, and local and walkable coffee shops create those conditions, not only in the coffee shop themselves, but on the sidewalks around them.   We use maps to know where these coffee shop communities exist and where, by placing new coffee shops, we can help form them. 
+		 		</p>
+		 		<p>
+					We applied two steps to generate the data displayed by the map. First, we used the <a href="https://developers.google.com/places/documentation/"> Google Places API</a> to locate all coffee shops in a given city. Second, for each point in the map we queried the walking route and distance to its nearest coffee shop using the <a href="https://developers.google.com/maps/documentation/distancematrix/">Google Distance Matrix API</a>. 				
+		 		</p>
+		 		<p>
+				In the final map the colored areas represent a region which is walkable to a specific coffee shop (within one kilometer or 0.7 miles). The intensity of color at each point indicates its distance from its corresponding coffee shop.
+										
+		 		</p>
+		 		<h4> Data Sources </h4>
+		 		<ol>
+		 			<li><a href="https://developers.google.com/places/documentation/"> Google Places API </a></li>
+		 			<li><a href="https://developers.google.com/maps/documentation/distancematrix/"> Google Distance Matrix API</a></li>
+		 		</ol>
+				
+				<a id="viewMap" href="#"> View Map</a>
+		    </div>
+		  </div>
+		  <div id="footer">
+	<div class="pull-left">
+		
+		This work is part of the <a href="/">You Are Here</a> project 
+		<span class="footer-plus">+</span>
+		<a href="http://socialcomputing.media.mit.edu"> The Social Computing Group </a>
+		<span class="footer-plus">+</span>
+		<a href="http://media.mit.edu"> MIT Media Lab </a>
+		<span class="footer-plus">+</span>
+		<a href="http://www.mit.edu">Massachusetts Institute of Technology</a>
+	</div>
+	<div class="pull-right">
+		<a href="/#/report"> Report an Issue <i class="fa fa-comment-o"></i></a>
+		<span class="footer-plus">|</span>
+		<script type="text/javascript">
+		  function embedMe(){
+		    // We subtracting 48px from the height to
+		    // approximately account for embed mode not having
+		    // a footer and having a smaller title.
+		    var params = {
+		      map: window.location.href,
+		      width: $('body > .container').outerWidth(),
+		      height: $('body > .container').outerHeight() - 48
+		    };
+		    window.location.href = '/#/embed/'+encodeURIComponent(JSON.stringify(params));
+		  }
+		</script>
+		<a href="#" onclick="embedMe()">Embed</a>
+		<span class="footer-plus">|</span>
+		<a href="/#/faq"> FAQ </a>
+	</div>
+</div>
+
+</div>
+
+	</body>
+</html>
+

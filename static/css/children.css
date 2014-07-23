@@ -1,0 +1,63 @@
+.container {
+	background: none;
+	position: relative;
+}
+
+circle:hover {
+	cursor: pointer;
+}
+
+.hull {
+	stroke-linejoin: round;
+	cursor: pointer;
+}
+
+#mapContainer {
+	height: 600px;
+	z-index: 1000;
+	position: relative;
+}
+
+#content {
+	position:relative;
+}
+
+.footer-plus {
+	color: gray;
+}
+
+.fa-caret-up {
+	margin-top:-5px;
+}
+
+
+h1,h2,h3,h4,h5 {
+	font-family: 'EB Garamond', serif;
+}
+
+#footer {
+	margin-top: 15px;
+}
+
+
+#footer a, a#viewMap  {
+	color: rgb(222,16,40);
+}
+
+ol {
+	margin-bottom: 20px;
+}
+
+a#mapClass:hover, a#mapClass:active {
+	text-decoration: none;
+}
+
+#legend {
+	position: absolute;
+	bottom: 0px;
+	left: 40px;
+}
+
+#legend img {
+	height: 65px;
+}
