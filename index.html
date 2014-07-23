@@ -10,11 +10,11 @@
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 		
-<meta property="og:image" content="http://youarehere.cc/static/media/coffeeshops/cambridge.jpg" />
-<meta property="og:title" content="Children in Cambridge, MA" />
-<link rel="stylesheet" href="http://youarehere.cc/w/static/css/histograms.css" />
-<link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="http://youarehere.cc/w/static/css/coffeeshops.css" />
+		<meta property="og:image" content="http://youarehere.cc/static/media/coffeeshops/cambridge.jpg" />
+		<meta property="og:title" content="Children in Cambridge, MA" />
+		<link rel="stylesheet" href="http://youarehere.cc/w/static/css/histograms.css" />
+		<link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="http://youarehere.cc/w/static/css/coffeeshops.css" />
 
 		<!---   Scripts    -->
 		<script src="http://youarehere.cc/w/static/libs/d3.v3.min.js"></script>
@@ -23,6 +23,7 @@
 		<script src="http://youarehere.cc/w/static/bootstrap/js/bootstrap.min.js"></script>
 		<script src="http://youarehere.cc/w/static/bootstrap-select/bootstrap-select.js"></script>
 		<script src="http://youarehere.cc/w/static/js/d3-utils.js"></script>
+		<script src="http://d3js.org/queue.v1.min.js"></script>
 		<script>
 		
 		function loadAppropriateFonts() {
@@ -85,9 +86,9 @@
 <script src="http://youarehere.cc/w/static/libs/topojson.v1.min.js"></script>
 
 <script>
-var places, map, points; 
-var placePoints = d3.map();
-var placeIdToName = d3.map(); 
+var points2012, points2010; 
+var labels = [2010, 2012];
+var pointsMap = d3.map();
 var tip;
 var kmToMile = 0.621371; 
 
@@ -117,7 +118,13 @@ window.onload = function () {
 		lookup: 'cambridge',
 	}
 	map = new D3Map(mapOptions); 
-	
+	queue()
+		.defer(d3.json, '../static/data/children/children2010.json')
+		.defer(d3.json, '../static/data/children/children2012.json')
+		.await(setup);
+}
+
+function setup(error, data2010, data2012) {	
 	map.loadGeoJSON(function () {
 		// Set up map color?
 		map.svg.select('path').attr('fill', '#ededed').attr('opacity', 0.0)
@@ -127,37 +134,16 @@ window.onload = function () {
 				map.svg.select('.tip').attr('opacity', 0.0);
 			})
 		var path = d3.geo.path().projection(map.projection);
-		// Populate places, placepoint  map.
-		d3.json('static/data/children/children2012.json', function (error, pointsData) {
-			points = pointsData.points;
-			draw();
-		});
+		pointsMap.set(2012, data2012.points);
+		pointsMap.set(2010, data2010.points);
+		setupHelper();
+		drawPoints(pointsMap.get('2012'));
+		drawGraph();
+		setupPlayButton();
 	}); 
 }
 
-function draw() {
-	map.tip.direction('ne');
-	var color = gridColors[0];
-	var vertices = points.map(function (d, i) { d.coords = map.projection([d.lng, d.lat]); return d.coords;}); 
-	
-	// Place children dots.	
-	
-	map.svg.selectAll('.circle')
-		.data(points)
-		.enter().append('circle')
-		.attr('cx', function (d) { return d.coords[0];})
-		.attr('cy', function (d) { return d.coords[1];})
-		.attr('r', 1.5)
-		.attr('fill', function (d) { d.color = color; return color; })
-		.attr('opacity', 0)
-		// Set opacity porportional to distance.
-		.attr('opacity', function (d, i) {
-			if (d.max_distance < 1000) {
-				return 0.8 * Math.pow(1.0 - (d.distance / d.max_distance), 2);
-			}
-			return 0.8 * Math.pow(1.0 - (d.distance / 1000), 2);
-		});
-
+function setupHelper() {
 	var legend = map.svg.append('g')
 		.attr('transform', 'translate(100, 500)'); 
 	
@@ -212,7 +198,6 @@ function draw() {
 		
 	  })
  
- 
 	  $('#essayBox-close').click(function(){
 	    closeEssayBox();
 		$('#showMore').text(' ... more ');
@@ -242,6 +227,143 @@ function draw() {
 		}
 	}
 }
+
+function drawPoints(points) {
+	map.tip.direction('ne');
+	var color = gridColors[0];
+	var vertices = points.map(function (d, i) { d.coords = map.projection([d.lng, d.lat]); return d.coords;}); 
+	map.svg.selectAll('circle').remove();
+
+	// Place children dots.	
+	map.svg.selectAll('.circle')
+		.data(points)
+		.enter().append('circle')
+		.attr('cx', function (d) { return d.coords[0];})
+		.attr('cy', function (d) { return d.coords[1];})
+		.attr('r', 1.5)
+		.attr('fill', function (d) { d.color = color; return color; })
+		.attr('opacity', 0)
+		// Set opacity porportional to distance.
+		.attr('opacity', function (d, i) {
+			if (d.max_distance < 1000) {
+				return 0.8 * Math.pow(1.0 - (d.distance / d.max_distance), 2);
+			}
+			return 0.8 * Math.pow(1.0 - (d.distance / 1000), 2);
+		});
+}
+
+function drawGraph() {
+	var padding = {left: 200, right: 70, top: 5}; 
+	var graphWidth = 945 - padding.right - padding.left;
+	var graphHeight = 60 - padding.top;
+	
+	var svg = d3.select('#graphContainer')
+		.append('svg')
+		.attr('width', graphWidth + padding.left + padding.right)
+		.attr('height', graphHeight)
+		.append('g')
+		.attr('transform', 'translate(' + padding.left + ',' + padding.top + ')');
+	graphSvg = svg;
+	
+	
+	var tip = d3.tip()
+		.attr('class', 'd3-tip')
+		.offset([0, 10])
+		.direction('e')
+		.html(function(d) {
+			return "<div style=' max-width: 200px; font-weight: normal; text-align: center;'>" + d.text + "</div>";
+		});
+	svg.call(tip);
+
+
+	// Create x and y scales.
+	var totalHouseholds = [];
+	pointsMap.keys().forEach(function (d) {; totalHouseholds.push(pointsMap.get(d).length); return d;});
+	var minChildrenHouseholds = d3.min(totalHouseholds);
+	var maxChildrenHouseholds = d3.max(totalHouseholds);
+	
+	// var x = d3.scale.linear().domain([0, 11]).range([0, graphWidth]);
+	var y = d3.scale.linear().domain([minChildrenHouseholds, maxChildrenHouseholds]).range([30, 0]);
+	
+	var x = d3.scale.ordinal()
+        .domain(labels) 
+		.rangeRoundBands([0, graphWidth], 0.05);
+	var xAxis = d3.svg.axis().scale(x);
+	
+	// Create xAxis.
+	svg.append('g')
+		.attr('class', 'axis')
+		.attr('transform', 'translate(0,' + (graphHeight - 25) + ')')
+		.call(xAxis);
+	
+	// D
+	var line = d3.svg.line()
+		.x(function (d) { console.log(x(d) + x.rangeBand()/2.0); return x(d)+ x.rangeBand()/2.0 })
+		.y(function (d) { console.log((pointsMap.get(d).length)); return y(pointsMap.get(d).length); });
+	
+	// Line isn't working.
+	svg.append('path')
+		.datum(labels)
+		.attr('class', 'line')
+		.attr('d', line);
+	
+	// Draw dots.
+	svg.selectAll('circle')
+		.data(labels)
+		.enter().append('circle')
+		.attr('class', 'line-dot')
+		.attr('cx', line.x())
+		.attr('cy', line.y())
+		.attr('r', 3)
+		.attr('fill', '#D6D6D6')
+		// Tips not working.
+		.on('mouseover', function (d, i) {
+			d3.select(this).attr('r', 5);
+			d.text = d.values.length + ' Graffiti Cases in ' + labels[i] + ', 2013';
+			tip.show(d);
+		})
+		.on('mouseout', function (d) {
+			d3.selectAll('.line-dot')
+				.attr('r', function (d) {
+					if (d3.select(this).attr('is-clicked') == 'true') return 5;
+					return 3;
+				})
+			tip.hide();
+		})
+		.on('click', function (d) {
+			gData = d.values; 
+			drawPoints(pointsMap.get(d));
+			d3.selectAll('.line-dot').attr('fill', '#D6D6D6').attr('is-clicked', 'false');
+			d3.select(this).attr('r', 5).attr('fill', '#FC6262').attr('is-clicked', 'true');
+		});
+}
+
+function setupPlayButton() {
+  var i = 0;
+  d3.select('#playButton')
+    .on('click', function () {
+      d3.event.preventDefault();
+      var callId = setInterval(function () {
+        drawPoints(pointsMap.get(labels[i]));
+        graphSvg.selectAll('.line-dot')
+          .transition()
+          .attr('fill', function (d, j) {
+            if (j == i) return '#FC6262';
+            return '#D6D6D6';
+          })
+          .attr('r', function (d, j) {
+            if (j == i) return 5;
+            return 3;
+          });
+        i++;
+        if (i >= labels.length) {
+          i = 0;
+          clearInterval(callId);
+        }
+      }, 1200);
+    });
+}
+
 </script>
 
 	</head>
@@ -263,11 +385,14 @@ function draw() {
 			</div>
 			<div class="spacer"></div>
 	</div>
+	<div id="graphContainer">
+		<div class="graph-title">
+			<h4>Over Time</h4>
+			<a id="playButton" href="#"> <i class="fa fa-play"></i> Play Animation </a>
+		</div>
+	</div>
 	<div id="content">
 		<div id="mapContainer">
-		</div>
-		<div id="legend">
-			<img src="http://youarehere.cc/w/static/img/coffeeshops/legend.png"/>
 		</div>
 	</div>
 		<div id='essayBox'>
