@@ -86,8 +86,7 @@
 <script src="http://youarehere.cc/w/static/libs/topojson.v1.min.js"></script>
 
 <script>
-var points2012, points2010; 
-var labels = [2010, 2012];
+var labels = [1990, 2010, 2012];
 var pointsMap = d3.map();
 var tip;
 var kmToMile = 0.621371; 
@@ -119,12 +118,13 @@ window.onload = function () {
 	}
 	map = new D3Map(mapOptions); 
 	queue()
+		.defer(d3.json, '../static/data/children/children1990.json')
 		.defer(d3.json, '../static/data/children/children2010.json')
 		.defer(d3.json, '../static/data/children/children2012.json')
 		.await(setup);
 }
 
-function setup(error, data2010, data2012) {	
+function setup(error, data1990, data2010, data2012) {	
 	map.loadGeoJSON(function () {
 		// Set up map color?
 		map.svg.select('path').attr('fill', '#ededed').attr('opacity', 0.0)
@@ -136,6 +136,7 @@ function setup(error, data2010, data2012) {
 		var path = d3.geo.path().projection(map.projection);
 		pointsMap.set(2012, data2012.points);
 		pointsMap.set(2010, data2010.points);
+		pointsMap.set(1990, data1990.points);
 		setupHelper();
 		drawPoints(pointsMap.get('2012'));
 		drawGraph();

@@ -57,18 +57,42 @@ def within_n_digits(shorter, longer_array, n):
 			return True
 	return False
 
-matched_keys = {}
-def gisjoin_match_keys(gisjoin, keys, date):
-	print gisjoin
-	if (date == 2010 or date == 2012):
-		return [k for k in keys if k[:-1] == gisjoin]
-	elif (date == 1990):
-		unchanged = [k for k in keys if str.startswith(gisjoin, k)]
-		if len(unchanged) > 0:
-			return unchanged
-		changed = [k for k in keys if str.startswith(gisjoin[:-2], k)]
-		return changed
-
+# Maps geojson keys into arrays containing csv_keys.  Each csv_key should be mapped to exactly once.
+def gisjoin_match_keys(geojson_keys, csv_keys):
+	num_matched_csv_keys = 0
+	key_map = {}
+	for csv_key in csv_keys:
+		found = True
+		# Look for exact match
+		if csv_key in geojson_keys:
+			matched_geojson_key = csv_key
+		# Remove last character from csv_key, look for match
+		elif csv_key[:-1] in geojson_keys:
+			matched_geojson_key = csv_key[:-1]
+		# Insert a '0' between the last and second to last character in csv_key, look for match
+		elif csv_key[:-1] + '0' + csv_key[-1:] in geojson_keys:
+			matched_geojson_key = csv_key[:-1] + '0' + csv_key[-1:]
+		else:
+			# Remove last charcter from csv_key, see if is a substring of geojson key
+			matched_geojson_keys = [geojson_key for geojson_key in geojson_keys if str.startswith(geojson_key, csv_key[:-1])]
+			if len(matched_geojson_keys) == 1:
+				matched_geojson_key = matched_geojson_keys[0]
+			else:
+				if len(matched_geojson_keys) > 0:
+					print "Removing one character from geojson keys causes csv key " + csv_key + " to match multiple geojson keys " + str(matched_geojson_keys)
+				found = False
+		if found:
+			num_matched_csv_keys += 1
+			#print "CSV key " + csv_key + " matches geojson key " + matched_geojson_key
+			if matched_geojson_key not in key_map.keys():
+				key_map[matched_geojson_key] = [csv_key]
+			else:
+				key_map[matched_geojson_key].append(csv_key)
+		else:
+			print "CSV key " + csv_key + " has no matching geojson key."
+	print "Mapped " + str(len(key_map.keys())) + " geojson features to " + str(num_matched_csv_keys) + " csv rows."
+	return key_map
+				
 def map_sum_data_from_columns(csv_path, key_column, sum_columns, restrict_column, restrict_values):
 	print "Processing %s"%csv_path
 	map_sum_data = {}
@@ -136,7 +160,6 @@ def main(args_dict):
 
 	# Get the feature size we'll be mapping in.
 	for i, defn in enumerate( field_defns ):
-		print defn.GetName()
 		if defn.GetName()==geo_feat_name:
 			print "Found field " + geo_feat_name + " in " + input_geojson
 			geo_field = i
@@ -151,37 +174,20 @@ def main(args_dict):
 	points_dict = {}
 	points_list = []
 	total_sum = 0
-	total_matching_geo_feats = 0
-	total_matching_csv_rows = 0
-	matched_keys = {}
-	for j, feat in enumerate( lyr ):
-		# Progress indicator
-		if j%1000==0:
-			#conn.commit()
-			if j%10000==0:
-				print " %s/%s (%0.2f%%)"%(j+1,n_features,100*((j+1)/float(n_features)))
-			else:
-				sys.stdout.write(".")
-				sys.stdout.flush()
-
+	geojson_feats = [feat for feat in lyr]
+	geojson_keys = [feat.GetField(geo_field) for feat in geojson_feats]
+	key_map = gisjoin_match_keys(geojson_keys, map_sum_data.keys())
+	total_matching_geo_feats = len(key_map.keys())
+	for feat in geojson_feats:
 		# Get population
 		geo_feat = feat.GetField(geo_field)
 		
 		# GISJOIN values in csv and geojson don't line up.
 		pop = 0
-		if (geo_feat_name == "GISJOIN"):
-			matching_keys = gisjoin_match_keys(geo_feat, map_sum_data.keys(), 1990)
-			print geo_feat + " matches " + str(matching_keys)
-			total_matching_csv_rows += len(matching_keys)
+		if geo_feat in key_map.keys():
+			matching_keys = key_map[geo_feat]
 			for k in matching_keys:
 				pop += map_sum_data[k]
-		elif geo_feat_name == "TRACTCE10":
-			print geo_feat
-			if geo_feat in map_sum_data.keys():
-				total_matching_csv_rows += 1
-				pop = map_sum_data[geo_feat]
-		if (pop > 0):
-			total_matching_geo_feats += 1
 		total_sum += pop
 
 		# Get geometry
@@ -209,7 +215,6 @@ def main(args_dict):
 			points_list.append(point_dict)
 
 	# Write to file
-	print "geojson had " + str(total_matching_geo_feats) + " features found in csv, matching a total of " + str(total_matching_csv_rows) + " rows."
 	print "Finished processing %s"%output_json
 	print "Found " + str(total_sum) + " households with children."
 	points_dict["points"] = points_list
