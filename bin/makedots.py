@@ -58,40 +58,61 @@ def within_n_digits(shorter, longer_array, n):
 	return False
 
 # Maps geojson keys into arrays containing csv_keys.  Each csv_key should be mapped to exactly once.
-def gisjoin_match_keys(geojson_keys, csv_keys):
+def map_csv_sum_to_map_geojson_sum(geojson_keys, csv_keys, map_csv_sum):
 	num_matched_csv_keys = 0
 	key_map = {}
+	map_geojson_sum = {}
+
 	for csv_key in csv_keys:
+		# First, find geojson key that matches csv_key
 		found = True
+		matched_geojson_keys = []
 		# Look for exact match
 		if csv_key in geojson_keys:
 			matched_geojson_key = csv_key
-		# Remove last character from csv_key, look for match
+		# Check if csv_key is a substring of a geo_json_key
+		elif any(csv_key in geojson_key for geojson_key in geojson_keys):
+			matched_geojson_keys = [geojson_key for geojson_key in geojson_keys if csv_key in geojson_key] 
+			if len(matched_geojson_keys) == 1:
+				matched_geojson_key = matched_geojson_keys[0]
+			elif len(matched_geojson_keys) > 1:
+				print "CSV key " + csv_key + " is substring of multiple geojson keys " + str(matched_geojson_keys)
+				found = False
+		# Remove last character from csv_key, look for exact match
 		elif csv_key[:-1] in geojson_keys:
 			matched_geojson_key = csv_key[:-1]
+		# Remove last character form csv_key, check if is a substring of geojson key
+		elif any(csv_key[:-1] in geojson_key for geojson_key in geojson_keys):
+			matched_geojson_keys = [geojson_key for geojson_key in geojson_keys if csv_key[:-1] in geojson_key] 
+			if len(matched_geojson_keys) == 1:
+				matched_geojson_key = matched_geojson_keys[0]
+			elif len(matched_geojson_keys) > 1:
+				print "Removing one character from geojson keys causes csv key " + csv_key + " to match multiple geojson keys " + str(matched_geojson_keys)
+				found = False
 		# Insert a '0' between the last and second to last character in csv_key, look for match
 		elif csv_key[:-1] + '0' + csv_key[-1:] in geojson_keys:
 			matched_geojson_key = csv_key[:-1] + '0' + csv_key[-1:]
 		else:
-			# Remove last charcter from csv_key, see if is a substring of geojson key
-			matched_geojson_keys = [geojson_key for geojson_key in geojson_keys if str.startswith(geojson_key, csv_key[:-1])]
-			if len(matched_geojson_keys) == 1:
-				matched_geojson_key = matched_geojson_keys[0]
-			else:
-				if len(matched_geojson_keys) > 0:
-					print "Removing one character from geojson keys causes csv key " + csv_key + " to match multiple geojson keys " + str(matched_geojson_keys)
-				found = False
+			found = False
+
+		# If a matching key was found, add the csv sum to the geojson map
 		if found:
 			num_matched_csv_keys += 1
-			#print "CSV key " + csv_key + " matches geojson key " + matched_geojson_key
-			if matched_geojson_key not in key_map.keys():
-				key_map[matched_geojson_key] = [csv_key]
+			if matched_geojson_key in map_geojson_sum.keys():
+				map_geojson_sum[matched_geojson_key] = map_geojson_sum[matched_geojson_key] + map_csv_sum[csv_key]
 			else:
-				key_map[matched_geojson_key].append(csv_key)
+				map_geojson_sum[matched_geojson_key] = map_csv_sum[csv_key]
+		# If multiple matching keys were found, divide the csv sum evenly amongst them
+		elif len(matched_geojson_keys) > 0:
+			for mgk in matched_geojson_keys:
+				if mgk in map_geojson_sum.keys():
+					map_geojson_sum[mgk] = map_geojson_sum[mgk] + map_csv_sum[csv_key]/len(matched_geojson_keys)
+				else:
+					map_geojson_sum[mgk] = map_csv_sum[csv_key]/len(matched_geojson_keys)
 		else:
 			print "CSV key " + csv_key + " has no matching geojson key."
-	print "Mapped " + str(len(key_map.keys())) + " geojson features to " + str(num_matched_csv_keys) + " csv rows."
-	return key_map
+	print "Mapped " + str(len(map_geojson_sum.keys())) + " geojson features to " + str(num_matched_csv_keys) + " csv rows."
+	return map_geojson_sum
 				
 def map_sum_data_from_columns(csv_path, key_column, sum_columns, restrict_column, restrict_values):
 	print "Processing %s"%csv_path
@@ -115,15 +136,11 @@ def map_sum_data_from_columns(csv_path, key_column, sum_columns, restrict_column
 			else:
 				# Sum the number of children in this row.
 				sum = 0
-				for i, data in enumerate(row):
-					if i == key_column_index:
-						key = data
-					if i in sum_column_indices:
-						sum += int(data)
-					if i == restrict_column_index:
-						restrict_value = data
-				# Only add to the map areas we are interested in.
-				if (within_n_digits(restrict_value, restrict_values, 2)) :
+				if (within_n_digits(row[restrict_column_index], restrict_values, 2)):
+					key = row[key_column_index]
+					sum = 0
+					for i in sum_column_indices:
+						sum += int(row[i])
 					map_sum_data[key] = sum
 	print "Found " + str(len(map_sum_data.keys())) + " matching rows."
 	return map_sum_data
@@ -176,18 +193,17 @@ def main(args_dict):
 	total_sum = 0
 	geojson_feats = [feat for feat in lyr]
 	geojson_keys = [feat.GetField(geo_field) for feat in geojson_feats]
-	key_map = gisjoin_match_keys(geojson_keys, map_sum_data.keys())
-	total_matching_geo_feats = len(key_map.keys())
+	map_geojson_sum = map_csv_sum_to_map_geojson_sum(geojson_keys, map_sum_data.keys(), map_sum_data)
+
 	for feat in geojson_feats:
 		# Get population
 		geo_feat = feat.GetField(geo_field)
 		
 		# GISJOIN values in csv and geojson don't line up.
+
 		pop = 0
-		if geo_feat in key_map.keys():
-			matching_keys = key_map[geo_feat]
-			for k in matching_keys:
-				pop += map_sum_data[k]
+		if geo_feat in map_geojson_sum.keys():
+			pop = map_geojson_sum[geo_feat]
 		total_sum += pop
 
 		# Get geometry
@@ -242,7 +258,7 @@ args_dict["csv_restrict_column"] = "TRACTA"
 args_dict["csv_restrict_values_file"] = "../static/data/census/cambridge_tracts.json"
 args_dict["output_json"] = "../static/data/children/children2010copy.json"
 main(args_dict)
-"""
+
 args_dict = {}
 args_dict["input_geojson"] = "../static/data/maps/MA-TRACTS.geojson"
 args_dict["geo_feat_name"] = "GISJOIN"
@@ -253,6 +269,20 @@ args_dict["csv_restrict_column"] = "TRACTA"
 args_dict["csv_restrict_values_file"] = "../static/data/census/cambridge_tracts.json"
 args_dict["output_json"] = "../static/data/children/children1990.json"
 main(args_dict)
+
+args_dict = {}
+args_dict["input_geojson"] = "../static/data/maps/MA-TRACTS.geojson"
+args_dict["geo_feat_name"] = "GISJOIN"
+args_dict["input_csv"] = "../static/data/census/children1980.csv"
+args_dict["csv_key_column"] = "GISJOIN"
+args_dict["csv_sum_columns"] =  ["DI1001", "DI1002", "DI1003", "DI1005", "DI1006", "DI1007"]     
+args_dict["csv_restrict_column"] = "TRACTA"
+args_dict["csv_restrict_values_file"] = "../static/data/census/cambridge_tracts.json"
+args_dict["output_json"] = "../static/data/children/children1980.json"
+main(args_dict)
+
+"""
+
 """
 cambridge_tracts = [str(i) for i in range(352100, 355100)] 
 with open("../static/data/census/cambridge_tracts.json", 'w') as f:

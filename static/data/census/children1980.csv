@@ -1,0 +1,1200 @@
+GISJOIN	YEAR	REGION	REGIONA	DIVISION	DIVISIONA	STATE	STATEA	SMSA	SMSAA	COUNTY	COUNTYA	CTY_SUB	CTY_SUBA	PLACE	PLACEA	TRACTA	BLCK_GRPA	ENUMDISTA	SCSA	SCSAA	URB_AREA	URB_AREAA	CDA	AIANHH	AIANHHA	ZIPA	AREANAME	DI1001	DI1002	DI1003	DI1004	DI1005	DI1006	DI1007	DI1008
+G25000309001	1980		1		1	Massachusetts	25		6320	Berkshire	3		110		3370	9001											State: 25 County: 003 Tract: 9001	18	87	160	466	13	53	46	55
+G25000309002	1980		1		1	Massachusetts	25		6320	Berkshire	3		110		3370	9002											State: 25 County: 003 Tract: 9002	78	123	312	587	48	62	98	44
+G25000309003	1980		1		1	Massachusetts	25		6320	Berkshire	3		110		3370	9003											State: 25 County: 003 Tract: 9003	91	83	218	460	19	29	31	13
+G25000309004	1980		1		1	Massachusetts	25		6320	Berkshire	3		110		3370	9004											State: 25 County: 003 Tract: 9004	112	119	511	641	21	29	88	50
+G25000309005	1980		1		1	Massachusetts	25		6320	Berkshire	3		110		3370	9005											State: 25 County: 003 Tract: 9005	82	60	262	445	13	7	0	0
+G25000309006	1980		1		1	Massachusetts	25		6320	Berkshire	3		110		3370	9006											State: 25 County: 003 Tract: 9006	95	82	333	480	23	74	43	25
+G25000309007	1980		1		1	Massachusetts	25		6320	Berkshire	3		110		3370	9007											State: 25 County: 003 Tract: 9007	82	69	247	409	23	9	19	13
+G25000309008	1980		1		1	Massachusetts	25		6320	Berkshire	3		110		3370	9008											State: 25 County: 003 Tract: 9008	168	133	560	801	9	0	12	12
+G25000309009	1980		1		1	Massachusetts	25		6320	Berkshire	3		110		3370	9009											State: 25 County: 003 Tract: 9009	141	150	464	799	17	48	39	32
+G25000309010	1980		1		1	Massachusetts	25		6320	Berkshire	3		110		3370	9010											State: 25 County: 003 Tract: 9010	146	145	555	797	16	22	25	11
+G25000309011	1980		1		1	Massachusetts	25		6320	Berkshire	3		110		3370	9011											State: 25 County: 003 Tract: 9011	43	100	347	767	7	0	5	20
+G25000309111	1980		1		1	Massachusetts	25		6320	Berkshire	3		60			9111											State: 25 County: 003 Tract: 9111	55	93	260	386	10	11	11	22
+G25000309121	1980		1		1	Massachusetts	25		6320	Berkshire	3		30			9121											State: 25 County: 003 Tract: 9121	150	140	615	858	20	3	21	23
+G25000309131	1980		1		1	Massachusetts	25		6320	Berkshire	3		70			9131											State: 25 County: 003 Tract: 9131	93	143	434	695	14	19	46	25
+G25000309141	1980		1		1	Massachusetts	25		6320	Berkshire	3		65			9141											State: 25 County: 003 Tract: 9141	129	147	495	714	6	18	17	26
+G25000309201	1980		1		1	Massachusetts	25			Berkshire	3		155			9201											State: 25 County: 003 Tract: 9201	128	167	559	983	12	8	35	13
+G25000309211	1980		1		1	Massachusetts	25			Berkshire	3		95		2850	9211											State: 25 County: 003 Tract: 9211	0	6	20	47	0	8	0	22
+G25000309212	1980		1		1	Massachusetts	25			Berkshire	3		95		2850	9212											State: 25 County: 003 Tract: 9212	78	134	371	640	25	33	39	60
+G25000309213	1980		1		1	Massachusetts	25			Berkshire	3		95		2850	9213											State: 25 County: 003 Tract: 9213	68	163	274	721	34	35	26	33
+G25000309214	1980		1		1	Massachusetts	25			Berkshire	3		95		2850	9214											State: 25 County: 003 Tract: 9214	63	34	140	303	10	20	14	0
+G25000309215	1980		1		1	Massachusetts	25			Berkshire	3		95		2850	9215											State: 25 County: 003 Tract: 9215	53	100	301	570	5	34	39	24
+G25000309221	1980		1		1	Massachusetts	25		6320	Berkshire	3		5		48	9221											State: 25 County: 003 Tract: 9221	51	83	170	546	16	26	18	23
+G25000309222	1980		1		1	Massachusetts	25		6320	Berkshire	3		5			9222											State: 25 County: 003 Tract: 9222	57	127	307	800	0	45	11	24
+G25000309223	1980		1		1	Massachusetts	25		6320	Berkshire	3		5			9223											State: 25 County: 003 Tract: 9223	0	0	0	0	0	0	0	0
+G25000309231	1980		1		1	Massachusetts	25		6320	Berkshire	3		20			9231											State: 25 County: 003 Tract: 9231	63	130	255	392	7	11	12	12
+G25000309241	1980		1		1	Massachusetts	25		6320	Berkshire	3		135			9241											State: 25 County: 003 Tract: 9241	29	46	197	288	7	6	13	20
+G25000309251	1980		1		1	Massachusetts	25			Berkshire	3		45			9251											State: 25 County: 003 Tract: 9251	152	184	462	932	15	28	40	20
+G25000309261	1980		1		1	Massachusetts	25			Berkshire	3		130			9261											State: 25 County: 003 Tract: 9261	27	43	220	392	24	0	17	11
+G25000309311	1980		1		1	Massachusetts	25			Berkshire	3					9311											State: 25 County: 003 Tract: 9311	94	144	409	542	13	9	27	23
+G25000309321	1980		1		1	Massachusetts	25			Berkshire	3					9321											State: 25 County: 003 Tract: 9321	133	135	314	580	22	14	42	17
+G25000309331	1980		1		1	Massachusetts	25			Berkshire	3					9331											State: 25 County: 003 Tract: 9331	36	86	202	408	18	7	22	21
+G25000309341	1980		1		1	Massachusetts	25			Berkshire	3					9341											State: 25 County: 003 Tract: 9341	61	99	211	444	5	12	17	20
+G25000309351	1980		1		1	Massachusetts	25			Berkshire	3					9351											State: 25 County: 003 Tract: 9351	58	59	208	357	6	3	11	2
+G25000506001	1980		1		1	Massachusetts	25		1200	Bristol	5		30			6001				7							State: 25 County: 005 Tract: 6001	131	149	501	670	5	5	12	40
+G2500050600201	1980		1		1	Massachusetts	25		1200	Bristol	5		30			600201				7							State: 25 County: 005 Tract: 6002.01	201	236	536	471	15	7	8	7
+G2500050600202	1980		1		1	Massachusetts	25		1200	Bristol	5		30			600202				7							State: 25 County: 005 Tract: 6002.02	80	81	342	520	5	0	29	16
+G25000506101	1980		1		1	Massachusetts	25			Bristol	5		50		2260	6101											State: 25 County: 005 Tract: 6101	119	167	375	547	7	18	33	0
+G25000506102	1980		1		1	Massachusetts	25			Bristol	5		50			6102											State: 25 County: 005 Tract: 6102	290	304	709	830	12	13	61	7
+G25000506111	1980		1		1	Massachusetts	25		6480	Bristol	5		65			6111				80							State: 25 County: 005 Tract: 6111	151	205	492	558	9	10	18	0
+G25000506112	1980		1		1	Massachusetts	25		6480	Bristol	5		65		9999	6112				80							State: 25 County: 005 Tract: 6112	122	187	539	629	17	18	40	23
+G25000506121	1980		1		1	Massachusetts	25			Bristol	5		70			6121											State: 25 County: 005 Tract: 6121	89	138	239	389	5	0	20	5
+G25000506122	1980		1		1	Massachusetts	25			Bristol	5		70			6122											State: 25 County: 005 Tract: 6122	220	177	581	509	18	6	32	26
+G25000506131	1980		1		1	Massachusetts	25			Bristol	5		95		4220	6131											State: 25 County: 005 Tract: 6131	92	120	286	709	0	4	12	42
+G25000506132	1980		1		1	Massachusetts	25			Bristol	5		95		4220	6132											State: 25 County: 005 Tract: 6132	14	10	16	33	0	0	0	0
+G25000506133	1980		1		1	Massachusetts	25			Bristol	5		95		4220	6133											State: 25 County: 005 Tract: 6133	163	149	527	615	34	7	30	23
+G25000506134	1980		1		1	Massachusetts	25			Bristol	5		95		4220	6134											State: 25 County: 005 Tract: 6134	0	0	0	0	0	0	0	0
+G25000506135	1980		1		1	Massachusetts	25			Bristol	5		95		4220	6135											State: 25 County: 005 Tract: 6135	0	4	0	3	6	0	0	0
+G25000506136	1980		1		1	Massachusetts	25			Bristol	5		95		4220	6136											State: 25 County: 005 Tract: 6136	51	132	217	440	0	33	32	50
+G25000506137	1980		1		1	Massachusetts	25			Bristol	5		95		4220	6137											State: 25 County: 005 Tract: 6137	110	122	215	535	6	31	35	37
+G25000506138	1980		1		1	Massachusetts	25			Bristol	5		95		4220	6138											State: 25 County: 005 Tract: 6138	74	134	292	547	0	54	70	24
+G25000506139	1980		1		1	Massachusetts	25			Bristol	5		95		4220	6139											State: 25 County: 005 Tract: 6139	190	210	544	942	70	27	82	39
+G25000506140	1980		1		1	Massachusetts	25			Bristol	5		95		4220	6140											State: 25 County: 005 Tract: 6140	146	153	280	484	47	64	44	27
+G25000506141	1980		1		1	Massachusetts	25			Bristol	5		95		4220	6141											State: 25 County: 005 Tract: 6141	240	255	628	862	16	37	78	36
+G25000506151	1980		1		1	Massachusetts	25		2480	Bristol	5		25			6151				80							State: 25 County: 005 Tract: 6151	131	128	490	640	12	0	24	22
+G25000506161	1980		1		1	Massachusetts	25			Bristol	5		15			6161											State: 25 County: 005 Tract: 6161	87	118	228	273	6	2	26	6
+G25000506171	1980		1		1	Massachusetts	25		5400	Bristol	5		45			6171											State: 25 County: 005 Tract: 6171	205	229	669	682	7	47	58	24
+G25000506301	1980		1		1	Massachusetts	25		6480	Bristol	5		60			6301				80							State: 25 County: 005 Tract: 6301	188	337	659	1077	37	52	65	50
+G25000506302	1980		1		1	Massachusetts	25		6480	Bristol	5		60			6302				80							State: 25 County: 005 Tract: 6302	365	423	1088	1206	32	10	35	12
+G25000506311	1980		1		1	Massachusetts	25		6480	Bristol	5		10		210	6311				80							State: 25 County: 005 Tract: 6311	110	156	501	861	10	24	34	36
+G25000506312	1980		1		1	Massachusetts	25		6480	Bristol	5		10		210	6312				80							State: 25 County: 005 Tract: 6312	109	115	393	569	13	11	22	0
+G25000506313	1980		1		1	Massachusetts	25		6480	Bristol	5		10		210	6313				80							State: 25 County: 005 Tract: 6313	69	89	388	531	11	10	23	0
+G25000506314	1980		1		1	Massachusetts	25		6480	Bristol	5		10		210	6314				80							State: 25 County: 005 Tract: 6314	46	92	186	193	15	28	8	15
+G25000506315	1980		1		1	Massachusetts	25		6480	Bristol	5		10		210	6315				80							State: 25 County: 005 Tract: 6315	63	137	213	365	0	7	12	14
+G25000506316	1980		1		1	Massachusetts	25		6480	Bristol	5		10		210	6316				80							State: 25 County: 005 Tract: 6316	65	208	232	410	35	36	40	21
+G25000506317	1980		1		1	Massachusetts	25		6480	Bristol	5		10		210	6317				80							State: 25 County: 005 Tract: 6317	191	173	555	507	6	0	35	14
+G25000506318	1980		1		1	Massachusetts	25		6480	Bristol	5		10		210	6318				80							State: 25 County: 005 Tract: 6318	132	142	338	538	0	5	23	16
+G25000506321	1980		1		1	Massachusetts	25		6480	Bristol	5		80			6321				80							State: 25 County: 005 Tract: 6321	129	117	508	804	0	7	27	8
+G25000506322	1980		1		1	Massachusetts	25		6480	Bristol	5		80			6322				80							State: 25 County: 005 Tract: 6322	159	263	615	714	12	11	30	17
+G25000506331	1980		1		1	Massachusetts	25		6480	Bristol	5		75			6331				80							State: 25 County: 005 Tract: 6331	98	116	412	377	6	8	25	12
+G25000506332	1980		1		1	Massachusetts	25		6480	Bristol	5		75			6332				80							State: 25 County: 005 Tract: 6332	97	96	356	418	19	0	21	6
+G25000506401	1980		1		1	Massachusetts	25		2480	Bristol	5		40		1220	6401				80							State: 25 County: 005 Tract: 6401	67	99	350	583	22	4	84	79
+G25000506402	1980		1		1	Massachusetts	25		2480	Bristol	5		40		1220	6402				80							State: 25 County: 005 Tract: 6402	77	289	308	896	59	51	90	35
+G25000506403	1980		1		1	Massachusetts	25		2480	Bristol	5		40		1220	6403				80							State: 25 County: 005 Tract: 6403	76	80	255	386	24	24	39	35
+G25000506404	1980		1		1	Massachusetts	25		2480	Bristol	5		40		1220	6404				80							State: 25 County: 005 Tract: 6404	48	79	180	445	13	23	30	40
+G25000506405	1980		1		1	Massachusetts	25		2480	Bristol	5		40		1220	6405				80							State: 25 County: 005 Tract: 6405	119	206	277	800	27	31	82	26
+G25000506406	1980		1		1	Massachusetts	25		2480	Bristol	5		40		1220	6406				80							State: 25 County: 005 Tract: 6406	105	120	352	645	64	57	65	57
+G25000506407	1980		1		1	Massachusetts	25		2480	Bristol	5		40		1220	6407				80							State: 25 County: 005 Tract: 6407	55	97	224	435	16	16	9	23
+G25000506408	1980		1		1	Massachusetts	25		2480	Bristol	5		40		1220	6408				80							State: 25 County: 005 Tract: 6408	63	90	178	326	53	27	72	13
+G25000506409	1980		1		1	Massachusetts	25		2480	Bristol	5		40		1220	6409				80							State: 25 County: 005 Tract: 6409	106	183	431	731	44	85	129	68
+G25000506410	1980		1		1	Massachusetts	25		2480	Bristol	5		40		1220	6410				80							State: 25 County: 005 Tract: 6410	42	70	167	398	29	15	71	75
+G2500050641099	1980		1		1	Massachusetts	25		2480	Bristol	5		40		1220	641099				80							State: 25 County: 005 Tract: 6410.99	0	0	0	0	0	0	0	0
+G25000506411	1980		1		1	Massachusetts	25		2480	Bristol	5		40		1220	6411				80							State: 25 County: 005 Tract: 6411	8	0	0	8	0	10	0	0
+G25000506412	1980		1		1	Massachusetts	25		2480	Bristol	5		40		1220	6412				80							State: 25 County: 005 Tract: 6412	87	135	196	380	19	16	32	14
+G25000506413	1980		1		1	Massachusetts	25		2480	Bristol	5		40		1220	6413				80							State: 25 County: 005 Tract: 6413	143	174	417	711	25	60	126	41
+G25000506414	1980		1		1	Massachusetts	25		2480	Bristol	5		40		1220	6414				80							State: 25 County: 005 Tract: 6414	80	92	209	338	31	39	36	34
+G25000506415	1980		1		1	Massachusetts	25		2480	Bristol	5		40		1220	6415				80							State: 25 County: 005 Tract: 6415	48	111	213	389	13	11	32	26
+G25000506416	1980		1		1	Massachusetts	25		2480	Bristol	5		40		1220	6416				80							State: 25 County: 005 Tract: 6416	64	80	165	388	5	20	30	12
+G25000506417	1980		1		1	Massachusetts	25		2480	Bristol	5		40		1220	6417				80							State: 25 County: 005 Tract: 6417	94	150	359	801	10	24	47	18
+G25000506418	1980		1		1	Massachusetts	25		2480	Bristol	5		40		1220	6418				80							State: 25 County: 005 Tract: 6418	62	46	158	258	4	4	18	20
+G25000506419	1980		1		1	Massachusetts	25		2480	Bristol	5		40		1220	6419				80							State: 25 County: 005 Tract: 6419	61	57	157	247	17	20	31	17
+G25000506420	1980		1		1	Massachusetts	25		2480	Bristol	5		40		1220	6420				80							State: 25 County: 005 Tract: 6420	75	72	206	413	22	56	114	48
+G2500050642099	1980		1		1	Massachusetts	25		2480	Bristol	5		40		1220	642099				80							State: 25 County: 005 Tract: 6420.99	0	0	0	0	0	0	0	0
+G25000506421	1980		1		1	Massachusetts	25		2480	Bristol	5		40		1220	6421				80							State: 25 County: 005 Tract: 6421	50	85	175	415	42	22	38	60
+G25000506422	1980		1		1	Massachusetts	25		2480	Bristol	5		40		1220	6422				80							State: 25 County: 005 Tract: 6422	66	86	206	358	31	34	23	21
+G25000506423	1980		1		1	Massachusetts	25		2480	Bristol	5		40		1220	6423				80							State: 25 County: 005 Tract: 6423	34	94	181	381	0	0	9	0
+G25000506424	1980		1		1	Massachusetts	25		2480	Bristol	5		40		1220	6424				80							State: 25 County: 005 Tract: 6424	83	54	228	435	12	8	15	8
+G25000506425	1980		1		1	Massachusetts	25		2480	Bristol	5		40		1220	6425				80							State: 25 County: 005 Tract: 6425	33	29	176	353	4	4	13	7
+G25000506441	1980		1		1	Massachusetts	25		2480	Bristol	5		85		3910	6441				80							State: 25 County: 005 Tract: 6441	253	250	1138	1369	6	6	73	43
+G25000506442	1980		1		1	Massachusetts	25		2480	Bristol	5		85		3910	6442				80							State: 25 County: 005 Tract: 6442	181	109	638	1212	0	0	42	24
+G25000506451	1980		1		1	Massachusetts	25		2480	Bristol	5		90			6451				80							State: 25 County: 005 Tract: 6451	399	349	1442	1855	45	7	46	53
+G25000506461	1980		1		1	Massachusetts	25		2480	Bristol	5		100			6461				80							State: 25 County: 005 Tract: 6461	376	279	1234	1666	25	17	102	26
+G2500050650101	1980		1		1	Massachusetts	25		5400	Bristol	5		55		2770	650101											State: 25 County: 005 Tract: 6501.01	54	86	343	658	0	21	30	19
+G2500050650102	1980		1		1	Massachusetts	25		5400	Bristol	5		55		2770	650102											State: 25 County: 005 Tract: 6501.02	100	78	307	396	60	31	56	11
+G2500050650201	1980		1		1	Massachusetts	25		5400	Bristol	5		55		2770	650201											State: 25 County: 005 Tract: 6502.01	52	47	148	472	5	6	9	13
+G2500050650202	1980		1		1	Massachusetts	25		5400	Bristol	5		55		2770	650202											State: 25 County: 005 Tract: 6502.02	32	49	187	448	10	5	6	26
+G25000506503	1980		1		1	Massachusetts	25		5400	Bristol	5		55		2770	6503											State: 25 County: 005 Tract: 6503	63	82	175	612	0	11	24	10
+G25000506504	1980		1		1	Massachusetts	25		5400	Bristol	5		55		2770	6504											State: 25 County: 005 Tract: 6504	95	172	230	588	19	27	45	36
+G25000506505	1980		1		1	Massachusetts	25		5400	Bristol	5		55		2770	6505											State: 25 County: 005 Tract: 6505	74	97	208	542	16	16	17	36
+G25000506506	1980		1		1	Massachusetts	25		5400	Bristol	5		55		2770	6506											State: 25 County: 005 Tract: 6506	78	151	141	373	25	48	30	12
+G25000506507	1980		1		1	Massachusetts	25		5400	Bristol	5		55		2770	6507											State: 25 County: 005 Tract: 6507	40	70	147	216	9	48	50	32
+G25000506508	1980		1		1	Massachusetts	25		5400	Bristol	5		55		2770	6508											State: 25 County: 005 Tract: 6508	95	142	132	455	54	35	90	55
+G25000506509	1980		1		1	Massachusetts	25		5400	Bristol	5		55		2770	6509											State: 25 County: 005 Tract: 6509	36	54	165	320	27	57	126	37
+G2500050651001	1980		1		1	Massachusetts	25		5400	Bristol	5		55		2770	651001											State: 25 County: 005 Tract: 6510.01	35	26	160	344	5	7	24	20
+G2500050651002	1980		1		1	Massachusetts	25		5400	Bristol	5		55		2770	651002											State: 25 County: 005 Tract: 6510.02	103	108	259	545	30	29	70	12
+G25000506511	1980		1		1	Massachusetts	25		5400	Bristol	5		55		2770	6511											State: 25 County: 005 Tract: 6511	57	129	277	488	56	69	79	31
+G25000506512	1980		1		1	Massachusetts	25		5400	Bristol	5		55		2770	6512											State: 25 County: 005 Tract: 6512	40	72	115	180	38	36	19	9
+G25000506513	1980		1		1	Massachusetts	25		5400	Bristol	5		55		2770	6513											State: 25 County: 005 Tract: 6513	26	35	106	201	40	51	42	23
+G25000506514	1980		1		1	Massachusetts	25		5400	Bristol	5		55		2770	6514											State: 25 County: 005 Tract: 6514	99	74	181	378	38	26	31	35
+G25000506515	1980		1		1	Massachusetts	25		5400	Bristol	5		55		2770	6515											State: 25 County: 005 Tract: 6515	62	51	196	330	77	49	66	14
+G25000506516	1980		1		1	Massachusetts	25		5400	Bristol	5		55		2770	6516											State: 25 County: 005 Tract: 6516	64	134	332	499	26	24	70	0
+G25000506517	1980		1		1	Massachusetts	25		5400	Bristol	5		55		2770	6517											State: 25 County: 005 Tract: 6517	57	39	115	201	26	26	40	21
+G25000506518	1980		1		1	Massachusetts	25		5400	Bristol	5		55		2770	6518											State: 25 County: 005 Tract: 6518	4	9	19	190	0	13	15	5
+G25000506519	1980		1		1	Massachusetts	25		5400	Bristol	5		55		2770	6519											State: 25 County: 005 Tract: 6519	58	43	91	170	35	15	31	20
+G25000506520	1980		1		1	Massachusetts	25		5400	Bristol	5		55		2770	6520											State: 25 County: 005 Tract: 6520	45	71	157	365	16	15	47	19
+G25000506521	1980		1		1	Massachusetts	25		5400	Bristol	5		55		2770	6521											State: 25 County: 005 Tract: 6521	79	123	199	408	28	8	18	18
+G25000506522	1980		1		1	Massachusetts	25		5400	Bristol	5		55		2770	6522											State: 25 County: 005 Tract: 6522	82	89	183	521	0	0	5	11
+G25000506523	1980		1		1	Massachusetts	25		5400	Bristol	5		55		2770	6523											State: 25 County: 005 Tract: 6523	62	96	217	460	27	7	47	56
+G25000506524	1980		1		1	Massachusetts	25		5400	Bristol	5		55		2770	6524											State: 25 County: 005 Tract: 6524	72	106	180	390	15	30	27	32
+G25000506525	1980		1		1	Massachusetts	25		5400	Bristol	5		55		2770	6525											State: 25 County: 005 Tract: 6525	46	101	211	377	36	27	23	20
+G25000506526	1980		1		1	Massachusetts	25		5400	Bristol	5		55		2770	6526											State: 25 County: 005 Tract: 6526	84	105	164	293	49	38	100	42
+G25000506527	1980		1		1	Massachusetts	25		5400	Bristol	5		55		2770	6527											State: 25 County: 005 Tract: 6527	86	107	238	432	66	55	87	35
+G25000506528	1980		1		1	Massachusetts	25		5400	Bristol	5		55		2770	6528											State: 25 County: 005 Tract: 6528	54	59	290	559	0	11	13	35
+G2500050652899	1980		1		1	Massachusetts	25		5400	Bristol	5		55		2770	652899											State: 25 County: 005 Tract: 6528.99	0	0	0	0	0	0	0	0
+G25000506529	1980		1		1	Massachusetts	25		5400	Bristol	5		55		2770	6529											State: 25 County: 005 Tract: 6529	0	0	0	0	0	0	0	0
+G25000506531	1980		1		1	Massachusetts	25		5400	Bristol	5		20			6531											State: 25 County: 005 Tract: 6531	132	178	608	1020	15	12	48	25
+G25000506532	1980		1		1	Massachusetts	25		5400	Bristol	5		20			6532											State: 25 County: 005 Tract: 6532	248	209	638	1003	7	4	21	65
+G25000506533	1980		1		1	Massachusetts	25		5400	Bristol	5		20			6533											State: 25 County: 005 Tract: 6533	200	185	537	1031	14	12	36	77
+G25000506541	1980		1		1	Massachusetts	25		5400	Bristol	5		5			6541											State: 25 County: 005 Tract: 6541	152	164	434	607	0	0	54	19
+G25000506542	1980		1		1	Massachusetts	25		5400	Bristol	5		5			6542											State: 25 County: 005 Tract: 6542	66	64	324	508	0	0	22	48
+G25000506551	1980		1		1	Massachusetts	25		5400	Bristol	5		35			6551											State: 25 County: 005 Tract: 6551	56	100	299	414	7	10	14	14
+G25000506552	1980		1		1	Massachusetts	25		5400	Bristol	5		35			6552											State: 25 County: 005 Tract: 6552	54	138	366	647	0	7	27	38
+G25000506553	1980		1		1	Massachusetts	25		5400	Bristol	5		35			6553											State: 25 County: 005 Tract: 6553	80	76	209	488	0	21	37	21
+G25000506554	1980		1		1	Massachusetts	25		5400	Bristol	5		35			6554											State: 25 County: 005 Tract: 6554	102	111	309	601	5	14	35	19
+G25000902011	1980		1		1	Massachusetts	25		1120	Essex	9		105		2710	2011				7							State: 25 County: 009 Tract: 2011	84	97	244	526	6	0	24	6
+G25000902021	1980		1		1	Massachusetts	25		1120	Essex	9		155		4200	2021				7							State: 25 County: 009 Tract: 2021	128	170	547	1140	0	12	56	38
+G25000902022	1980		1		1	Massachusetts	25		1120	Essex	9		155		4200	2022				7							State: 25 County: 009 Tract: 2022	110	93	520	954	6	6	40	6
+G25000902031	1980		1		1	Massachusetts	25		1120	Essex	9		85		2280	2031				7							State: 25 County: 009 Tract: 2031	144	176	530	1066	13	18	29	13
+G25000902032	1980		1		1	Massachusetts	25		1120	Essex	9		85		2280	2032				7							State: 25 County: 009 Tract: 2032	62	76	418	578	8	9	18	12
+G25000902033	1980		1		1	Massachusetts	25		1120	Essex	9		85		2280	2033				7							State: 25 County: 009 Tract: 2033	186	173	616	1168	7	9	48	25
+G25000902041	1980		1		1	Massachusetts	25		1120	Essex	9		140		3670	2041				7							State: 25 County: 009 Tract: 2041	126	153	439	1134	21	25	65	42
+G25000902042	1980		1		1	Massachusetts	25		1120	Essex	9		140		3670	2042				7							State: 25 County: 009 Tract: 2042	62	144	257	643	0	12	9	23
+G25000902043	1980		1		1	Massachusetts	25		1120	Essex	9		140		3670	2043				7							State: 25 County: 009 Tract: 2043	24	118	143	327	14	57	66	35
+G25000902044	1980		1		1	Massachusetts	25		1120	Essex	9		140		3670	2044				7							State: 25 County: 009 Tract: 2044	21	111	175	568	17	25	34	0
+G25000902045	1980		1		1	Massachusetts	25		1120	Essex	9		140		3670	2045				7							State: 25 County: 009 Tract: 2045	37	74	154	394	19	15	7	23
+G25000902046	1980		1		1	Massachusetts	25		1120	Essex	9		140		3670	2046				7							State: 25 County: 009 Tract: 2046	96	194	396	780	24	12	31	24
+G25000902047	1980		1		1	Massachusetts	25		1120	Essex	9		140		3670	2047				7							State: 25 County: 009 Tract: 2047	161	219	633	1266	16	33	83	30
+G25000902051	1980		1		1	Massachusetts	25		1120	Essex	9		70		2210	2051				7							State: 25 County: 009 Tract: 2051	142	159	332	811	21	7	39	48
+G25000902052	1980		1		1	Massachusetts	25		1120	Essex	9		70		2210	2052				7							State: 25 County: 009 Tract: 2052	129	101	361	785	20	23	21	23
+G25000902053	1980		1		1	Massachusetts	25		1120	Essex	9		70		2210	2053				7							State: 25 County: 009 Tract: 2053	77	104	379	648	5	14	23	45
+G25000902054	1980		1		1	Massachusetts	25		1120	Essex	9		70		2210	2054				7							State: 25 County: 009 Tract: 2054	65	76	308	640	6	0	6	38
+G25000902055	1980		1		1	Massachusetts	25		1120	Essex	9		70		2210	2055				7							State: 25 County: 009 Tract: 2055	97	91	258	475	16	51	51	18
+G25000902056	1980		1		1	Massachusetts	25		1120	Essex	9		70		2210	2056				7							State: 25 County: 009 Tract: 2056	66	108	216	482	58	54	40	6
+G25000902057	1980		1		1	Massachusetts	25		1120	Essex	9		70		2210	2057				7							State: 25 County: 009 Tract: 2057	127	141	288	613	5	25	35	13
+G25000902058	1980		1		1	Massachusetts	25		1120	Essex	9		70		2210	2058				7							State: 25 County: 009 Tract: 2058	46	47	150	343	10	29	26	21
+G25000902059	1980		1		1	Massachusetts	25		1120	Essex	9		70		2210	2059				7							State: 25 County: 009 Tract: 2059	93	180	304	393	18	14	33	26
+G25000902060	1980		1		1	Massachusetts	25		1120	Essex	9		70		2210	2060				7							State: 25 County: 009 Tract: 2060	16	59	94	406	20	26	34	16
+G25000902061	1980		1		1	Massachusetts	25		1120	Essex	9		70		2210	2061				7							State: 25 County: 009 Tract: 2061	51	45	154	269	27	39	47	11
+G25000902062	1980		1		1	Massachusetts	25		1120	Essex	9		70		2210	2062				7							State: 25 County: 009 Tract: 2062	57	130	208	392	44	68	77	30
+G25000902063	1980		1		1	Massachusetts	25		1120	Essex	9		70		2210	2063				7							State: 25 County: 009 Tract: 2063	90	50	209	349	30	24	97	32
+G25000902064	1980		1		1	Massachusetts	25		1120	Essex	9		70		2210	2064				7							State: 25 County: 009 Tract: 2064	107	106	396	639	30	24	52	10
+G25000902065	1980		1		1	Massachusetts	25		1120	Essex	9		70		2210	2065				7							State: 25 County: 009 Tract: 2065	62	98	199	271	7	9	60	20
+G25000902066	1980		1		1	Massachusetts	25		1120	Essex	9		70		2210	2066				7							State: 25 County: 009 Tract: 2066	91	53	255	628	14	28	40	21
+G25000902067	1980		1		1	Massachusetts	25		1120	Essex	9		70		2210	2067				7							State: 25 County: 009 Tract: 2067	67	54	120	439	0	44	44	28
+G25000902068	1980		1		1	Massachusetts	25		1120	Essex	9		70		2210	2068				7							State: 25 County: 009 Tract: 2068	15	55	74	113	31	21	28	15
+G25000902069	1980		1		1	Massachusetts	25		1120	Essex	9		70		2210	2069				7							State: 25 County: 009 Tract: 2069	42	43	49	267	28	32	23	11
+G25000902070	1980		1		1	Massachusetts	25		1120	Essex	9		70		2210	2070				7							State: 25 County: 009 Tract: 2070	37	16	31	133	39	9	24	11
+G25000902071	1980		1		1	Massachusetts	25		1120	Essex	9		70		2210	2071				7							State: 25 County: 009 Tract: 2071	36	60	164	297	25	41	32	17
+G25000902072	1980		1		1	Massachusetts	25		1120	Essex	9		70		2210	2072				7							State: 25 County: 009 Tract: 2072	27	43	137	243	30	51	45	25
+G25000902081	1980		1		1	Massachusetts	25		1120	Essex	9		150		3720	2081				7							State: 25 County: 009 Tract: 2081	163	229	795	1090	7	28	63	29
+G25000902082	1980		1		1	Massachusetts	25		1120	Essex	9		150		3720	2082				7							State: 25 County: 009 Tract: 2082	63	144	437	827	0	15	39	13
+G25000902083	1980		1		1	Massachusetts	25		1120	Essex	9		150		3720	2083				7							State: 25 County: 009 Tract: 2083	88	186	542	866	10	12	51	12
+G25000902084	1980		1		1	Massachusetts	25		1120	Essex	9		150		3720	2084				7							State: 25 County: 009 Tract: 2084	97	112	217	562	0	12	15	12
+G25000902091	1980		1		1	Massachusetts	25		1120	Essex	9		75		2220	2091				7							State: 25 County: 009 Tract: 2091	66	155	521	805	4	12	14	26
+G25000902092	1980		1		1	Massachusetts	25		1120	Essex	9		75		2220	2092				7							State: 25 County: 009 Tract: 2092	109	104	559	671	0	4	23	12
+G25000902101	1980		1		1	Massachusetts	25		1120	Essex	9		125		3260	2101				7							State: 25 County: 009 Tract: 2101	183	196	713	554	0	9	20	5
+G25000902102	1980		1		1	Massachusetts	25		1120	Essex	9		125		3260	2102				7							State: 25 County: 009 Tract: 2102	109	105	618	646	7	16	41	12
+G25000902103	1980		1		1	Massachusetts	25		1120	Essex	9		125		3260	2103				7							State: 25 County: 009 Tract: 2103	65	116	513	910	0	4	30	18
+G25000902104	1980		1		1	Massachusetts	25		1120	Essex	9		125		3260	2104				7							State: 25 County: 009 Tract: 2104	121	230	433	927	12	6	26	20
+G25000902105	1980		1		1	Massachusetts	25		1120	Essex	9		125		3260	2105				7							State: 25 County: 009 Tract: 2105	103	113	475	728	16	12	46	9
+G25000902106	1980		1		1	Massachusetts	25		1120	Essex	9		125		3260	2106				7							State: 25 County: 009 Tract: 2106	96	122	369	541	6	14	12	7
+G25000902107	1980		1		1	Massachusetts	25		1120	Essex	9		125		3260	2107				7							State: 25 County: 009 Tract: 2107	84	126	227	449	31	8	22	30
+G25000902108	1980		1		1	Massachusetts	25		1120	Essex	9		125		3260	2108				7							State: 25 County: 009 Tract: 2108	63	134	226	461	47	0	35	45
+G25000902109	1980		1		1	Massachusetts	25		1120	Essex	9		125		3260	2109				7							State: 25 County: 009 Tract: 2109	66	79	324	574	0	9	33	28
+G25000902111	1980		1		1	Massachusetts	25		1120	Essex	9		25		890	2111				7							State: 25 County: 009 Tract: 2111	70	104	289	439	0	4	26	24
+G25000902112	1980		1		1	Massachusetts	25		1120	Essex	9		25		890	2112				7							State: 25 County: 009 Tract: 2112	130	195	398	828	0	0	47	13
+G25000902113	1980		1		1	Massachusetts	25		1120	Essex	9		25		890	2113				7							State: 25 County: 009 Tract: 2113	136	86	608	776	0	0	40	20
+G25000902114	1980		1		1	Massachusetts	25		1120	Essex	9		25		890	2114				7							State: 25 County: 009 Tract: 2114	158	166	591	895	14	16	4	25
+G25000902115	1980		1		1	Massachusetts	25		1120	Essex	9		25		890	2115				7							State: 25 County: 009 Tract: 2115	0	0	0	0	0	0	0	0
+G25000902121	1980		1		1	Massachusetts	25		1120	Essex	9		100			2121				7							State: 25 County: 009 Tract: 2121	88	111	333	513	14	0	28	4
+G25000902131	1980		1		1	Massachusetts	25		1120	Essex	9		20			2131				7							State: 25 County: 009 Tract: 2131	182	120	603	526	7	0	8	11
+G25000902141	1980		1		1	Massachusetts	25		1120	Essex	9		160			2141				7							State: 25 County: 009 Tract: 2141	131	140	672	580	0	0	17	14
+G25000902151	1980		1		1	Massachusetts	25		1120	Essex	9		50			2151				7							State: 25 County: 009 Tract: 2151	103	242	621	855	11	38	21	23
+G25000902161	1980		1		1	Massachusetts	25		1120	Essex	9		165			2161				7							State: 25 County: 009 Tract: 2161	65	45	312	467	10	6	0	6
+G25000902171	1980		1		1	Massachusetts	25		1120	Essex	9		15		390	2171				7							State: 25 County: 009 Tract: 2171	148	191	428	879	0	6	17	14
+G25000902172	1980		1		1	Massachusetts	25		1120	Essex	9		15		390	2172				7							State: 25 County: 009 Tract: 2172	207	181	712	1125	21	12	35	23
+G25000902173	1980		1		1	Massachusetts	25		1120	Essex	9		15		390	2173				7							State: 25 County: 009 Tract: 2173	137	172	290	484	29	48	89	20
+G25000902174	1980		1		1	Massachusetts	25		1120	Essex	9		15		390	2174				7							State: 25 County: 009 Tract: 2174	45	124	254	559	28	52	45	43
+G25000902175	1980		1		1	Massachusetts	25		1120	Essex	9		15		390	2175				7							State: 25 County: 009 Tract: 2175	98	255	503	939	13	6	23	13
+G25000902176	1980		1		1	Massachusetts	25		1120	Essex	9		15		390	2176				7							State: 25 County: 009 Tract: 2176	112	105	508	735	7	15	0	6
+G25000902181	1980		1		1	Massachusetts	25		1120	Essex	9		80			2181				7							State: 25 County: 009 Tract: 2181	114	112	477	679	5	0	20	9
+G25000902201	1980		1		1	Massachusetts	25			Essex	9		130			2201											State: 25 County: 009 Tract: 2201	124	136	336	1034	6	21	60	12
+G25000902211	1980		1		1	Massachusetts	25			Essex	9		40		1430	2211											State: 25 County: 009 Tract: 2211	93	91	290	503	8	4	19	53
+G2500090221199	1980		1		1	Massachusetts	25			Essex	9		40		1430	221199											State: 25 County: 009 Tract: 2211.99	0	0	0	0	0	0	0	0
+G25000902212	1980		1		1	Massachusetts	25			Essex	9		40		1430	2212											State: 25 County: 009 Tract: 2212	25	16	76	192	0	9	7	6
+G25000902213	1980		1		1	Massachusetts	25			Essex	9		40		1430	2213											State: 25 County: 009 Tract: 2213	67	100	247	446	0	0	16	24
+G25000902214	1980		1		1	Massachusetts	25			Essex	9		40		1430	2214											State: 25 County: 009 Tract: 2214	70	132	185	296	7	47	43	14
+G25000902215	1980		1		1	Massachusetts	25			Essex	9		40		1430	2215											State: 25 County: 009 Tract: 2215	73	116	162	366	10	18	55	26
+G25000902216	1980		1		1	Massachusetts	25			Essex	9		40		1430	2216											State: 25 County: 009 Tract: 2216	41	30	121	194	15	0	44	18
+G25000902217	1980		1		1	Massachusetts	25			Essex	9		40		1430	2217											State: 25 County: 009 Tract: 2217	46	132	192	442	16	7	13	22
+G25000902218	1980		1		1	Massachusetts	25			Essex	9		40		1430	2218											State: 25 County: 009 Tract: 2218	65	35	181	227	0	0	52	8
+G25000902219	1980		1		1	Massachusetts	25			Essex	9		40		1430	2219											State: 25 County: 009 Tract: 2219	114	152	365	836	16	0	50	23
+G25000902221	1980		1		1	Massachusetts	25			Essex	9		30			2221											State: 25 County: 009 Tract: 2221	45	103	217	465	6	8	31	8
+G25000902231	1980		1		1	Massachusetts	25			Essex	9		60		9999	2231											State: 25 County: 009 Tract: 2231	75	72	228	411	11	0	15	0
+G25000902232	1980		1		1	Massachusetts	25			Essex	9		60		1960	2232											State: 25 County: 009 Tract: 2232	123	152	289	632	0	18	20	15
+G25000902233	1980		1		1	Massachusetts	25			Essex	9		60		9999	2233											State: 25 County: 009 Tract: 2233	96	83	348	414	0	6	13	6
+G25000902501	1980		1		1	Massachusetts	25		4160	Essex	9		65		2030	2501				7							State: 25 County: 009 Tract: 2501	0	37	0	37	17	7	0	9
+G25000902502	1980		1		1	Massachusetts	25		4160	Essex	9		65		2030	2502				7							State: 25 County: 009 Tract: 2502	87	178	298	567	33	25	42	20
+G25000902503	1980		1		1	Massachusetts	25		4160	Essex	9		65		2030	2503				7							State: 25 County: 009 Tract: 2503	66	12	113	187	22	48	29	16
+G25000902504	1980		1		1	Massachusetts	25		4160	Essex	9		65		2030	2504				7							State: 25 County: 009 Tract: 2504	78	96	165	294	80	49	44	28
+G25000902505	1980		1		1	Massachusetts	25		4160	Essex	9		65		2030	2505				7							State: 25 County: 009 Tract: 2505	52	101	83	272	75	79	94	29
+G25000902506	1980		1		1	Massachusetts	25		4160	Essex	9		65		2030	2506				7							State: 25 County: 009 Tract: 2506	65	111	214	527	49	30	36	60
+G25000902507	1980		1		1	Massachusetts	25		4160	Essex	9		65		2030	2507				7							State: 25 County: 009 Tract: 2507	95	72	139	480	42	57	83	64
+G25000902508	1980		1		1	Massachusetts	25		4160	Essex	9		65		2030	2508				7							State: 25 County: 009 Tract: 2508	83	161	331	770	19	27	32	39
+G25000902509	1980		1		1	Massachusetts	25		4160	Essex	9		65		2030	2509				7							State: 25 County: 009 Tract: 2509	43	27	55	141	17	53	31	35
+G25000902510	1980		1		1	Massachusetts	25		4160	Essex	9		65		2030	2510				7							State: 25 County: 009 Tract: 2510	8	48	48	206	29	0	13	0
+G25000902511	1980		1		1	Massachusetts	25		4160	Essex	9		65		2030	2511				7							State: 25 County: 009 Tract: 2511	27	60	49	247	46	35	42	26
+G25000902512	1980		1		1	Massachusetts	25		4160	Essex	9		65		2030	2512				7							State: 25 County: 009 Tract: 2512	28	45	45	140	11	18	21	7
+G25000902513	1980		1		1	Massachusetts	25		4160	Essex	9		65		2030	2513				7							State: 25 County: 009 Tract: 2513	41	76	138	252	101	88	127	34
+G25000902514	1980		1		1	Massachusetts	25		4160	Essex	9		65		2030	2514				7							State: 25 County: 009 Tract: 2514	85	146	213	458	44	26	93	6
+G25000902515	1980		1		1	Massachusetts	25		4160	Essex	9		65		2030	2515				7							State: 25 County: 009 Tract: 2515	122	160	378	581	26	46	69	6
+G25000902516	1980		1		1	Massachusetts	25		4160	Essex	9		65		2030	2516				7							State: 25 County: 009 Tract: 2516	95	162	297	512	60	53	50	42
+G25000902517	1980		1		1	Massachusetts	25		4160	Essex	9		65		2030	2517				7							State: 25 County: 009 Tract: 2517	93	69	246	472	28	24	58	36
+G25000902518	1980		1		1	Massachusetts	25		4160	Essex	9		65		2030	2518				7							State: 25 County: 009 Tract: 2518	107	205	509	1123	33	8	14	29
+G25000902521	1980		1		1	Massachusetts	25		4160	Essex	9		95			2521				7							State: 25 County: 009 Tract: 2521	139	142	476	820	10	6	23	32
+G25000902522	1980		1		1	Massachusetts	25		4160	Essex	9		95			2522				7							State: 25 County: 009 Tract: 2522	145	138	424	636	0	0	44	17
+G25000902523	1980		1		1	Massachusetts	25		4160	Essex	9		95			2523				7							State: 25 County: 009 Tract: 2523	114	168	430	683	12	26	11	45
+G25000902524	1980		1		1	Massachusetts	25		4160	Essex	9		95			2524				7							State: 25 County: 009 Tract: 2524	88	183	193	440	34	64	65	32
+G25000902525	1980		1		1	Massachusetts	25		4160	Essex	9		95			2525				7							State: 25 County: 009 Tract: 2525	75	176	637	1250	0	7	25	63
+G25000902526	1980		1		1	Massachusetts	25		4160	Essex	9		95			2526				7							State: 25 County: 009 Tract: 2526	175	173	518	1050	12	0	58	12
+G25000902531	1980		1		1	Massachusetts	25		4160	Essex	9		120			2531				7							State: 25 County: 009 Tract: 2531	107	149	435	751	0	11	14	11
+G25000902532	1980		1		1	Massachusetts	25		4160	Essex	9		120			2532				7							State: 25 County: 009 Tract: 2532	374	340	1163	1744	0	6	52	44
+G25000902541	1980		1		1	Massachusetts	25		4160	Essex	9		10			2541				7							State: 25 County: 009 Tract: 2541	78	133	470	790	0	0	23	23
+G25000902542	1980		1		1	Massachusetts	25		4160	Essex	9		10		119	2542				7							State: 25 County: 009 Tract: 2542	48	112	382	540	14	11	6	5
+G25000902543	1980		1		1	Massachusetts	25		4160	Essex	9		10			2543				7							State: 25 County: 009 Tract: 2543	219	134	791	722	6	0	27	13
+G25000902544	1980		1		1	Massachusetts	25		4160	Essex	9		10			2544				7							State: 25 County: 009 Tract: 2544	214	226	1132	827	11	14	46	13
+G25000902601	1980		1		1	Massachusetts	25		4160	Essex	9		55		1710	2601				7							State: 25 County: 009 Tract: 2601	64	116	173	286	60	75	43	19
+G25000902602	1980		1		1	Massachusetts	25		4160	Essex	9		55		1710	2602				7							State: 25 County: 009 Tract: 2602	61	77	170	377	10	11	31	12
+G25000902603	1980		1		1	Massachusetts	25		4160	Essex	9		55		1710	2603				7							State: 25 County: 009 Tract: 2603	132	211	508	820	6	11	17	19
+G25000902604	1980		1		1	Massachusetts	25		4160	Essex	9		55		1710	2604				7							State: 25 County: 009 Tract: 2604	68	129	345	612	0	23	34	8
+G25000902605	1980		1		1	Massachusetts	25		4160	Essex	9		55		1710	2605				7							State: 25 County: 009 Tract: 2605	70	54	297	442	12	0	11	13
+G25000902606	1980		1		1	Massachusetts	25		4160	Essex	9		55		1710	2606				7							State: 25 County: 009 Tract: 2606	50	100	196	312	31	32	25	27
+G25000902607	1980		1		1	Massachusetts	25		4160	Essex	9		55		1710	2607				7							State: 25 County: 009 Tract: 2607	68	69	285	382	6	11	35	36
+G25000902608	1980		1		1	Massachusetts	25		4160	Essex	9		55		1710	2608				7							State: 25 County: 009 Tract: 2608	102	106	263	502	56	65	65	12
+G25000902609	1980		1		1	Massachusetts	25		4160	Essex	9		55		1710	2609				7							State: 25 County: 009 Tract: 2609	87	101	261	370	23	51	27	26
+G25000902610	1980		1		1	Massachusetts	25		4160	Essex	9		55		1710	2610				7							State: 25 County: 009 Tract: 2610	75	111	256	508	0	19	38	6
+G25000902611	1980		1		1	Massachusetts	25		4160	Essex	9		55		1710	2611				7							State: 25 County: 009 Tract: 2611	129	232	496	902	27	10	33	14
+G25000902621	1980		1		1	Massachusetts	25		4160	Essex	9		90			2621				7							State: 25 County: 009 Tract: 2621	139	183	341	485	22	14	29	26
+G25000902631	1980		1		1	Massachusetts	25		4160	Essex	9		170			2631				7							State: 25 County: 009 Tract: 2631	86	57	281	298	5	5	5	15
+G25000902641	1980		1		1	Massachusetts	25		4160	Essex	9		45			2641				7							State: 25 County: 009 Tract: 2641	106	188	473	518	0	17	20	6
+G25000902651	1980		1		1	Massachusetts	25		4160	Essex	9		35			2651				7							State: 25 County: 009 Tract: 2651	160	199	480	609	7	4	55	30
+G25000902661	1980		1		1	Massachusetts	25		4160	Essex	9		5			2661				7							State: 25 County: 009 Tract: 2661	28	81	175	353	9	13	16	18
+G25000902662	1980		1		1	Massachusetts	25		4160	Essex	9		5			2662				7							State: 25 County: 009 Tract: 2662	111	218	343	457	13	13	48	0
+G25000902663	1980		1		1	Massachusetts	25		4160	Essex	9		5		80	2663				7							State: 25 County: 009 Tract: 2663	71	122	254	372	22	14	28	46
+G25000902664	1980		1		1	Massachusetts	25		4160	Essex	9		5			2664				7							State: 25 County: 009 Tract: 2664	78	100	200	378	6	31	8	20
+G25000902671	1980		1		1	Massachusetts	25		4160	Essex	9		145			2671				7							State: 25 County: 009 Tract: 2671	184	123	447	613	18	37	78	42
+G25000902681	1980		1		1	Massachusetts	25			Essex	9		115		2790	2681											State: 25 County: 009 Tract: 2681	61	72	154	64	19	5	0	0
+G25000902682	1980		1		1	Massachusetts	25			Essex	9		115		2790	2682											State: 25 County: 009 Tract: 2682	50	171	497	679	5	13	37	16
+G25000902683	1980		1		1	Massachusetts	25			Essex	9		115		2790	2683											State: 25 County: 009 Tract: 2683	42	65	283	491	21	40	26	20
+G25000902684	1980		1		1	Massachusetts	25			Essex	9		115		2790	2684											State: 25 County: 009 Tract: 2684	87	125	318	519	27	41	11	7
+G25000902691	1980		1		1	Massachusetts	25			Essex	9		110			2691											State: 25 County: 009 Tract: 2691	80	101	375	546	5	6	30	34
+G25000902701	1980		1		1	Massachusetts	25			Essex	9		135			2701											State: 25 County: 009 Tract: 2701	128	148	295	428	0	0	5	23
+G25001308001	1980		1		1	Massachusetts	25		8000	Hampden	13		90		4090	8001											State: 25 County: 013 Tract: 8001	105	232	423	1060	83	91	136	25
+G2500130800201	1980		1		1	Massachusetts	25		8000	Hampden	13		90		4090	800201											State: 25 County: 013 Tract: 8002.01	137	169	383	977	22	12	81	22
+G2500130800202	1980		1		1	Massachusetts	25		8000	Hampden	13		90		4090	800202											State: 25 County: 013 Tract: 8002.02	0	32	57	293	7	7	13	14
+G25001308003	1980		1		1	Massachusetts	25		8000	Hampden	13		90		4090	8003											State: 25 County: 013 Tract: 8003	61	65	310	730	0	0	9	9
+G25001308004	1980		1		1	Massachusetts	25		8000	Hampden	13		90		4090	8004											State: 25 County: 013 Tract: 8004	124	124	410	871	65	20	65	34
+G25001308005	1980		1		1	Massachusetts	25		8000	Hampden	13		90		4090	8005											State: 25 County: 013 Tract: 8005	80	37	203	514	5	68	15	27
+G25001308006	1980		1		1	Massachusetts	25		8000	Hampden	13		90		4090	8006											State: 25 County: 013 Tract: 8006	76	44	80	99	88	131	137	45
+G25001308007	1980		1		1	Massachusetts	25		8000	Hampden	13		90		4090	8007											State: 25 County: 013 Tract: 8007	72	26	163	139	167	51	196	58
+G25001308008	1980		1		1	Massachusetts	25		8000	Hampden	13		90		4090	8008											State: 25 County: 013 Tract: 8008	16	36	22	97	90	73	92	48
+G25001308009	1980		1		1	Massachusetts	25		8000	Hampden	13		90		4090	8009											State: 25 County: 013 Tract: 8009	42	15	147	309	95	99	117	42
+G25001308010	1980		1		1	Massachusetts	25		8000	Hampden	13		90		4090	8010											State: 25 County: 013 Tract: 8010	0	0	0	8	0	0	0	0
+G2500130801101	1980		1		1	Massachusetts	25		8000	Hampden	13		90		4090	801101											State: 25 County: 013 Tract: 8011.01	8	0	15	126	0	0	0	0
+G2500130801102	1980		1		1	Massachusetts	25		8000	Hampden	13		90		4090	801102											State: 25 County: 013 Tract: 8011.02	8	44	35	150	21	30	39	15
+G25001308012	1980		1		1	Massachusetts	25		8000	Hampden	13		90		4090	8012											State: 25 County: 013 Tract: 8012	8	39	47	180	43	69	11	22
+G25001308013	1980		1		1	Massachusetts	25		8000	Hampden	13		90		4090	8013											State: 25 County: 013 Tract: 8013	116	43	293	374	117	25	105	46
+G2500130801401	1980		1		1	Massachusetts	25		8000	Hampden	13		90		4090	801401											State: 25 County: 013 Tract: 8014.01	68	86	268	265	61	83	145	14
+G2500130801402	1980		1		1	Massachusetts	25		8000	Hampden	13		90		4090	801402											State: 25 County: 013 Tract: 8014.02	56	85	137	215	0	11	21	0
+G2500130801501	1980		1		1	Massachusetts	25		8000	Hampden	13		90		4090	801501											State: 25 County: 013 Tract: 8015.01	59	85	309	584	28	10	32	26
+G2500130801502	1980		1		1	Massachusetts	25		8000	Hampden	13		90		4090	801502											State: 25 County: 013 Tract: 8015.02	59	69	209	447	50	20	68	15
+G2500130801503	1980		1		1	Massachusetts	25		8000	Hampden	13		90		4090	801503											State: 25 County: 013 Tract: 8015.03	48	96	148	478	11	0	25	19
+G2500130801601	1980		1		1	Massachusetts	25		8000	Hampden	13		90		4090	801601											State: 25 County: 013 Tract: 8016.01	116	82	300	605	19	0	32	22
+G2500130801602	1980		1		1	Massachusetts	25		8000	Hampden	13		90		4090	801602											State: 25 County: 013 Tract: 8016.02	113	214	422	765	15	0	24	15
+G2500130801603	1980		1		1	Massachusetts	25		8000	Hampden	13		90		4090	801603											State: 25 County: 013 Tract: 8016.03	96	107	414	469	23	6	58	0
+G2500130801604	1980		1		1	Massachusetts	25		8000	Hampden	13		90		4090	801604											State: 25 County: 013 Tract: 8016.04	151	135	394	563	10	17	12	6
+G2500130801605	1980		1		1	Massachusetts	25		8000	Hampden	13		90		4090	801605											State: 25 County: 013 Tract: 8016.05	73	171	323	526	13	38	65	14
+G25001308017	1980		1		1	Massachusetts	25		8000	Hampden	13		90		4090	8017											State: 25 County: 013 Tract: 8017	123	99	499	529	57	56	108	49
+G25001308018	1980		1		1	Massachusetts	25		8000	Hampden	13		90		4090	8018											State: 25 County: 013 Tract: 8018	100	78	256	355	40	55	199	6
+G25001308019	1980		1		1	Massachusetts	25		8000	Hampden	13		90		4090	8019											State: 25 County: 013 Tract: 8019	68	138	175	555	167	120	156	36
+G25001308020	1980		1		1	Massachusetts	25		8000	Hampden	13		90		4090	8020											State: 25 County: 013 Tract: 8020	39	107	128	350	45	60	105	12
+G25001308021	1980		1		1	Massachusetts	25		8000	Hampden	13		90		4090	8021											State: 25 County: 013 Tract: 8021	90	160	314	824	12	15	25	23
+G25001308022	1980		1		1	Massachusetts	25		8000	Hampden	13		90		4090	8022											State: 25 County: 013 Tract: 8022	55	67	164	367	28	39	34	21
+G25001308023	1980		1		1	Massachusetts	25		8000	Hampden	13		90		4090	8023											State: 25 County: 013 Tract: 8023	51	163	443	694	39	62	100	67
+G25001308024	1980		1		1	Massachusetts	25		8000	Hampden	13		90		4090	8024											State: 25 County: 013 Tract: 8024	59	101	219	737	6	6	0	22
+G25001308025	1980		1		1	Massachusetts	25		8000	Hampden	13		90		4090	8025											State: 25 County: 013 Tract: 8025	151	191	465	1157	21	18	24	19
+G2500130802601	1980		1		1	Massachusetts	25		8000	Hampden	13		90		4090	802601											State: 25 County: 013 Tract: 8026.01	67	241	457	872	29	15	60	73
+G2500130802602	1980		1		1	Massachusetts	25		8000	Hampden	13		90		4090	802602											State: 25 County: 013 Tract: 8026.02	42	111	134	473	0	0	13	25
+G25001308101	1980		1		1	Massachusetts	25		8000	Hampden	13		75			8101											State: 25 County: 013 Tract: 8101	82	110	420	690	5	6	14	29
+G25001308102	1980		1		1	Massachusetts	25		8000	Hampden	13		75			8102											State: 25 County: 013 Tract: 8102	37	70	228	410	0	7	22	6
+G25001308103	1980		1		1	Massachusetts	25		8000	Hampden	13		75			8103											State: 25 County: 013 Tract: 8103	75	120	279	504	0	23	11	18
+G2500130810401	1980		1		1	Massachusetts	25		8000	Hampden	13		60			810401											State: 25 County: 013 Tract: 8104.01	223	212	884	1201	7	28	69	44
+G2500130810402	1980		1		1	Massachusetts	25		8000	Hampden	13		60			810402											State: 25 County: 013 Tract: 8104.02	129	230	658	1241	10	16	19	11
+G25001308105	1980		1		1	Massachusetts	25		8000	Hampden	13		25		760	8105											State: 25 County: 013 Tract: 8105	44	64	75	97	6	20	4	0
+G2500130810601	1980		1		1	Massachusetts	25		8000	Hampden	13		25		760	810601											State: 25 County: 013 Tract: 8106.01	41	97	252	554	10	21	20	6
+G2500130810602	1980		1		1	Massachusetts	25		8000	Hampden	13		25		760	810602											State: 25 County: 013 Tract: 8106.02	99	88	259	251	0	0	0	0
+G25001308107	1980		1		1	Massachusetts	25		8000	Hampden	13		25		760	8107											State: 25 County: 013 Tract: 8107	110	161	368	1003	10	41	33	60
+G25001308108	1980		1		1	Massachusetts	25		8000	Hampden	13		25		760	8108											State: 25 County: 013 Tract: 8108	52	92	189	624	5	18	23	38
+G2500130810901	1980		1		1	Massachusetts	25		8000	Hampden	13		25		760	810901											State: 25 County: 013 Tract: 8109.01	21	38	99	286	4	0	5	21
+G2500130810902	1980		1		1	Massachusetts	25		8000	Hampden	13		25		760	810902											State: 25 County: 013 Tract: 8109.02	35	65	280	734	28	32	63	31
+G25001308110	1980		1		1	Massachusetts	25		8000	Hampden	13		25		760	8110											State: 25 County: 013 Tract: 8110	76	127	485	799	11	19	39	19
+G2500130811101	1980		1		1	Massachusetts	25		8000	Hampden	13		25		760	811101											State: 25 County: 013 Tract: 8111.01	81	101	260	483	15	32	66	6
+G2500130811102	1980		1		1	Massachusetts	25		8000	Hampden	13		25		760	811102											State: 25 County: 013 Tract: 8111.02	105	109	467	596	52	53	81	33
+G25001308112	1980		1		1	Massachusetts	25		8000	Hampden	13		25		760	8112											State: 25 County: 013 Tract: 8112	128	144	494	868	11	4	41	33
+G2500130811301	1980		1		1	Massachusetts	25		8000	Hampden	13		25		760	811301											State: 25 County: 013 Tract: 8113.01	79	133	406	868	6	25	19	47
+G2500130811302	1980		1		1	Massachusetts	25		8000	Hampden	13		25		760	811302											State: 25 County: 013 Tract: 8113.02	96	78	367	496	5	6	31	7
+G25001308114	1980		1		1	Massachusetts	25		8000	Hampden	13		50		1830	8114											State: 25 County: 013 Tract: 8114	110	26	86	175	91	96	55	32
+G25001308115	1980		1		1	Massachusetts	25		8000	Hampden	13		50		1830	8115											State: 25 County: 013 Tract: 8115	62	45	120	201	109	129	153	24
+G25001308116	1980		1		1	Massachusetts	25		8000	Hampden	13		50		1830	8116											State: 25 County: 013 Tract: 8116	53	134	175	386	125	106	164	45
+G25001308117	1980		1		1	Massachusetts	25		8000	Hampden	13		50		1830	8117											State: 25 County: 013 Tract: 8117	0	34	49	262	45	28	72	19
+G25001308118	1980		1		1	Massachusetts	25		8000	Hampden	13		50		1830	8118											State: 25 County: 013 Tract: 8118	58	104	200	564	35	33	34	13
+G25001308119	1980		1		1	Massachusetts	25		8000	Hampden	13		50		1830	8119											State: 25 County: 013 Tract: 8119	83	83	344	651	7	0	15	11
+G25001308120	1980		1		1	Massachusetts	25		8000	Hampden	13		50		1830	8120											State: 25 County: 013 Tract: 8120	123	204	510	1192	41	58	75	48
+G25001308121	1980		1		1	Massachusetts	25		8000	Hampden	13		50		1830	8121											State: 25 County: 013 Tract: 8121	316	308	942	1764	19	49	81	49
+G25001308122	1980		1		1	Massachusetts	25		8000	Hampden	13		110		4775	8122											State: 25 County: 013 Tract: 8122	48	191	409	974	29	35	36	39
+G25001308123	1980		1		1	Massachusetts	25		8000	Hampden	13		110		4775	8123											State: 25 County: 013 Tract: 8123	72	141	284	586	47	86	61	45
+G2500130812401	1980		1		1	Massachusetts	25		8000	Hampden	13		110		4775	812401											State: 25 County: 013 Tract: 8124.01	177	113	595	885	0	8	44	6
+G2500130812402	1980		1		1	Massachusetts	25		8000	Hampden	13		110		4775	812402											State: 25 County: 013 Tract: 8124.02	137	141	618	1082	19	35	56	33
+G25001308125	1980		1		1	Massachusetts	25		8000	Hampden	13		105		4690	8125											State: 25 County: 013 Tract: 8125	138	182	589	692	20	52	71	25
+G25001308126	1980		1		1	Massachusetts	25		8000	Hampden	13		105		4690	8126											State: 25 County: 013 Tract: 8126	167	165	592	751	12	6	33	0
+G2500130812701	1980		1		1	Massachusetts	25		8000	Hampden	13		105		4690	812701											State: 25 County: 013 Tract: 8127.01	91	113	236	599	0	22	54	33
+G2500130812702	1980		1		1	Massachusetts	25		8000	Hampden	13		105		4690	812702											State: 25 County: 013 Tract: 8127.02	65	94	178	545	32	46	48	7
+G25001308128	1980		1		1	Massachusetts	25		8000	Hampden	13		105		4690	8128											State: 25 County: 013 Tract: 8128	158	180	452	713	7	20	21	33
+G25001308129	1980		1		1	Massachusetts	25		8000	Hampden	13		105		4690	8129											State: 25 County: 013 Tract: 8129	173	174	619	1151	0	5	24	28
+G25001308130	1980		1		1	Massachusetts	25			Hampden	13					8130											State: 25 County: 013 Tract: 8130	171	164	478	700	12	19	33	12
+G25001308131	1980		1		1	Massachusetts	25		8000	Hampden	13		85			8131											State: 25 County: 013 Tract: 8131	225	258	636	797	19	22	18	7
+G25001308132	1980		1		1	Massachusetts	25		8000	Hampden	13		5			8132											State: 25 County: 013 Tract: 8132	577	809	2059	3346	82	60	151	112
+G25001308133	1980		1		1	Massachusetts	25		8000	Hampden	13		55		2170	8133											State: 25 County: 013 Tract: 8133	413	332	1609	2024	12	5	50	14
+G2500130813401	1980		1		1	Massachusetts	25		8000	Hampden	13		30			813401											State: 25 County: 013 Tract: 8134.01	130	161	399	719	9	5	12	0
+G2500130813402	1980		1		1	Massachusetts	25		8000	Hampden	13		30			813402											State: 25 County: 013 Tract: 8134.02	156	184	732	1042	15	0	15	5
+G25001308135	1980		1		1	Massachusetts	25		8000	Hampden	13		40			8135											State: 25 County: 013 Tract: 8135	128	135	475	467	7	17	43	28
+G2500130813601	1980		1		1	Massachusetts	25		8000	Hampden	13		115			813601											State: 25 County: 013 Tract: 8136.01	129	165	632	919	0	0	30	6
+G2500130813602	1980		1		1	Massachusetts	25		8000	Hampden	13		115			813602											State: 25 County: 013 Tract: 8136.02	105	122	605	678	6	0	17	15
+G25001308137	1980		1		1	Massachusetts	25		8000	Hampden	13		65			8137											State: 25 County: 013 Tract: 8137	189	232	594	829	15	7	22	24
+G25001308138	1980		1		1	Massachusetts	25			Hampden	13					8138											State: 25 County: 013 Tract: 8138	137	153	391	628	29	8	35	8
+G25001508201	1980		1		1	Massachusetts	25			Hampshire	15		85			8201											State: 25 County: 015 Tract: 8201	163	247	670	1232	35	19	60	40
+G2500150820201	1980		1		1	Massachusetts	25		8000	Hampshire	15		10			820201											State: 25 County: 015 Tract: 8202.01	197	270	517	981	18	31	27	33
+G2500150820202	1980		1		1	Massachusetts	25			Hampshire	15		65			820202											State: 25 County: 015 Tract: 8202.02	27	17	91	123	0	3	8	6
+G25001508203	1980		1		1	Massachusetts	25			Hampshire	15		5			8203											State: 25 County: 015 Tract: 8203	139	99	386	499	34	52	63	56
+G25001508204	1980		1		1	Massachusetts	25			Hampshire	15		5			8204											State: 25 County: 015 Tract: 8204	0	9	0	7	0	0	0	0
+G25001508205	1980		1		1	Massachusetts	25			Hampshire	15		5			8205											State: 25 County: 015 Tract: 8205	0	0	0	0	0	0	0	0
+G25001508206	1980		1		1	Massachusetts	25			Hampshire	15		5			8206											State: 25 County: 015 Tract: 8206	0	0	0	0	0	0	0	0
+G25001508207	1980		1		1	Massachusetts	25			Hampshire	15		5			8207											State: 25 County: 015 Tract: 8207	0	0	0	0	0	0	0	0
+G25001508208	1980		1		1	Massachusetts	25			Hampshire	15		5			8208											State: 25 County: 015 Tract: 8208	0	0	0	0	0	0	0	0
+G25001508209	1980		1		1	Massachusetts	25		8000	Hampshire	15		35			8209											State: 25 County: 015 Tract: 8209	116	157	500	567	10	19	13	25
+G25001508210	1980		1		1	Massachusetts	25		8000	Hampshire	15		80			8210											State: 25 County: 015 Tract: 8210	80	104	343	645	0	0	11	19
+G25001508211	1980		1		1	Massachusetts	25		8000	Hampshire	15		80			8211											State: 25 County: 015 Tract: 8211	112	169	512	1051	7	14	43	26
+G25001508212	1980		1		1	Massachusetts	25		8000	Hampshire	15		80			8212											State: 25 County: 015 Tract: 8212	0	0	9	75	0	0	0	0
+G25001508213	1980		1		1	Massachusetts	25		8000	Hampshire	15		80			8213											State: 25 County: 015 Tract: 8213	36	67	194	398	0	5	23	23
+G25001508214	1980		1		1	Massachusetts	25		8000	Hampshire	15		40			8214											State: 25 County: 015 Tract: 8214	87	82	272	620	0	10	0	20
+G25001508215	1980		1		1	Massachusetts	25		8000	Hampshire	15		45			8215											State: 25 County: 015 Tract: 8215	42	97	229	456	6	0	0	6
+G2500150821601	1980		1		1	Massachusetts	25		8000	Hampshire	15		60		2865	821601											State: 25 County: 015 Tract: 8216.01	34	73	250	427	32	23	53	17
+G2500150821602	1980		1		1	Massachusetts	25		8000	Hampshire	15		60		2865	821602											State: 25 County: 015 Tract: 8216.02	56	104	293	520	31	15	15	19
+G25001508217	1980		1		1	Massachusetts	25		8000	Hampshire	15		60		2865	8217											State: 25 County: 015 Tract: 8217	76	45	241	437	16	0	0	21
+G25001508218	1980		1		1	Massachusetts	25		8000	Hampshire	15		60		2865	8218											State: 25 County: 015 Tract: 8218	0	0	5	0	0	0	0	0
+G2500150821901	1980		1		1	Massachusetts	25		8000	Hampshire	15		60		2865	821901											State: 25 County: 015 Tract: 8219.01	27	38	227	429	0	0	23	0
+G2500150821902	1980		1		1	Massachusetts	25		8000	Hampshire	15		60		2865	821902											State: 25 County: 015 Tract: 8219.02	61	95	235	701	14	22	50	15
+G25001508220	1980		1		1	Massachusetts	25		8000	Hampshire	15		60		2865	8220											State: 25 County: 015 Tract: 8220	8	8	17	31	0	0	10	0
+G25001508221	1980		1		1	Massachusetts	25		8000	Hampshire	15		60		2865	8221											State: 25 County: 015 Tract: 8221	0	0	0	0	0	0	0	0
+G25001508222	1980		1		1	Massachusetts	25		8000	Hampshire	15		60		2865	8222											State: 25 County: 015 Tract: 8222	166	120	503	553	46	26	14	27
+G25001508223	1980		1		1	Massachusetts	25		8000	Hampshire	15		25			8223											State: 25 County: 015 Tract: 8223	49	153	349	806	7	12	33	56
+G25001508224	1980		1		1	Massachusetts	25		8000	Hampshire	15		25			8224											State: 25 County: 015 Tract: 8224	278	299	806	1150	13	50	74	22
+G25001508225	1980		1		1	Massachusetts	25		8000	Hampshire	15		75			8225											State: 25 County: 015 Tract: 8225	96	136	398	491	20	5	11	12
+G25001508226	1980		1		1	Massachusetts	25			Hampshire	15					8226											State: 25 County: 015 Tract: 8226	167	213	565	749	27	16	62	40
+G25001508227	1980		1		1	Massachusetts	25			Hampshire	15					8227											State: 25 County: 015 Tract: 8227	55	63	179	295	5	12	21	25
+G25001703001	1980		1		1	Massachusetts	25			Middlesex	17		15			3001											State: 25 County: 017 Tract: 3001	64	94	174	263	2	4	8	8
+G25001703011	1980		1		1	Massachusetts	25		2600	Middlesex	17		220			3011											State: 25 County: 017 Tract: 3011	250	358	535	683	17	31	28	35
+G25001703021	1980		1		1	Massachusetts	25		2600	Middlesex	17		190			3021											State: 25 County: 017 Tract: 3021	77	137	324	528	5	11	9	12
+G25001703022	1980		1		1	Massachusetts	25		2600	Middlesex	17		190			3022											State: 25 County: 017 Tract: 3022	76	41	60	16	7	0	0	0
+G25001703101	1980		1		1	Massachusetts	25		4560	Middlesex	17		130		2180	3101				7							State: 25 County: 017 Tract: 3101	42	36	48	223	13	14	23	20
+G25001703102	1980		1		1	Massachusetts	25		4560	Middlesex	17		130		2180	3102				7							State: 25 County: 017 Tract: 3102	130	184	402	624	35	42	33	6
+G25001703103	1980		1		1	Massachusetts	25		4560	Middlesex	17		130		2180	3103				7							State: 25 County: 017 Tract: 3103	108	248	346	722	9	18	51	13
+G25001703104	1980		1		1	Massachusetts	25		4560	Middlesex	17		130		2180	3104				7							State: 25 County: 017 Tract: 3104	75	119	157	310	31	76	60	16
+G25001703105	1980		1		1	Massachusetts	25		4560	Middlesex	17		130		2180	3105				7							State: 25 County: 017 Tract: 3105	84	104	151	375	23	0	24	0
+G25001703106	1980		1		1	Massachusetts	25		4560	Middlesex	17		130		2180	3106				7							State: 25 County: 017 Tract: 3106	141	314	589	1016	18	23	46	31
+G25001703107	1980		1		1	Massachusetts	25		4560	Middlesex	17		130		2180	3107				7							State: 25 County: 017 Tract: 3107	84	80	213	398	18	12	24	27
+G25001703108	1980		1		1	Massachusetts	25		4560	Middlesex	17		130		2180	3108				7							State: 25 County: 017 Tract: 3108	20	25	52	120	7	18	0	13
+G25001703109	1980		1		1	Massachusetts	25		4560	Middlesex	17		130		2180	3109				7							State: 25 County: 017 Tract: 3109	0	0	33	64	0	22	9	11
+G25001703110	1980		1		1	Massachusetts	25		4560	Middlesex	17		130		2180	3110				7							State: 25 County: 017 Tract: 3110	0	17	50	86	19	14	64	15
+G25001703111	1980		1		1	Massachusetts	25		4560	Middlesex	17		130		2180	3111				7							State: 25 County: 017 Tract: 3111	52	58	79	154	29	34	52	18
+G25001703112	1980		1		1	Massachusetts	25		4560	Middlesex	17		130		2180	3112				7							State: 25 County: 017 Tract: 3112	25	93	176	220	35	25	51	25
+G25001703113	1980		1		1	Massachusetts	25		4560	Middlesex	17		130		2180	3113				7							State: 25 County: 017 Tract: 3113	80	95	218	422	20	19	13	6
+G25001703114	1980		1		1	Massachusetts	25		4560	Middlesex	17		130		2180	3114				7							State: 25 County: 017 Tract: 3114	124	220	286	493	14	34	55	13
+G25001703115	1980		1		1	Massachusetts	25		4560	Middlesex	17		130		2180	3115				7							State: 25 County: 017 Tract: 3115	34	72	195	345	28	7	4	9
+G25001703116	1980		1		1	Massachusetts	25		4560	Middlesex	17		130		2180	3116				7							State: 25 County: 017 Tract: 3116	110	106	370	689	16	10	30	25
+G25001703117	1980		1		1	Massachusetts	25		4560	Middlesex	17		130		2180	3117				7							State: 25 County: 017 Tract: 3117	91	145	209	484	23	30	16	11
+G25001703118	1980		1		1	Massachusetts	25		4560	Middlesex	17		130		2180	3118				7							State: 25 County: 017 Tract: 3118	56	98	170	197	49	17	59	0
+G25001703119	1980		1		1	Massachusetts	25		4560	Middlesex	17		130		2180	3119				7							State: 25 County: 017 Tract: 3119	30	52	152	202	56	15	38	37
+G25001703120	1980		1		1	Massachusetts	25		4560	Middlesex	17		130		2180	3120				7							State: 25 County: 017 Tract: 3120	79	75	170	353	29	25	55	51
+G25001703121	1980		1		1	Massachusetts	25		4560	Middlesex	17		130		2180	3121				7							State: 25 County: 017 Tract: 3121	57	85	128	242	25	61	25	6
+G25001703122	1980		1		1	Massachusetts	25		4560	Middlesex	17		130		2180	3122				7							State: 25 County: 017 Tract: 3122	102	78	271	380	39	68	88	18
+G25001703123	1980		1		1	Massachusetts	25		4560	Middlesex	17		130		2180	3123				7							State: 25 County: 017 Tract: 3123	57	134	224	409	17	22	16	5
+G25001703124	1980		1		1	Massachusetts	25		4560	Middlesex	17		130		2180	3124				7							State: 25 County: 017 Tract: 3124	62	39	107	165	20	46	26	17
+G25001703125	1980		1		1	Massachusetts	25		4560	Middlesex	17		130		2180	3125				7							State: 25 County: 017 Tract: 3125	159	203	734	1072	23	0	13	33
+G25001703131	1980		1		1	Massachusetts	25		4560	Middlesex	17		225			3131				7							State: 25 County: 017 Tract: 3131	126	183	518	584	23	5	12	20
+G25001703141	1980		1		1	Massachusetts	25		4560	Middlesex	17		75			3141				7							State: 25 County: 017 Tract: 3141	259	217	803	1070	17	14	52	32
+G25001703142	1980		1		1	Massachusetts	25		4560	Middlesex	17		75			3142				7							State: 25 County: 017 Tract: 3142	68	127	406	585	6	6	18	36
+G25001703143	1980		1		1	Massachusetts	25		4560	Middlesex	17		75			3143				7							State: 25 County: 017 Tract: 3143	205	356	563	783	12	6	28	53
+G25001703151	1980		1		1	Massachusetts	25		4560	Middlesex	17		215			3151				7							State: 25 County: 017 Tract: 3151	90	93	398	383	12	6	26	6
+G25001703152	1980		1		1	Massachusetts	25		4560	Middlesex	17		215			3152				7							State: 25 County: 017 Tract: 3152	190	186	479	541	0	10	22	4
+G25001703153	1980		1		1	Massachusetts	25		4560	Middlesex	17		215			3153				7							State: 25 County: 017 Tract: 3153	0	0	0	0	0	0	0	0
+G25001703154	1980		1		1	Massachusetts	25		4560	Middlesex	17		215			3154				7							State: 25 County: 017 Tract: 3154	183	128	589	446	13	6	36	8
+G25001703155	1980		1		1	Massachusetts	25		4560	Middlesex	17		215			3155				7							State: 25 County: 017 Tract: 3155	282	249	705	683	31	27	23	14
+G25001703161	1980		1		1	Massachusetts	25		4560	Middlesex	17		40		9999	3161				7							State: 25 County: 017 Tract: 3161	373	276	1211	805	49	0	31	18
+G25001703162	1980		1		1	Massachusetts	25		4560	Middlesex	17		40			3162				7							State: 25 County: 017 Tract: 3162	282	232	735	556	20	11	55	46
+G25001703163	1980		1		1	Massachusetts	25		4560	Middlesex	17		40		9999	3163				7							State: 25 County: 017 Tract: 3163	113	297	406	683	22	13	39	12
+G25001703164	1980		1		1	Massachusetts	25		4560	Middlesex	17		40		9999	3164				7							State: 25 County: 017 Tract: 3164	151	188	502	406	0	5	7	6
+G25001703165	1980		1		1	Massachusetts	25		4560	Middlesex	17		40		9999	3165				7							State: 25 County: 017 Tract: 3165	104	178	521	653	37	6	37	0
+G25001703171	1980		1		1	Massachusetts	25		4560	Middlesex	17		65		690	3171				7							State: 25 County: 017 Tract: 3171	331	389	1418	1395	16	16	48	33
+G25001703172	1980		1		1	Massachusetts	25		4560	Middlesex	17		65		690	3172				7							State: 25 County: 017 Tract: 3172	311	233	1284	1063	7	0	21	33
+G25001703173	1980		1		1	Massachusetts	25		4560	Middlesex	17		65		690	3173				7							State: 25 County: 017 Tract: 3173	113	132	525	643	0	12	26	45
+G25001703181	1980		1		1	Massachusetts	25		4560	Middlesex	17		250			3181				7							State: 25 County: 017 Tract: 3181	121	173	534	411	4	0	33	0
+G25001703182	1980		1		1	Massachusetts	25		4560	Middlesex	17		250			3182				7							State: 25 County: 017 Tract: 3182	48	68	279	303	0	15	11	0
+G25001703183	1980		1		1	Massachusetts	25		4560	Middlesex	17		250			3183				7							State: 25 County: 017 Tract: 3183	156	124	475	329	0	14	0	7
+G25001703184	1980		1		1	Massachusetts	25		4560	Middlesex	17		250			3184				7							State: 25 County: 017 Tract: 3184	52	61	174	111	0	13	8	0
+G25001703201	1980		1		1	Massachusetts	25			Middlesex	17		105			3201											State: 25 County: 017 Tract: 3201	268	226	549	811	15	0	17	6
+G25001703211	1980		1		1	Massachusetts	25			Middlesex	17		140		2305	3211											State: 25 County: 017 Tract: 3211	80	93	263	396	6	7	21	13
+G25001703212	1980		1		1	Massachusetts	25			Middlesex	17		140		2305	3212											State: 25 County: 017 Tract: 3212	98	185	446	738	21	27	15	27
+G25001703213	1980		1		1	Massachusetts	25			Middlesex	17		140		2305	3213											State: 25 County: 017 Tract: 3213	107	198	408	713	35	29	11	24
+G25001703214	1980		1		1	Massachusetts	25			Middlesex	17		140		2305	3214											State: 25 County: 017 Tract: 3214	64	44	244	212	7	0	7	0
+G25001703215	1980		1		1	Massachusetts	25			Middlesex	17		140		2305	3215											State: 25 County: 017 Tract: 3215	78	160	475	668	13	34	38	14
+G25001703216	1980		1		1	Massachusetts	25			Middlesex	17		140		2305	3216											State: 25 County: 017 Tract: 3216	142	200	661	702	18	27	10	13
+G25001703221	1980		1		1	Massachusetts	25			Middlesex	17		110			3221											State: 25 County: 017 Tract: 3221	109	124	369	323	6	0	11	0
+G25001703222	1980		1		1	Massachusetts	25			Middlesex	17		110			3222											State: 25 County: 017 Tract: 3222	50	78	232	271	5	18	6	0
+G25001703223	1980		1		1	Massachusetts	25			Middlesex	17		110		1900	3223											State: 25 County: 017 Tract: 3223	121	160	435	740	0	25	21	0
+G25001703224	1980		1		1	Massachusetts	25			Middlesex	17		110			3224											State: 25 County: 017 Tract: 3224	0	0	0	0	0	0	0	0
+G25001703231	1980		1		1	Massachusetts	25			Middlesex	17		205			3231											State: 25 County: 017 Tract: 3231	120	133	560	524	0	5	4	7
+G25001703241	1980		1		1	Massachusetts	25			Middlesex	17		125			3241											State: 25 County: 017 Tract: 3241	177	214	588	810	13	0	12	0
+G25001703251	1980		1		1	Massachusetts	25			Middlesex	17		25			3251											State: 25 County: 017 Tract: 3251	105	293	490	844	22	31	45	29
+G25001703261	1980		1		1	Massachusetts	25			Middlesex	17		95			3261											State: 25 County: 017 Tract: 3261	144	175	527	656	18	6	28	11
+G25001703271	1980		1		1	Massachusetts	25			Middlesex	17		175			3271											State: 25 County: 017 Tract: 3271	267	320	683	758	13	21	24	21
+G25001703281	1980		1		1	Massachusetts	25			Middlesex	17		80			3281											State: 25 County: 017 Tract: 3281	42	41	171	159	7	3	1	6
+G25001703301	1980		1		1	Massachusetts	25		1120	Middlesex	17		170			3301				7							State: 25 County: 017 Tract: 3301	186	176	608	591	11	6	9	12
+G25001703302	1980		1		1	Massachusetts	25		1120	Middlesex	17		170			3302				7							State: 25 County: 017 Tract: 3302	106	130	435	635	11	14	9	0
+G2500170331101	1980		1		1	Massachusetts	25		1120	Middlesex	17		260		4950	331101				7							State: 25 County: 017 Tract: 3311.01	58	71	220	232	0	0	7	9
+G2500170331102	1980		1		1	Massachusetts	25		1120	Middlesex	17		260		4950	331102				7							State: 25 County: 017 Tract: 3311.02	116	153	618	649	11	6	39	17
+G25001703312	1980		1		1	Massachusetts	25		1120	Middlesex	17		260		4950	3312				7							State: 25 County: 017 Tract: 3312	176	170	374	393	7	3	30	6
+G25001703313	1980		1		1	Massachusetts	25		1120	Middlesex	17		260		4950	3313				7							State: 25 County: 017 Tract: 3313	102	116	376	473	5	24	11	0
+G25001703321	1980		1		1	Massachusetts	25		1120	Middlesex	17		50		590	3321				7							State: 25 County: 017 Tract: 3321	181	206	886	624	6	6	12	6
+G25001703322	1980		1		1	Massachusetts	25		1120	Middlesex	17		50		590	3322				7							State: 25 County: 017 Tract: 3322	132	142	393	498	5	8	12	7
+G25001703323	1980		1		1	Massachusetts	25		1120	Middlesex	17		50		590	3323				7							State: 25 County: 017 Tract: 3323	165	181	746	731	6	7	18	43
+G25001703324	1980		1		1	Massachusetts	25		1120	Middlesex	17		50		590	3324				7							State: 25 County: 017 Tract: 3324	36	88	342	305	6	0	0	0
+G25001703331	1980		1		1	Massachusetts	25		1120	Middlesex	17		270		5010	3331				7							State: 25 County: 017 Tract: 3331	101	103	592	814	0	7	31	9
+G25001703332	1980		1		1	Massachusetts	25		1120	Middlesex	17		270		5010	3332				7							State: 25 County: 017 Tract: 3332	102	124	392	648	5	0	26	18
+G25001703333	1980		1		1	Massachusetts	25		1120	Middlesex	17		270		5010	3333				7							State: 25 County: 017 Tract: 3333	79	146	201	578	14	17	27	12
+G25001703334	1980		1		1	Massachusetts	25		1120	Middlesex	17		270		5010	3334				7							State: 25 County: 017 Tract: 3334	96	151	458	810	10	14	28	7
+G25001703335	1980		1		1	Massachusetts	25		1120	Middlesex	17		270		5010	3335				7							State: 25 County: 017 Tract: 3335	116	237	632	993	11	16	49	23
+G25001703336	1980		1		1	Massachusetts	25		1120	Middlesex	17		270		5010	3336				7							State: 25 County: 017 Tract: 3336	97	150	386	660	10	28	36	7
+G25001703341	1980		1		1	Massachusetts	25		1120	Middlesex	17		180		3490	3341				7							State: 25 County: 017 Tract: 3341	129	114	525	714	6	3	24	0
+G25001703342	1980		1		1	Massachusetts	25		1120	Middlesex	17		180		3490	3342				7							State: 25 County: 017 Tract: 3342	117	158	311	533	0	0	12	13
+G25001703343	1980		1		1	Massachusetts	25		1120	Middlesex	17		180		3490	3343				7							State: 25 County: 017 Tract: 3343	104	165	629	813	6	0	11	0
+G25001703344	1980		1		1	Massachusetts	25		1120	Middlesex	17		180		3490	3344				7							State: 25 County: 017 Tract: 3344	99	200	485	771	6	10	18	31
+G25001703351	1980		1		1	Massachusetts	25		1120	Middlesex	17		230		4410	3351				7							State: 25 County: 017 Tract: 3351	94	173	461	916	6	24	23	13
+G25001703352	1980		1		1	Massachusetts	25		1120	Middlesex	17		230		4410	3352				7							State: 25 County: 017 Tract: 3352	145	111	475	879	23	7	16	17
+G25001703353	1980		1		1	Massachusetts	25		1120	Middlesex	17		230		4410	3353				7							State: 25 County: 017 Tract: 3353	101	174	591	1046	22	18	17	16
+G25001703354	1980		1		1	Massachusetts	25		1120	Middlesex	17		230		4410	3354				7							State: 25 County: 017 Tract: 3354	70	132	397	683	6	0	7	6
+G25001703361	1980		1		1	Massachusetts	25		1120	Middlesex	17		155		2430	3361				7							State: 25 County: 017 Tract: 3361	142	195	432	788	12	15	12	10
+G25001703362	1980		1		1	Massachusetts	25			Middlesex	17					3362				7							State: 25 County: 017 Tract: 3362	230	221	597	990	12	0	11	4
+G25001703363	1980		1		1	Massachusetts	25		1120	Middlesex	17		155		2430	3363				7							State: 25 County: 017 Tract: 3363	155	183	653	941	0	5	26	45
+G25001703364	1980		1		1	Massachusetts	25		1120	Middlesex	17		155		2430	3364				7							State: 25 County: 017 Tract: 3364	114	289	576	1219	25	18	30	29
+G25001703371	1980		1		1	Massachusetts	25		1120	Middlesex	17		200		4130	3371				7							State: 25 County: 017 Tract: 3371	181	181	612	963	6	5	36	30
+G25001703372	1980		1		1	Massachusetts	25		1120	Middlesex	17		200		4130	3372				7							State: 25 County: 017 Tract: 3372	111	153	547	1259	6	9	20	26
+G25001703373	1980		1		1	Massachusetts	25		1120	Middlesex	17		200		4130	3373				7							State: 25 County: 017 Tract: 3373	115	217	404	657	0	12	11	24
+G25001703381	1980		1		1	Massachusetts	25		1120	Middlesex	17		265		4980	3381				7							State: 25 County: 017 Tract: 3381	58	100	269	413	0	0	6	9
+G25001703382	1980		1		1	Massachusetts	25		1120	Middlesex	17		265		4980	3382				7							State: 25 County: 017 Tract: 3382	90	94	225	402	11	11	7	0
+G25001703383	1980		1		1	Massachusetts	25		1120	Middlesex	17		265		4980	3383				7							State: 25 County: 017 Tract: 3383	58	80	266	426	0	0	0	0
+G25001703384	1980		1		1	Massachusetts	25		1120	Middlesex	17		265		4980	3384				7							State: 25 County: 017 Tract: 3384	103	109	521	638	7	0	14	5
+G25001703385	1980		1		1	Massachusetts	25		1120	Middlesex	17		265		4980	3385				7							State: 25 County: 017 Tract: 3385	126	121	403	757	0	6	29	0
+G25001703391	1980		1		1	Massachusetts	25		1120	Middlesex	17		150		2400	3391				7							State: 25 County: 017 Tract: 3391	118	63	362	892	14	0	15	26
+G25001703392	1980		1		1	Massachusetts	25		1120	Middlesex	17		150		2400	3392				7							State: 25 County: 017 Tract: 3392	79	130	528	1021	22	13	6	22
+G25001703393	1980		1		1	Massachusetts	25		1120	Middlesex	17		150		2400	3393				7							State: 25 County: 017 Tract: 3393	63	49	225	385	9	8	5	13
+G25001703394	1980		1		1	Massachusetts	25		1120	Middlesex	17		150		2400	3394				7							State: 25 County: 017 Tract: 3394	53	130	210	539	10	22	17	9
+G25001703395	1980		1		1	Massachusetts	25		1120	Middlesex	17		150		2400	3395				7							State: 25 County: 017 Tract: 3395	73	91	344	606	8	13	18	23
+G25001703396	1980		1		1	Massachusetts	25		1120	Middlesex	17		150		2400	3396				7							State: 25 County: 017 Tract: 3396	99	131	382	804	22	16	30	22
+G25001703397	1980		1		1	Massachusetts	25		1120	Middlesex	17		150		2400	3397				7							State: 25 County: 017 Tract: 3397	36	123	313	663	29	12	17	35
+G25001703398	1980		1		1	Massachusetts	25		1120	Middlesex	17		150		2400	3398				7							State: 25 County: 017 Tract: 3398	109	154	421	972	20	29	69	55
+G25001703399	1980		1		1	Massachusetts	25		1120	Middlesex	17		150		2400	3399				7							State: 25 County: 017 Tract: 3399	89	125	429	830	24	28	27	38
+G25001703400	1980		1		1	Massachusetts	25		1120	Middlesex	17		150		2400	3400				7							State: 25 County: 017 Tract: 3400	54	51	163	355	5	4	41	5
+G25001703401	1980		1		1	Massachusetts	25		1120	Middlesex	17		150		2400	3401				7							State: 25 County: 017 Tract: 3401	161	154	532	951	0	29	38	38
+G25001703411	1980		1		1	Massachusetts	25		1120	Middlesex	17		135		2230	3411				7							State: 25 County: 017 Tract: 3411	105	137	426	1092	15	21	59	12
+G25001703412	1980		1		1	Massachusetts	25		1120	Middlesex	17		135		2230	3412				7							State: 25 County: 017 Tract: 3412	105	197	312	928	5	23	41	37
+G25001703413	1980		1		1	Massachusetts	25		1120	Middlesex	17		135		2230	3413				7							State: 25 County: 017 Tract: 3413	38	70	125	422	8	13	28	26
+G25001703414	1980		1		1	Massachusetts	25		1120	Middlesex	17		135		2230	3414				7							State: 25 County: 017 Tract: 3414	99	199	322	814	17	37	46	15
+G25001703415	1980		1		1	Massachusetts	25		1120	Middlesex	17		135		2230	3415				7							State: 25 County: 017 Tract: 3415	164	63	269	492	17	24	76	18
+G25001703416	1980		1		1	Massachusetts	25		1120	Middlesex	17		135		2230	3416				7							State: 25 County: 017 Tract: 3416	101	151	492	837	23	12	55	12
+G25001703417	1980		1		1	Massachusetts	25		1120	Middlesex	17		135		2230	3417				7							State: 25 County: 017 Tract: 3417	143	165	432	696	11	12	23	26
+G25001703418	1980		1		1	Massachusetts	25		1120	Middlesex	17		135		2230	3418				7							State: 25 County: 017 Tract: 3418	117	109	394	884	43	72	113	14
+G25001703419	1980		1		1	Massachusetts	25		1120	Middlesex	17		135		2230	3419				7							State: 25 County: 017 Tract: 3419	97	102	447	1140	14	23	50	26
+G25001703421	1980		1		1	Massachusetts	25		1120	Middlesex	17		85		1200	3421				7							State: 25 County: 017 Tract: 3421	126	209	535	1081	50	48	113	52
+G25001703422	1980		1		1	Massachusetts	25		1120	Middlesex	17		85		1200	3422				7							State: 25 County: 017 Tract: 3422	169	217	492	1131	13	8	80	27
+G25001703423	1980		1		1	Massachusetts	25		1120	Middlesex	17		85		1200	3423				7							State: 25 County: 017 Tract: 3423	33	166	403	905	7	24	66	34
+G25001703424	1980		1		1	Massachusetts	25		1120	Middlesex	17		85		1200	3424				7							State: 25 County: 017 Tract: 3424	79	58	251	572	27	45	22	22
+G25001703425	1980		1		1	Massachusetts	25		1120	Middlesex	17		85		1200	3425				7							State: 25 County: 017 Tract: 3425	97	98	348	880	31	16	69	26
+G25001703426	1980		1		1	Massachusetts	25		1120	Middlesex	17		85		1200	3426				7							State: 25 County: 017 Tract: 3426	64	122	195	557	0	17	47	41
+G25001703427	1980		1		1	Massachusetts	25		1120	Middlesex	17		85		1200	3427				7							State: 25 County: 017 Tract: 3427	17	19	91	116	14	32	15	0
+G25001703501	1980		1		1	Massachusetts	25		1120	Middlesex	17		195		3920	3501				7							State: 25 County: 017 Tract: 3501	182	153	488	1102	71	103	81	39
+G25001703502	1980		1		1	Massachusetts	25		1120	Middlesex	17		195		3920	3502				7							State: 25 County: 017 Tract: 3502	121	215	450	739	13	37	53	39
+G25001703503	1980		1		1	Massachusetts	25		1120	Middlesex	17		195		3920	3503				7							State: 25 County: 017 Tract: 3503	56	55	135	306	5	13	53	33
+G25001703504	1980		1		1	Massachusetts	25		1120	Middlesex	17		195		3920	3504				7							State: 25 County: 017 Tract: 3504	82	139	359	790	9	18	42	32
+G25001703505	1980		1		1	Massachusetts	25		1120	Middlesex	17		195		3920	3505				7							State: 25 County: 017 Tract: 3505	25	8	93	195	13	6	23	7
+G25001703506	1980		1		1	Massachusetts	25		1120	Middlesex	17		195		3920	3506				7							State: 25 County: 017 Tract: 3506	36	62	174	453	0	12	0	14
+G25001703507	1980		1		1	Massachusetts	25		1120	Middlesex	17		195		3920	3507				7							State: 25 County: 017 Tract: 3507	72	153	377	947	16	26	37	31
+G25001703508	1980		1		1	Massachusetts	25		1120	Middlesex	17		195		3920	3508				7							State: 25 County: 017 Tract: 3508	48	37	129	242	0	0	18	19
+G25001703509	1980		1		1	Massachusetts	25		1120	Middlesex	17		195		3920	3509				7							State: 25 County: 017 Tract: 3509	47	56	177	410	5	12	7	21
+G25001703510	1980		1		1	Massachusetts	25		1120	Middlesex	17		195		3920	3510				7							State: 25 County: 017 Tract: 3510	83	128	394	852	26	39	74	49
+G25001703511	1980		1		1	Massachusetts	25		1120	Middlesex	17		195		3920	3511				7							State: 25 County: 017 Tract: 3511	94	144	346	665	18	17	29	52
+G25001703512	1980		1		1	Massachusetts	25		1120	Middlesex	17		195		3920	3512				7							State: 25 County: 017 Tract: 3512	143	179	419	1015	18	39	59	52
+G25001703513	1980		1		1	Massachusetts	25		1120	Middlesex	17		195		3920	3513				7							State: 25 County: 017 Tract: 3513	36	100	182	477	6	15	28	11
+G25001703514	1980		1		1	Massachusetts	25		1120	Middlesex	17		195		3920	3514				7							State: 25 County: 017 Tract: 3514	137	99	479	749	18	67	138	25
+G25001703515	1980		1		1	Massachusetts	25		1120	Middlesex	17		195		3920	3515				7							State: 25 County: 017 Tract: 3515	25	81	105	206	6	16	19	0
+G25001703521	1980		1		1	Massachusetts	25		1120	Middlesex	17		55		610	3521				7							State: 25 County: 017 Tract: 3521	21	37	73	240	15	16	22	11
+G25001703522	1980		1		1	Massachusetts	25		1120	Middlesex	17		55		610	3522				7							State: 25 County: 017 Tract: 3522	8	0	90	174	12	4	16	30
+G25001703523	1980		1		1	Massachusetts	25		1120	Middlesex	17		55		610	3523				7							State: 25 County: 017 Tract: 3523	38	63	132	227	0	0	19	8
+G25001703524	1980		1		1	Massachusetts	25		1120	Middlesex	17		55		610	3524				7							State: 25 County: 017 Tract: 3524	31	98	62	125	66	41	69	44
+G25001703525	1980		1		1	Massachusetts	25		1120	Middlesex	17		55		610	3525				7							State: 25 County: 017 Tract: 3525	67	51	159	248	17	8	22	10
+G25001703526	1980		1		1	Massachusetts	25		1120	Middlesex	17		55		610	3526				7							State: 25 County: 017 Tract: 3526	73	94	148	266	13	10	37	20
+G25001703527	1980		1		1	Massachusetts	25		1120	Middlesex	17		55		610	3527				7							State: 25 County: 017 Tract: 3527	61	49	153	137	29	21	57	23
+G25001703528	1980		1		1	Massachusetts	25		1120	Middlesex	17		55		610	3528				7							State: 25 County: 017 Tract: 3528	75	67	146	311	32	0	18	19
+G25001703529	1980		1		1	Massachusetts	25		1120	Middlesex	17		55		610	3529				7							State: 25 County: 017 Tract: 3529	26	63	93	329	9	0	7	10
+G25001703530	1980		1		1	Massachusetts	25		1120	Middlesex	17		55		610	3530				7							State: 25 County: 017 Tract: 3530	4	35	81	287	3	12	21	23
+G25001703531	1980		1		1	Massachusetts	25		1120	Middlesex	17		55		610	3531				7							State: 25 County: 017 Tract: 3531	28	133	79	364	36	48	21	59
+G25001703532	1980		1		1	Massachusetts	25		1120	Middlesex	17		55		610	3532				7							State: 25 County: 017 Tract: 3532	18	58	82	247	11	5	41	39
+G25001703533	1980		1		1	Massachusetts	25		1120	Middlesex	17		55		610	3533				7							State: 25 County: 017 Tract: 3533	14	41	263	362	25	23	13	7
+G25001703534	1980		1		1	Massachusetts	25		1120	Middlesex	17		55		610	3534				7							State: 25 County: 017 Tract: 3534	5	34	224	195	12	0	24	15
+G25001703535	1980		1		1	Massachusetts	25		1120	Middlesex	17		55		610	3535				7							State: 25 County: 017 Tract: 3535	54	25	135	186	5	0	19	12
+G25001703536	1980		1		1	Massachusetts	25		1120	Middlesex	17		55		610	3536				7							State: 25 County: 017 Tract: 3536	38	48	185	335	4	4	7	10
+G25001703537	1980		1		1	Massachusetts	25		1120	Middlesex	17		55		610	3537				7							State: 25 County: 017 Tract: 3537	6	64	53	301	0	6	13	13
+G25001703538	1980		1		1	Massachusetts	25		1120	Middlesex	17		55		610	3538				7							State: 25 County: 017 Tract: 3538	20	47	81	414	0	0	0	19
+G25001703539	1980		1		1	Massachusetts	25		1120	Middlesex	17		55		610	3539				7							State: 25 County: 017 Tract: 3539	39	76	52	240	6	18	13	42
+G25001703540	1980		1		1	Massachusetts	25		1120	Middlesex	17		55		610	3540				7							State: 25 County: 017 Tract: 3540	14	70	132	339	0	0	0	12
+G25001703541	1980		1		1	Massachusetts	25		1120	Middlesex	17		55		610	3541				7							State: 25 County: 017 Tract: 3541	27	57	75	302	0	0	5	6
+G25001703542	1980		1		1	Massachusetts	25		1120	Middlesex	17		55		610	3542				7							State: 25 County: 017 Tract: 3542	48	50	230	475	0	5	6	0
+G25001703543	1980		1		1	Massachusetts	25		1120	Middlesex	17		55		610	3543				7							State: 25 County: 017 Tract: 3543	46	74	199	454	26	4	30	26
+G25001703544	1980		1		1	Massachusetts	25		1120	Middlesex	17		55		610	3544				7							State: 25 County: 017 Tract: 3544	37	40	63	280	12	6	0	7
+G25001703545	1980		1		1	Massachusetts	25		1120	Middlesex	17		55		610	3545				7							State: 25 County: 017 Tract: 3545	14	66	158	198	0	9	0	28
+G25001703546	1980		1		1	Massachusetts	25		1120	Middlesex	17		55		610	3546				7							State: 25 County: 017 Tract: 3546	77	69	246	522	17	15	26	21
+G25001703547	1980		1		1	Massachusetts	25		1120	Middlesex	17		55		610	3547				7							State: 25 County: 017 Tract: 3547	34	7	134	243	0	8	5	13
+G25001703548	1980		1		1	Massachusetts	25		1120	Middlesex	17		55		610	3548				7							State: 25 County: 017 Tract: 3548	35	47	53	266	0	9	0	9
+G25001703549	1980		1		1	Massachusetts	25		1120	Middlesex	17		55		610	3549				7							State: 25 County: 017 Tract: 3549	101	217	296	422	47	82	66	54
+G25001703550	1980		1		1	Massachusetts	25		1120	Middlesex	17		55		610	3550				7							State: 25 County: 017 Tract: 3550	35	41	141	346	22	0	5	6
+G25001703561	1980		1		1	Massachusetts	25		1120	Middlesex	17		10		130	3561				7							State: 25 County: 017 Tract: 3561	68	60	239	576	7	26	7	16
+G25001703562	1980		1		1	Massachusetts	25		1120	Middlesex	17		10		130	3562				7							State: 25 County: 017 Tract: 3562	86	115	244	962	16	0	25	23
+G25001703563	1980		1		1	Massachusetts	25		1120	Middlesex	17		10		130	3563				7							State: 25 County: 017 Tract: 3563	77	113	367	865	13	27	69	20
+G25001703564	1980		1		1	Massachusetts	25		1120	Middlesex	17		10		130	3564				7							State: 25 County: 017 Tract: 3564	165	191	661	1202	19	0	13	26
+G25001703565	1980		1		1	Massachusetts	25		1120	Middlesex	17		10		130	3565				7							State: 25 County: 017 Tract: 3565	138	165	543	1075	26	0	24	8
+G25001703566	1980		1		1	Massachusetts	25		1120	Middlesex	17		10		130	3566				7							State: 25 County: 017 Tract: 3566	106	216	557	1324	0	22	20	22
+G25001703567	1980		1		1	Massachusetts	25		1120	Middlesex	17		10		130	3567				7							State: 25 County: 017 Tract: 3567	96	148	504	1137	0	3	18	25
+G25001703571	1980		1		1	Massachusetts	25		1120	Middlesex	17		35		350	3571				7							State: 25 County: 017 Tract: 3571	92	59	325	741	0	0	9	12
+G25001703572	1980		1		1	Massachusetts	25		1120	Middlesex	17		35		350	3572				7							State: 25 County: 017 Tract: 3572	64	63	338	404	0	0	8	26
+G25001703573	1980		1		1	Massachusetts	25		1120	Middlesex	17		35		350	3573				7							State: 25 County: 017 Tract: 3573	19	56	191	515	6	7	13	20
+G25001703574	1980		1		1	Massachusetts	25		1120	Middlesex	17		35		350	3574				7							State: 25 County: 017 Tract: 3574	24	74	207	341	0	0	6	0
+G25001703575	1980		1		1	Massachusetts	25		1120	Middlesex	17		35		350	3575				7							State: 25 County: 017 Tract: 3575	34	63	110	331	0	0	7	6
+G25001703576	1980		1		1	Massachusetts	25		1120	Middlesex	17		35		350	3576				7							State: 25 County: 017 Tract: 3576	52	88	174	376	5	0	7	0
+G25001703577	1980		1		1	Massachusetts	25		1120	Middlesex	17		35		350	3577				7							State: 25 County: 017 Tract: 3577	37	75	210	521	0	0	13	5
+G25001703578	1980		1		1	Massachusetts	25		1120	Middlesex	17		35		350	3578				7							State: 25 County: 017 Tract: 3578	45	65	358	646	0	6	12	5
+G25001703581	1980		1		1	Massachusetts	25		1120	Middlesex	17		115		2120	3581				7							State: 25 County: 017 Tract: 3581	148	124	449	768	0	8	13	0
+G25001703582	1980		1		1	Massachusetts	25		1120	Middlesex	17		115		2120	3582				7							State: 25 County: 017 Tract: 3582	0	0	0	0	0	0	0	0
+G25001703583	1980		1		1	Massachusetts	25		1120	Middlesex	17		115		2120	3583				7							State: 25 County: 017 Tract: 3583	68	65	324	537	0	0	10	11
+G25001703584	1980		1		1	Massachusetts	25		1120	Middlesex	17		115		2120	3584				7							State: 25 County: 017 Tract: 3584	66	96	456	665	8	0	0	12
+G25001703585	1980		1		1	Massachusetts	25		1120	Middlesex	17		115		2120	3585				7							State: 25 County: 017 Tract: 3585	51	75	437	639	17	0	0	10
+G25001703586	1980		1		1	Massachusetts	25		1120	Middlesex	17		115		2120	3586				7							State: 25 County: 017 Tract: 3586	134	124	553	743	0	0	7	25
+G25001703587	1980		1		1	Massachusetts	25		1120	Middlesex	17		115		2120	3587				7							State: 25 County: 017 Tract: 3587	57	94	606	677	6	0	24	6
+G25001703591	1980		1		1	Massachusetts	25		1120	Middlesex	17		30			3591				7							State: 25 County: 017 Tract: 3591	74	95	535	570	0	22	21	8
+G25001703592	1980		1		1	Massachusetts	25		1120	Middlesex	17		30			3592				7							State: 25 County: 017 Tract: 3592	0	4	0	4	0	0	0	0
+G25001703593	1980		1		1	Massachusetts	25		1120	Middlesex	17		30			3593				7							State: 25 County: 017 Tract: 3593	151	228	679	689	7	15	20	7
+G25001703601	1980		1		1	Massachusetts	25		1120	Middlesex	17		120			3601				7							State: 25 County: 017 Tract: 3601	113	108	264	114	11	16	0	6
+G25001703602	1980		1		1	Massachusetts	25		1120	Middlesex	17		120			3602				7							State: 25 County: 017 Tract: 3602	82	88	390	689	0	15	10	12
+G25001703611	1980		1		1	Massachusetts	25		1120	Middlesex	17		70			3611				7							State: 25 County: 017 Tract: 3611	107	105	480	710	0	5	44	17
+G25001703612	1980		1		1	Massachusetts	25		1120	Middlesex	17		70			3612				7							State: 25 County: 017 Tract: 3612	148	108	449	465	0	11	5	0
+G25001703613	1980		1		1	Massachusetts	25		1120	Middlesex	17		70		9999	3613				7							State: 25 County: 017 Tract: 3613	82	151	521	663	0	0	14	11
+G25001703621	1980		1		1	Massachusetts	25		1120	Middlesex	17		60			3621				7							State: 25 County: 017 Tract: 3621	58	84	377	367	0	0	5	10
+G2500170363101	1980		1		1	Massachusetts	25		1120	Middlesex	17		5			363101				7							State: 25 County: 017 Tract: 3631.01	200	191	889	694	7	0	32	26
+G2500170363102	1980		1		1	Massachusetts	25		1120	Middlesex	17		5			363102				7							State: 25 County: 017 Tract: 3631.02	46	123	238	349	0	6	13	8
+G2500170363201	1980		1		1	Massachusetts	25		1120	Middlesex	17		5			363201				7							State: 25 County: 017 Tract: 3632.01	56	101	319	212	0	8	9	11
+G2500170363202	1980		1		1	Massachusetts	25		1120	Middlesex	17		5			363202				7							State: 25 County: 017 Tract: 3632.02	64	133	319	341	13	5	6	0
+G25001703641	1980		1		1	Massachusetts	25			Middlesex	17		145		2370	3641											State: 25 County: 017 Tract: 3641	233	224	691	1281	41	25	55	24
+G25001703651	1980		1		1	Massachusetts	25		1120	Middlesex	17		210			3651				7							State: 25 County: 017 Tract: 3651	226	83	643	476	0	0	20	0
+G2500170365201	1980		1		1	Massachusetts	25		1120	Middlesex	17		210			365201				7							State: 25 County: 017 Tract: 3652.01	78	128	570	554	0	0	23	6
+G2500170365202	1980		1		1	Massachusetts	25		1120	Middlesex	17		210			365202				7							State: 25 County: 017 Tract: 3652.02	81	56	410	303	0	9	3	0
+G25001703661	1980		1		1	Massachusetts	25		1120	Middlesex	17		245			3661				7							State: 25 County: 017 Tract: 3661	97	104	401	600	5	0	7	15
+G25001703662	1980		1		1	Massachusetts	25		1120	Middlesex	17		245			3662				7							State: 25 County: 017 Tract: 3662	184	186	804	931	7	0	31	12
+G25001703671	1980		1		1	Massachusetts	25		1120	Middlesex	17		255			3671				7							State: 25 County: 017 Tract: 3671	101	98	306	515	0	0	6	0
+G25001703672	1980		1		1	Massachusetts	25		1120	Middlesex	17		255			3672				7							State: 25 County: 017 Tract: 3672	69	132	737	798	7	0	9	24
+G25001703681	1980		1		1	Massachusetts	25		1120	Middlesex	17		235		4440	3681				7							State: 25 County: 017 Tract: 3681	232	262	704	1144	0	17	19	6
+G25001703682	1980		1		1	Massachusetts	25		1120	Middlesex	17		235		4440	3682				7							State: 25 County: 017 Tract: 3682	139	97	318	559	25	11	29	0
+G25001703683	1980		1		1	Massachusetts	25		1120	Middlesex	17		235		4440	3683				7							State: 25 County: 017 Tract: 3683	18	116	260	591	19	15	0	20
+G25001703684	1980		1		1	Massachusetts	25		1120	Middlesex	17		235		4440	3684				7							State: 25 County: 017 Tract: 3684	97	153	321	777	8	30	6	46
+G25001703685	1980		1		1	Massachusetts	25		1120	Middlesex	17		235		4440	3685				7							State: 25 County: 017 Tract: 3685	17	76	101	309	0	0	23	0
+G25001703686	1980		1		1	Massachusetts	25		1120	Middlesex	17		235		4440	3686				7							State: 25 County: 017 Tract: 3686	115	109	329	692	14	28	28	21
+G25001703687	1980		1		1	Massachusetts	25		1120	Middlesex	17		235		4440	3687				7							State: 25 County: 017 Tract: 3687	60	112	160	244	0	6	11	6
+G25001703688	1980		1		1	Massachusetts	25		1120	Middlesex	17		235		4440	3688				7							State: 25 County: 017 Tract: 3688	75	68	278	608	30	45	40	6
+G25001703689	1980		1		1	Massachusetts	25		1120	Middlesex	17		235		4440	3689				7							State: 25 County: 017 Tract: 3689	60	116	371	1098	15	27	72	5
+G25001703690	1980		1		1	Massachusetts	25		1120	Middlesex	17		235		4440	3690				7							State: 25 County: 017 Tract: 3690	6	6	39	82	0	0	0	0
+G25001703691	1980		1		1	Massachusetts	25		1120	Middlesex	17		235		4440	3691				7							State: 25 County: 017 Tract: 3691	131	99	392	818	0	9	5	37
+G25001703701	1980		1		1	Massachusetts	25		1120	Middlesex	17		240		4530	3701				7							State: 25 County: 017 Tract: 3701	176	323	820	1944	36	37	59	70
+G25001703702	1980		1		1	Massachusetts	25		1120	Middlesex	17		240		4530	3702				7							State: 25 County: 017 Tract: 3702	129	173	551	1423	7	7	26	15
+G25001703703	1980		1		1	Massachusetts	25		1120	Middlesex	17		240		4530	3703				7							State: 25 County: 017 Tract: 3703	48	100	339	827	17	13	36	29
+G25001703704	1980		1		1	Massachusetts	25		1120	Middlesex	17		240		4530	3704				7							State: 25 County: 017 Tract: 3704	119	127	225	812	0	7	15	14
+G25001703731	1980		1		1	Massachusetts	25		1120	Middlesex	17		165		2830	3731				7							State: 25 County: 017 Tract: 3731	71	162	252	592	16	0	14	26
+G25001703732	1980		1		1	Massachusetts	25		1120	Middlesex	17		165		2830	3732				7							State: 25 County: 017 Tract: 3732	60	109	307	696	6	0	15	6
+G25001703733	1980		1		1	Massachusetts	25		1120	Middlesex	17		165		2830	3733				7							State: 25 County: 017 Tract: 3733	92	30	179	441	5	0	17	11
+G25001703734	1980		1		1	Massachusetts	25		1120	Middlesex	17		165		2830	3734				7							State: 25 County: 017 Tract: 3734	53	99	249	460	0	0	0	7
+G25001703735	1980		1		1	Massachusetts	25		1120	Middlesex	17		165		2830	3735				7							State: 25 County: 017 Tract: 3735	107	94	513	741	6	0	14	12
+G25001703736	1980		1		1	Massachusetts	25		1120	Middlesex	17		165		2830	3736				7							State: 25 County: 017 Tract: 3736	51	44	145	452	0	0	5	20
+G25001703737	1980		1		1	Massachusetts	25		1120	Middlesex	17		165		2830	3737				7							State: 25 County: 017 Tract: 3737	133	127	362	687	0	0	25	4
+G25001703738	1980		1		1	Massachusetts	25		1120	Middlesex	17		165		2830	3738				7							State: 25 County: 017 Tract: 3738	103	159	220	820	14	13	24	19
+G25001703739	1980		1		1	Massachusetts	25		1120	Middlesex	17		165		2830	3739				7							State: 25 County: 017 Tract: 3739	99	99	484	929	7	14	0	9
+G25001703740	1980		1		1	Massachusetts	25		1120	Middlesex	17		165		2830	3740				7							State: 25 County: 017 Tract: 3740	69	113	326	747	0	7	6	5
+G25001703741	1980		1		1	Massachusetts	25		1120	Middlesex	17		165		2830	3741				7							State: 25 County: 017 Tract: 3741	37	90	251	467	5	8	9	12
+G25001703742	1980		1		1	Massachusetts	25		1120	Middlesex	17		165		2830	3742				7							State: 25 County: 017 Tract: 3742	104	107	322	559	0	8	19	32
+G25001703743	1980		1		1	Massachusetts	25		1120	Middlesex	17		165		2830	3743				7							State: 25 County: 017 Tract: 3743	94	96	307	520	0	0	6	0
+G25001703744	1980		1		1	Massachusetts	25		1120	Middlesex	17		165		2830	3744				7							State: 25 County: 017 Tract: 3744	95	180	486	694	0	10	14	12
+G25001703745	1980		1		1	Massachusetts	25		1120	Middlesex	17		165		2830	3745				7							State: 25 County: 017 Tract: 3745	61	69	365	603	0	0	10	0
+G25001703746	1980		1		1	Massachusetts	25		1120	Middlesex	17		165		2830	3746				7							State: 25 County: 017 Tract: 3746	121	109	353	781	0	15	22	14
+G25001703747	1980		1		1	Massachusetts	25		1120	Middlesex	17		165		2830	3747				7							State: 25 County: 017 Tract: 3747	42	124	279	595	14	0	6	30
+G25001703748	1980		1		1	Massachusetts	25		1120	Middlesex	17		165		2830	3748				7							State: 25 County: 017 Tract: 3748	50	75	255	431	0	7	4	5
+G25001703821	1980		1		1	Massachusetts	25		1120	Middlesex	17		160			3821				7							State: 25 County: 017 Tract: 3821	72	140	512	633	7	4	7	7
+G25001703822	1980		1		1	Massachusetts	25		1120	Middlesex	17		160		9999	3822				7							State: 25 County: 017 Tract: 3822	85	177	483	676	15	0	23	7
+G25001703823	1980		1		1	Massachusetts	25		1120	Middlesex	17		160		9999	3823				7							State: 25 County: 017 Tract: 3823	81	125	367	573	6	15	23	19
+G25001703824	1980		1		1	Massachusetts	25		1120	Middlesex	17		160		9999	3824				7							State: 25 County: 017 Tract: 3824	82	109	348	596	0	10	5	0
+G25001703825	1980		1		1	Massachusetts	25		1120	Middlesex	17		160		9999	3825				7							State: 25 County: 017 Tract: 3825	46	118	302	583	0	7	12	10
+G25001703826	1980		1		1	Massachusetts	25		1120	Middlesex	17		160		9999	3826				7							State: 25 County: 017 Tract: 3826	97	128	432	749	0	0	18	18
+G25001703831	1980		1		1	Massachusetts	25		1120	Middlesex	17		90		1330	3831				7							State: 25 County: 017 Tract: 3831	96	276	338	664	51	98	62	20
+G25001703832	1980		1		1	Massachusetts	25		1120	Middlesex	17		90		1330	3832				7							State: 25 County: 017 Tract: 3832	83	128	258	646	22	9	29	25
+G25001703833	1980		1		1	Massachusetts	25		1120	Middlesex	17		90		1330	3833				7							State: 25 County: 017 Tract: 3833	27	41	126	325	0	4	39	20
+G25001703834	1980		1		1	Massachusetts	25		1120	Middlesex	17		90		1330	3834				7							State: 25 County: 017 Tract: 3834	85	136	320	602	19	12	34	43
+G25001703835	1980		1		1	Massachusetts	25		1120	Middlesex	17		90		1330	3835				7							State: 25 County: 017 Tract: 3835	79	130	419	962	13	6	39	32
+G25001703836	1980		1		1	Massachusetts	25		1120	Middlesex	17		90		1330	3836				7							State: 25 County: 017 Tract: 3836	102	118	491	826	0	0	27	17
+G25001703837	1980		1		1	Massachusetts	25		1120	Middlesex	17		90		1330	3837				7							State: 25 County: 017 Tract: 3837	110	140	496	809	5	0	16	12
+G25001703838	1980		1		1	Massachusetts	25		1120	Middlesex	17		90		1330	3838				7							State: 25 County: 017 Tract: 3838	157	146	607	657	17	0	14	20
+G2500170383901	1980		1		1	Massachusetts	25		1120	Middlesex	17		90		1330	383901				7							State: 25 County: 017 Tract: 3839.01	195	140	841	889	8	6	39	6
+G2500170383902	1980		1		1	Massachusetts	25		1120	Middlesex	17		90		1330	383902				7							State: 25 County: 017 Tract: 3839.02	132	173	590	498	6	6	12	7
+G25001703840	1980		1		1	Massachusetts	25		1120	Middlesex	17		90		1330	3840				7							State: 25 County: 017 Tract: 3840	108	191	445	835	7	7	0	6
+G25001703851	1980		1		1	Massachusetts	25		1120	Middlesex	17		20			3851				7							State: 25 County: 017 Tract: 3851	66	129	349	413	5	0	0	0
+G25001703852	1980		1		1	Massachusetts	25		1120	Middlesex	17		20			3852				7							State: 25 County: 017 Tract: 3852	145	171	395	653	7	7	48	5
+G25001703861	1980		1		1	Massachusetts	25		1120	Middlesex	17		185			3861				7							State: 25 County: 017 Tract: 3861	105	92	491	373	0	0	0	5
+G25001703871	1980		1		1	Massachusetts	25		1120	Middlesex	17		100			3871				7							State: 25 County: 017 Tract: 3871	115	167	344	347	0	0	6	4
+G25001703872	1980		1		1	Massachusetts	25		1120	Middlesex	17		100			3872				7							State: 25 County: 017 Tract: 3872	255	273	836	837	0	25	44	0
+G25001703881	1980		1		1	Massachusetts	25		1120	Middlesex	17		45			3881				7							State: 25 County: 017 Tract: 3881	66	174	254	263	5	14	0	0
+G25002104001	1980		1		1	Massachusetts	25		1120	Norfolk	21		20		570	4001				7							State: 25 County: 021 Tract: 4001	23	81	178	517	5	0	13	16
+G25002104002	1980		1		1	Massachusetts	25		1120	Norfolk	21		20		570	4002				7							State: 25 County: 021 Tract: 4002	63	107	265	689	5	11	47	30
+G25002104003	1980		1		1	Massachusetts	25		1120	Norfolk	21		20		570	4003				7							State: 25 County: 021 Tract: 4003	65	94	202	481	0	0	0	23
+G25002104004	1980		1		1	Massachusetts	25		1120	Norfolk	21		20		570	4004				7							State: 25 County: 021 Tract: 4004	48	110	254	791	4	0	13	6
+G25002104005	1980		1		1	Massachusetts	25		1120	Norfolk	21		20		570	4005				7							State: 25 County: 021 Tract: 4005	49	83	216	639	6	0	31	21
+G25002104006	1980		1		1	Massachusetts	25		1120	Norfolk	21		20		570	4006				7							State: 25 County: 021 Tract: 4006	44	51	319	526	0	0	19	14
+G25002104007	1980		1		1	Massachusetts	25		1120	Norfolk	21		20		570	4007				7							State: 25 County: 021 Tract: 4007	53	48	191	437	7	5	14	0
+G25002104008	1980		1		1	Massachusetts	25		1120	Norfolk	21		20		570	4008				7							State: 25 County: 021 Tract: 4008	39	102	174	631	7	8	7	14
+G25002104009	1980		1		1	Massachusetts	25		1120	Norfolk	21		20		570	4009				7							State: 25 County: 021 Tract: 4009	28	75	243	415	7	15	21	41
+G25002104010	1980		1		1	Massachusetts	25		1120	Norfolk	21		20		570	4010				7							State: 25 County: 021 Tract: 4010	60	65	230	378	0	5	39	4
+G25002104011	1980		1		1	Massachusetts	25		1120	Norfolk	21		20		570	4011				7							State: 25 County: 021 Tract: 4011	68	82	316	612	6	9	0	0
+G25002104012	1980		1		1	Massachusetts	25		1120	Norfolk	21		20		570	4012				7							State: 25 County: 021 Tract: 4012	90	83	347	1066	7	0	7	19
+G25002104021	1980		1		1	Massachusetts	25		1120	Norfolk	21		35		910	4021				7							State: 25 County: 021 Tract: 4021	186	140	590	1201	31	28	64	23
+G25002104022	1980		1		1	Massachusetts	25		1120	Norfolk	21		35		910	4022				7							State: 25 County: 021 Tract: 4022	75	20	226	318	16	0	0	14
+G25002104023	1980		1		1	Massachusetts	25		1120	Norfolk	21		35		910	4023				7							State: 25 County: 021 Tract: 4023	96	89	479	646	0	12	23	5
+G25002104024	1980		1		1	Massachusetts	25		1120	Norfolk	21		35		910	4024				7							State: 25 County: 021 Tract: 4024	79	110	500	778	6	0	30	30
+G25002104025	1980		1		1	Massachusetts	25		1120	Norfolk	21		35		910	4025				7							State: 25 County: 021 Tract: 4025	34	71	220	469	6	6	5	5
+G25002104031	1980		1		1	Massachusetts	25		1120	Norfolk	21		80		2750	4031				7							State: 25 County: 021 Tract: 4031	142	127	613	1018	0	10	8	18
+G25002104032	1980		1		1	Massachusetts	25		1120	Norfolk	21		80		2750	4032				7							State: 25 County: 021 Tract: 4032	66	99	365	539	0	0	5	7
+G25002104033	1980		1		1	Massachusetts	25		1120	Norfolk	21		80		2750	4033				7							State: 25 County: 021 Tract: 4033	98	81	370	483	9	0	11	20
+G25002104034	1980		1		1	Massachusetts	25		1120	Norfolk	21		80		2750	4034				7							State: 25 County: 021 Tract: 4034	123	186	633	1047	9	0	23	24
+G25002104035	1980		1		1	Massachusetts	25		1120	Norfolk	21		80		2750	4035				7							State: 25 County: 021 Tract: 4035	40	164	412	784	0	14	0	17
+G25002104041	1980		1		1	Massachusetts	25		1120	Norfolk	21		125		4570	4041				7							State: 25 County: 021 Tract: 4041	41	31	174	213	12	13	7	7
+G25002104042	1980		1		1	Massachusetts	25		1120	Norfolk	21		125		4570	4042				7							State: 25 County: 021 Tract: 4042	212	224	764	1228	7	0	28	8
+G25002104043	1980		1		1	Massachusetts	25		1120	Norfolk	21		125		4570	4043				7							State: 25 County: 021 Tract: 4043	197	276	794	1235	7	0	6	24
+G25002104044	1980		1		1	Massachusetts	25		1120	Norfolk	21		125		4570	4044				7							State: 25 County: 021 Tract: 4044	84	102	287	567	0	0	0	17
+G25002104051	1980		1		1	Massachusetts	25		1120	Norfolk	21		40			4051				7							State: 25 County: 021 Tract: 4051	113	79	490	542	8	0	28	29
+G2500210406101	1980		1		1	Massachusetts	25		1120	Norfolk	21		60			406101				7							State: 25 County: 021 Tract: 4061.01	117	127	445	469	5	0	8	5
+G2500210406102	1980		1		1	Massachusetts	25		1120	Norfolk	21		60			406102				7							State: 25 County: 021 Tract: 4061.02	208	112	535	547	0	0	15	0
+G25002104071	1980		1		1	Massachusetts	25		1120	Norfolk	21		70			4071				7							State: 25 County: 021 Tract: 4071	199	220	598	748	21	3	46	6
+G25002104081	1980		1		1	Massachusetts	25		1120	Norfolk	21		65			4081				7							State: 25 County: 021 Tract: 4081	245	247	785	730	14	6	67	21
+G25002104091	1980		1		1	Massachusetts	25		1120	Norfolk	21		85			4091				7							State: 25 County: 021 Tract: 4091	230	192	447	498	10	0	15	20
+G25002104101	1980		1		1	Massachusetts	25		1120	Norfolk	21		45			4101				7							State: 25 County: 021 Tract: 4101	146	138	448	570	12	17	43	7
+G25002104102	1980		1		1	Massachusetts	25		1120	Norfolk	21		45			4102				7							State: 25 County: 021 Tract: 4102	0	0	6	37	0	0	0	0
+G25002104103	1980		1		1	Massachusetts	25		1120	Norfolk	21		45		9999	4103				7							State: 25 County: 021 Tract: 4103	109	76	345	236	22	0	0	0
+G25002104104	1980		1		1	Massachusetts	25		1120	Norfolk	21		45			4104				7							State: 25 County: 021 Tract: 4104	106	152	369	703	6	40	13	11
+G25002104111	1980		1		1	Massachusetts	25		1120	Norfolk	21		120			4111				7							State: 25 County: 021 Tract: 4111	132	188	625	795	9	0	12	6
+G25002104112	1980		1		1	Massachusetts	25		1120	Norfolk	21		120			4112				7							State: 25 County: 021 Tract: 4112	106	87	473	674	0	7	13	24
+G25002104113	1980		1		1	Massachusetts	25		1120	Norfolk	21		120			4113				7							State: 25 County: 021 Tract: 4113	123	179	577	626	4	0	19	8
+G25002104121	1980		1		1	Massachusetts	25		1120	Norfolk	21		130			4121				7							State: 25 County: 021 Tract: 4121	126	126	581	712	13	7	12	6
+G25002104122	1980		1		1	Massachusetts	25		1120	Norfolk	21		130			4122				7							State: 25 County: 021 Tract: 4122	41	65	195	411	0	0	13	4
+G25002104123	1980		1		1	Massachusetts	25		1120	Norfolk	21		130			4123				7							State: 25 County: 021 Tract: 4123	103	72	466	693	0	0	15	7
+G25002104131	1980		1		1	Massachusetts	25		1120	Norfolk	21		90		3080	4131				7							State: 25 County: 021 Tract: 4131	126	119	512	853	4	0	33	20
+G25002104132	1980		1		1	Massachusetts	25		1120	Norfolk	21		90		3080	4132				7							State: 25 County: 021 Tract: 4132	133	152	406	819	7	27	17	6
+G25002104133	1980		1		1	Massachusetts	25		1120	Norfolk	21		90		3080	4133				7							State: 25 County: 021 Tract: 4133	87	121	466	594	0	0	37	22
+G25002104134	1980		1		1	Massachusetts	25		1120	Norfolk	21		90		3080	4134				7							State: 25 County: 021 Tract: 4134	103	190	502	1046	0	5	26	31
+G25002104135	1980		1		1	Massachusetts	25		1120	Norfolk	21		90		3080	4135				7							State: 25 County: 021 Tract: 4135	47	107	224	549	18	8	46	18
+G25002104141	1980		1		1	Massachusetts	25		1120	Norfolk	21		110			4141				7							State: 25 County: 021 Tract: 4141	106	114	327	462	0	0	11	6
+G25002104142	1980		1		1	Massachusetts	25		1120	Norfolk	21		110			4142				7							State: 25 County: 021 Tract: 4142	187	161	601	462	9	0	8	14
+G25002104143	1980		1		1	Massachusetts	25		1120	Norfolk	21		110			4143				7							State: 25 County: 021 Tract: 4143	109	117	354	723	0	10	8	7
+G25002104151	1980		1		1	Massachusetts	25		1120	Norfolk	21		25			4151				7							State: 25 County: 021 Tract: 4151	221	318	934	1212	6	17	53	32
+G25002104152	1980		1		1	Massachusetts	25		1120	Norfolk	21		25			4152				7							State: 25 County: 021 Tract: 4152	82	38	343	418	8	0	6	6
+G25002104153	1980		1		1	Massachusetts	25		1120	Norfolk	21		25			4153				7							State: 25 County: 021 Tract: 4153	86	61	304	438	13	0	6	16
+G25002104161	1980		1		1	Massachusetts	25		1120	Norfolk	21		75		2620	4161				7							State: 25 County: 021 Tract: 4161	138	107	554	1023	0	0	16	6
+G25002104162	1980		1		1	Massachusetts	25		1120	Norfolk	21		75		2620	4162				7							State: 25 County: 021 Tract: 4162	152	149	481	1105	15	8	26	12
+G25002104163	1980		1		1	Massachusetts	25		1120	Norfolk	21		75		2620	4163				7							State: 25 County: 021 Tract: 4163	104	98	320	641	15	0	14	6
+G25002104164	1980		1		1	Massachusetts	25		1120	Norfolk	21		75		2620	4164				7							State: 25 County: 021 Tract: 4164	97	104	504	974	16	13	22	19
+G25002104171	1980		1		1	Massachusetts	25		1120	Norfolk	21		100		3460	4171				7							State: 25 County: 021 Tract: 4171	71	116	325	721	9	0	12	11
+G25002104172	1980		1		1	Massachusetts	25		1120	Norfolk	21		100		3460	4172				7							State: 25 County: 021 Tract: 4172	133	182	416	1193	23	4	44	24
+G25002104173	1980		1		1	Massachusetts	25		1120	Norfolk	21		100		3460	4173				7							State: 25 County: 021 Tract: 4173	10	25	23	23	6	7	14	0
+G25002104174	1980		1		1	Massachusetts	25		1120	Norfolk	21		100		3460	4174				7							State: 25 County: 021 Tract: 4174	76	32	214	451	8	8	12	0
+G25002104175	1980		1		1	Massachusetts	25		1120	Norfolk	21		100		3460	4175				7							State: 25 County: 021 Tract: 4175	111	213	687	1403	19	28	44	28
+G25002104176	1980		1		1	Massachusetts	25		1120	Norfolk	21		100		3460	4176				7							State: 25 County: 021 Tract: 4176	130	183	540	1399	9	0	23	39
+G25002104177	1980		1		1	Massachusetts	25		1120	Norfolk	21		100		3460	4177				7							State: 25 County: 021 Tract: 4177	88	84	417	1014	33	30	7	24
+G25002104178	1980		1		1	Massachusetts	25		1120	Norfolk	21		100		3460	4178				7							State: 25 County: 021 Tract: 4178	136	167	666	1117	53	95	191	55
+G25002104179	1980		1		1	Massachusetts	25		1120	Norfolk	21		100		3460	4179				7							State: 25 County: 021 Tract: 4179	143	200	530	1280	19	53	51	85
+G25002104180	1980		1		1	Massachusetts	25		1120	Norfolk	21		100		3460	4180				7							State: 25 County: 021 Tract: 4180	136	231	569	1676	49	44	46	88
+G25002104181	1980		1		1	Massachusetts	25		1120	Norfolk	21		100		3460	4181				7							State: 25 County: 021 Tract: 4181	43	161	393	1033	28	46	32	24
+G25002104182	1980		1		1	Massachusetts	25		1120	Norfolk	21		100		3460	4182				7							State: 25 County: 021 Tract: 4182	78	100	356	886	18	0	37	24
+G25002104191	1980		1		1	Massachusetts	25		1120	Norfolk	21		15		490	4191				7							State: 25 County: 021 Tract: 4191	115	95	504	802	5	0	8	7
+G25002104192	1980		1		1	Massachusetts	25		1120	Norfolk	21		15		490	4192				7							State: 25 County: 021 Tract: 4192	89	81	393	694	6	3	23	16
+G25002104193	1980		1		1	Massachusetts	25		1120	Norfolk	21		15		490	4193				7							State: 25 County: 021 Tract: 4193	106	104	318	602	28	0	28	12
+G25002104194	1980		1		1	Massachusetts	25		1120	Norfolk	21		15		490	4194				7							State: 25 County: 021 Tract: 4194	101	83	218	436	11	0	11	6
+G25002104195	1980		1		1	Massachusetts	25		1120	Norfolk	21		15		490	4195				7							State: 25 County: 021 Tract: 4195	37	58	334	426	8	0	18	7
+G25002104196	1980		1		1	Massachusetts	25		1120	Norfolk	21		15		490	4196				7							State: 25 County: 021 Tract: 4196	83	72	517	586	0	6	18	16
+G25002104197	1980		1		1	Massachusetts	25		1120	Norfolk	21		15		490	4197				7							State: 25 County: 021 Tract: 4197	104	62	347	482	6	0	4	0
+G25002104198	1980		1		1	Massachusetts	25		1120	Norfolk	21		15		490	4198				7							State: 25 County: 021 Tract: 4198	83	71	347	712	0	0	5	0
+G25002104201	1980		1		1	Massachusetts	25		1120	Norfolk	21		105		3470	4201				7							State: 25 County: 021 Tract: 4201	159	163	575	1054	7	4	58	32
+G25002104202	1980		1		1	Massachusetts	25		1120	Norfolk	21		105		3470	4202				7							State: 25 County: 021 Tract: 4202	112	115	702	1026	0	7	56	16
+G25002104203	1980		1		1	Massachusetts	25		1120	Norfolk	21		105		3470	4203				7							State: 25 County: 021 Tract: 4203	242	341	1047	1661	31	5	79	20
+G25002104211	1980		1		1	Massachusetts	25		1120	Norfolk	21		55		1770	4211				7							State: 25 County: 021 Tract: 4211	103	153	413	528	9	0	24	11
+G25002104212	1980		1		1	Massachusetts	25		1120	Norfolk	21		55		1770	4212				7							State: 25 County: 021 Tract: 4212	110	161	587	699	0	8	36	17
+G25002104221	1980		1		1	Massachusetts	25		1120	Norfolk	21		135		4850	4221				7							State: 25 County: 021 Tract: 4221	70	140	407	557	5	5	51	22
+G25002104222	1980		1		1	Massachusetts	25		1120	Norfolk	21		135		4850	4222				7							State: 25 County: 021 Tract: 4222	169	129	659	911	23	6	50	13
+G25002104223	1980		1		1	Massachusetts	25		1120	Norfolk	21		135		4850	4223				7							State: 25 County: 021 Tract: 4223	135	132	689	1198	7	15	52	5
+G25002104224	1980		1		1	Massachusetts	25		1120	Norfolk	21		135		4850	4224				7							State: 25 County: 021 Tract: 4224	161	231	497	975	19	37	42	19
+G25002104225	1980		1		1	Massachusetts	25		1120	Norfolk	21		135		4850	4225				7							State: 25 County: 021 Tract: 4225	155	174	705	1135	56	45	149	49
+G25002104226	1980		1		1	Massachusetts	25		1120	Norfolk	21		135		4850	4226				7							State: 25 County: 021 Tract: 4226	139	186	606	852	26	10	13	28
+G25002104227	1980		1		1	Massachusetts	25		1120	Norfolk	21		135		4850	4227				7							State: 25 County: 021 Tract: 4227	77	119	391	539	23	6	29	0
+G25002104228	1980		1		1	Massachusetts	25		1120	Norfolk	21		135		4850	4228				7							State: 25 County: 021 Tract: 4228	63	89	297	619	16	5	47	25
+G25002104231	1980		1		1	Massachusetts	25		1120	Norfolk	21		30			4231				7							State: 25 County: 021 Tract: 4231	166	178	620	865	13	0	19	13
+G25002104401	1980		1		1	Massachusetts	25		6480	Norfolk	21		95			4401				80							State: 25 County: 021 Tract: 4401	138	165	471	747	13	0	25	11
+G25002104411	1980		1		1	Massachusetts	25		1120	Norfolk	21		140			4411				7							State: 25 County: 021 Tract: 4411	0	5	5	5	0	0	0	0
+G25002104412	1980		1		1	Massachusetts	25		1120	Norfolk	21		140			4412				7							State: 25 County: 021 Tract: 4412	228	232	508	689	18	0	18	14
+G25002104421	1980		1		1	Massachusetts	25		1120	Norfolk	21		50			4421				7							State: 25 County: 021 Tract: 4421	263	403	1133	925	32	45	13	16
+G25002104422	1980		1		1	Massachusetts	25		1120	Norfolk	21		50			4422				7							State: 25 County: 021 Tract: 4422	169	156	423	831	14	16	58	0
+G25002104431	1980		1		1	Massachusetts	25		1120	Norfolk	21		10			4431				7							State: 25 County: 021 Tract: 4431	525	385	1337	1326	49	17	59	23
+G2500210456101	1980		1		1	Massachusetts	25		1120	Norfolk	21		115			456101				7							State: 25 County: 021 Tract: 4561.01	94	113	387	348	10	0	39	16
+G2500210456102	1980		1		1	Massachusetts	25		1120	Norfolk	21		115			456102				7							State: 25 County: 021 Tract: 4561.02	87	147	306	605	6	24	5	16
+G25002104562	1980		1		1	Massachusetts	25		1120	Norfolk	21		115			4562				7							State: 25 County: 021 Tract: 4562	70	76	220	298	11	5	6	0
+G25002104563	1980		1		1	Massachusetts	25		1120	Norfolk	21		115			4563				7							State: 25 County: 021 Tract: 4563	91	191	535	1108	25	14	40	23
+G2500210456401	1980		1		1	Massachusetts	25		1120	Norfolk	21		115			456401				7							State: 25 County: 021 Tract: 4564.01	45	81	274	356	10	5	35	17
+G2500210456402	1980		1		1	Massachusetts	25		1120	Norfolk	21		115			456402				7							State: 25 County: 021 Tract: 4564.02	163	116	458	402	5	6	16	17
+G25002104571	1980		1		1	Massachusetts	25		1200	Norfolk	21		5			4571				7							State: 25 County: 021 Tract: 4571	132	112	414	581	12	7	26	10
+G2500230500101	1980		1		1	Massachusetts	25		1120	Plymouth	23		55		1920	500101				7							State: 25 County: 023 Tract: 5001.01	99	79	268	445	34	18	24	6
+G2500230500102	1980		1		1	Massachusetts	25		1120	Plymouth	23		55		1920	500102				7							State: 25 County: 023 Tract: 5001.02	136	152	376	657	36	38	62	11
+G2500230501101	1980		1		1	Massachusetts	25		1120	Plymouth	23		50			501101				7							State: 25 County: 023 Tract: 5011.01	94	50	361	410	5	11	6	6
+G2500230501102	1980		1		1	Massachusetts	25		1120	Plymouth	23		50			501102				7							State: 25 County: 023 Tract: 5011.02	145	150	585	895	0	5	30	0
+G25002305012	1980		1		1	Massachusetts	25		1120	Plymouth	23		50			5012				7							State: 25 County: 023 Tract: 5012	276	200	956	1025	7	7	34	0
+G25002305021	1980		1		1	Massachusetts	25		1120	Plymouth	23		115			5021				7							State: 25 County: 023 Tract: 5021	345	295	763	927	76	73	116	11
+G25002305022	1980		1		1	Massachusetts	25		1120	Plymouth	23		115			5022				7							State: 25 County: 023 Tract: 5022	112	141	386	541	18	19	41	19
+G25002305031	1980		1		1	Massachusetts	25		1120	Plymouth	23		40			5031				7							State: 25 County: 023 Tract: 5031	309	256	1211	958	25	6	62	19
+G25002305041	1980		1		1	Massachusetts	25		1120	Plymouth	23		90			5041				7							State: 25 County: 023 Tract: 5041	300	195	909	950	6	0	36	18
+G2500230505101	1980		1		1	Massachusetts	25		1120	Plymouth	23		120			505101				7							State: 25 County: 023 Tract: 5051.01	136	147	643	754	0	15	52	6
+G2500230505102	1980		1		1	Massachusetts	25		1120	Plymouth	23		120			505102				7							State: 25 County: 023 Tract: 5051.02	108	111	478	494	0	0	11	0
+G25002305052	1980		1		1	Massachusetts	25		1120	Plymouth	23		120			5052				7							State: 25 County: 023 Tract: 5052	111	127	512	822	0	0	12	6
+G2500230506101	1980		1		1	Massachusetts	25		1120	Plymouth	23		75			506101				7							State: 25 County: 023 Tract: 5061.01	150	154	515	523	13	21	19	0
+G2500230506102	1980		1		1	Massachusetts	25		1120	Plymouth	23		75			506102				7							State: 25 County: 023 Tract: 5061.02	144	148	343	460	14	8	30	10
+G2500230506201	1980		1		1	Massachusetts	25		1120	Plymouth	23		75			506201				7							State: 25 County: 023 Tract: 5062.01	250	330	741	875	18	16	67	35
+G2500230506202	1980		1		1	Massachusetts	25		1120	Plymouth	23		75			506202				7							State: 25 County: 023 Tract: 5062.02	106	56	213	185	0	0	6	0
+G25002305071	1980		1		1	Massachusetts	25		1120	Plymouth	23		25			5071				7							State: 25 County: 023 Tract: 5071	350	319	1220	1206	10	13	32	38
+G2500230508101	1980		1		1	Massachusetts	25		1120	Plymouth	23		95			508101				7							State: 25 County: 023 Tract: 5081.01	185	129	370	336	0	5	25	7
+G2500230508102	1980		1		1	Massachusetts	25		1120	Plymouth	23		95		9999	508102				7							State: 25 County: 023 Tract: 5081.02	164	150	417	482	15	13	37	7
+G25002305082	1980		1		1	Massachusetts	25		1120	Plymouth	23		95		9999	5082				7							State: 25 County: 023 Tract: 5082	116	150	516	320	12	0	20	19
+G25002305091	1980		1		1	Massachusetts	25		1120	Plymouth	23		60			5091				7							State: 25 County: 023 Tract: 5091	159	301	654	759	8	13	47	26
+G25002305101	1980		1		1	Massachusetts	25		1200	Plymouth	23		15		540	5101				7							State: 25 County: 023 Tract: 5101	174	128	565	551	0	13	34	13
+G25002305102	1980		1		1	Massachusetts	25		1200	Plymouth	23		15		540	5102				7							State: 25 County: 023 Tract: 5102	127	237	391	652	34	13	72	5
+G25002305103	1980		1		1	Massachusetts	25		1200	Plymouth	23		15		540	5103				7							State: 25 County: 023 Tract: 5103	56	90	252	315	33	32	73	11
+G25002305104	1980		1		1	Massachusetts	25		1200	Plymouth	23		15		540	5104				7							State: 25 County: 023 Tract: 5104	119	71	165	353	56	52	93	6
+G2500230510501	1980		1		1	Massachusetts	25		1200	Plymouth	23		15		540	510501				7							State: 25 County: 023 Tract: 5105.01	54	115	259	406	23	16	24	6
+G2500230510502	1980		1		1	Massachusetts	25		1200	Plymouth	23		15		540	510502				7							State: 25 County: 023 Tract: 5105.02	55	133	359	736	48	19	68	40
+G2500230510503	1980		1		1	Massachusetts	25		1200	Plymouth	23		15		540	510503				7							State: 25 County: 023 Tract: 5105.03	120	127	321	423	23	41	53	5
+G25002305106	1980		1		1	Massachusetts	25		1200	Plymouth	23		15		540	5106				7							State: 25 County: 023 Tract: 5106	64	37	245	444	0	5	27	0
+G25002305107	1980		1		1	Massachusetts	25		1200	Plymouth	23		15		540	5107				7							State: 25 County: 023 Tract: 5107	128	149	401	749	7	19	28	33
+G25002305108	1980		1		1	Massachusetts	25		1200	Plymouth	23		15		540	5108				7							State: 25 County: 023 Tract: 5108	141	174	325	494	52	48	135	7
+G25002305109	1980		1		1	Massachusetts	25		1200	Plymouth	23		15		540	5109				7							State: 25 County: 023 Tract: 5109	63	20	50	158	44	76	31	15
+G25002305110	1980		1		1	Massachusetts	25		1200	Plymouth	23		15		540	5110				7							State: 25 County: 023 Tract: 5110	78	90	140	166	52	9	50	23
+G25002305111	1980		1		1	Massachusetts	25		1200	Plymouth	23		15		540	5111				7							State: 25 County: 023 Tract: 5111	229	244	554	495	36	13	34	25
+G25002305112	1980		1		1	Massachusetts	25		1200	Plymouth	23		15		540	5112				7							State: 25 County: 023 Tract: 5112	118	146	281	446	50	35	40	0
+G2500230511301	1980		1		1	Massachusetts	25		1200	Plymouth	23		15		540	511301				7							State: 25 County: 023 Tract: 5113.01	105	122	432	463	46	23	21	13
+G2500230511302	1980		1		1	Massachusetts	25		1200	Plymouth	23		15		540	511302				7							State: 25 County: 023 Tract: 5113.02	122	162	427	222	23	20	49	6
+G25002305114	1980		1		1	Massachusetts	25		1200	Plymouth	23		15		540	5114				7							State: 25 County: 023 Tract: 5114	54	100	163	349	41	82	85	0
+G25002305115	1980		1		1	Massachusetts	25		1200	Plymouth	23		15		540	5115				7							State: 25 County: 023 Tract: 5115	99	152	182	447	23	93	67	18
+G25002305116	1980		1		1	Massachusetts	25		1200	Plymouth	23		15		540	5116				7							State: 25 County: 023 Tract: 5116	129	182	417	715	30	66	105	24
+G2500230511701	1980		1		1	Massachusetts	25		1200	Plymouth	23		15		540	511701				7							State: 25 County: 023 Tract: 5117.01	107	130	496	561	12	9	12	0
+G2500230511702	1980		1		1	Massachusetts	25		1200	Plymouth	23		15		540	511702				7							State: 25 County: 023 Tract: 5117.02	73	72	267	356	0	5	4	0
+G25002305201	1980		1		1	Massachusetts	25		1120	Plymouth	23		5		10	5201				7							State: 25 County: 023 Tract: 5201	134	167	497	684	21	20	43	0
+G2500230520201	1980		1		1	Massachusetts	25		1120	Plymouth	23		5		10	520201				7							State: 25 County: 023 Tract: 5202.01	85	140	283	410	7	0	27	16
+G2500230520202	1980		1		1	Massachusetts	25		1120	Plymouth	23		5		10	520202				7							State: 25 County: 023 Tract: 5202.02	104	90	270	309	14	0	18	6
+G2500230521101	1980		1		1	Massachusetts	25		1200	Plymouth	23		135			521101				7							State: 25 County: 023 Tract: 5211.01	95	112	295	418	18	0	0	9
+G2500230521102	1980		1		1	Massachusetts	25		1200	Plymouth	23		135			521102				7							State: 25 County: 023 Tract: 5211.02	77	130	237	350	6	0	0	6
+G2500230521201	1980		1		1	Massachusetts	25		1200	Plymouth	23		135			521201				7							State: 25 County: 023 Tract: 5212.01	80	96	209	298	11	0	24	18
+G2500230521202	1980		1		1	Massachusetts	25		1200	Plymouth	23		135			521202				7							State: 25 County: 023 Tract: 5212.02	111	166	287	338	15	6	21	0
+G2500230522101	1980		1		1	Massachusetts	25		1120	Plymouth	23		45			522101				7							State: 25 County: 023 Tract: 5221.01	138	158	338	351	6	0	37	7
+G2500230522102	1980		1		1	Massachusetts	25		1120	Plymouth	23		45		9999	522102				7							State: 25 County: 023 Tract: 5221.02	165	141	440	403	0	7	10	10
+G25002305231	1980		1		1	Massachusetts	25		1200	Plymouth	23		30			5231				7							State: 25 County: 023 Tract: 5231	31	114	154	301	10	7	32	12
+G2500230523201	1980		1		1	Massachusetts	25		1200	Plymouth	23		30			523201				7							State: 25 County: 023 Tract: 5232.01	100	77	253	182	5	0	13	0
+G2500230523202	1980		1		1	Massachusetts	25		1200	Plymouth	23		30			523202				7							State: 25 County: 023 Tract: 5232.02	173	123	453	488	5	0	47	15
+G2500230524101	1980		1		1	Massachusetts	25		1200	Plymouth	23		130			524101				7							State: 25 County: 023 Tract: 5241.01	93	55	255	305	0	0	15	7
+G2500230524102	1980		1		1	Massachusetts	25		1200	Plymouth	23		130			524102				7							State: 25 County: 023 Tract: 5241.02	76	89	342	477	12	0	9	7
+G2500230525101	1980		1		1	Massachusetts	25		1200	Plymouth	23		10			525101				7							State: 25 County: 023 Tract: 5251.01	94	212	403	614	0	0	28	13
+G2500230525102	1980		1		1	Massachusetts	25		1200	Plymouth	23		10			525102				7							State: 25 County: 023 Tract: 5251.02	118	183	391	371	12	17	6	6
+G25002305252	1980		1		1	Massachusetts	25		1200	Plymouth	23		10			5252				7							State: 25 County: 023 Tract: 5252	90	137	323	625	9	17	34	18
+G25002305253	1980		1		1	Massachusetts	25		1200	Plymouth	23		10		9999	5253				7							State: 25 County: 023 Tract: 5253	0	0	24	31	0	0	0	0
+G25002305261	1980		1		1	Massachusetts	25		1200	Plymouth	23		35			5261				7							State: 25 County: 023 Tract: 5261	165	165	407	636	34	9	30	38
+G25002305301	1980		1		1	Massachusetts	25			Plymouth	23		100		9999	5301											State: 25 County: 023 Tract: 5301	101	102	238	309	10	15	34	0
+G25002305302	1980		1		1	Massachusetts	25			Plymouth	23		100		3000	5302											State: 25 County: 023 Tract: 5302	45	97	207	496	8	17	30	28
+G25002305303	1980		1		1	Massachusetts	25			Plymouth	23		100		3400	5303											State: 25 County: 023 Tract: 5303	44	41	225	602	10	41	26	14
+G25002305304	1980		1		1	Massachusetts	25			Plymouth	23		100		9999	5304											State: 25 County: 023 Tract: 5304	261	259	452	449	5	0	13	5
+G25002305305	1980		1		1	Massachusetts	25			Plymouth	23		100			5305											State: 25 County: 023 Tract: 5305	95	86	272	632	16	7	32	7
+G25002305306	1980		1		1	Massachusetts	25			Plymouth	23		100		9999	5306											State: 25 County: 023 Tract: 5306	223	126	361	163	18	12	26	9
+G25002305307	1980		1		1	Massachusetts	25			Plymouth	23		100		9999	5307											State: 25 County: 023 Tract: 5307	45	64	117	303	0	32	16	0
+G25002305308	1980		1		1	Massachusetts	25			Plymouth	23		100		9999	5308											State: 25 County: 023 Tract: 5308	234	186	462	589	13	41	24	20
+G25002305309	1980		1		1	Massachusetts	25			Plymouth	23		100		9999	5309											State: 25 County: 023 Tract: 5309	141	240	284	377	21	10	12	21
+G25002305401	1980		1		1	Massachusetts	25		5400	Plymouth	23		65			5401											State: 25 County: 023 Tract: 5401	149	147	541	631	25	9	33	35
+G25002305411	1980		1		1	Massachusetts	25			Plymouth	23		110			5411											State: 25 County: 023 Tract: 5411	134	132	238	354	6	19	31	9
+G25002305421	1980		1		1	Massachusetts	25			Plymouth	23		85		9999	5421											State: 25 County: 023 Tract: 5421	175	232	406	452	40	25	36	21
+G25002305422	1980		1		1	Massachusetts	25			Plymouth	23		85		9999	5422											State: 25 County: 023 Tract: 5422	176	94	337	356	32	8	22	5
+G25002305423	1980		1		1	Massachusetts	25			Plymouth	23		85		2490	5423											State: 25 County: 023 Tract: 5423	99	221	497	688	50	69	80	26
+G25002305431	1980		1		1	Massachusetts	25			Plymouth	23		105			5431											State: 25 County: 023 Tract: 5431	62	57	190	184	6	4	18	2
+G25002305441	1980		1		1	Massachusetts	25			Plymouth	23		20			5441											State: 25 County: 023 Tract: 5441	210	192	378	258	11	5	19	15
+G25002305442	1980		1		1	Massachusetts	25			Plymouth	23		20			5442											State: 25 County: 023 Tract: 5442	84	134	183	357	0	0	36	20
+G25002305451	1980		1		1	Massachusetts	25			Plymouth	23		125			5451											State: 25 County: 023 Tract: 5451	157	101	406	567	18	5	74	31
+G25002305452	1980		1		1	Massachusetts	25			Plymouth	23		125			5452											State: 25 County: 023 Tract: 5452	131	174	346	596	29	19	39	8
+G25002305453	1980		1		1	Massachusetts	25			Plymouth	23		125			5453											State: 25 County: 023 Tract: 5453	92	56	196	513	24	28	53	20
+G25002305454	1980		1		1	Massachusetts	25			Plymouth	23		125			5454											State: 25 County: 023 Tract: 5454	84	189	286	604	38	40	57	39
+G25002305601	1980		1		1	Massachusetts	25		5400	Plymouth	23		80			5601											State: 25 County: 023 Tract: 5601	103	182	519	724	6	15	29	24
+G25002305611	1980		1		1	Massachusetts	25		5400	Plymouth	23		70			5611											State: 25 County: 023 Tract: 5611	90	71	348	525	21	13	25	0
+G25002500001	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	1				7							State: 25 County: 025 Tract: 1	13	61	256	441	0	20	25	30
+G2500250000201	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	201				7							State: 25 County: 025 Tract: 2.01	47	112	119	446	14	20	11	30
+G2500250000202	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	202				7							State: 25 County: 025 Tract: 2.02	53	86	178	486	25	33	48	35
+G25002500003	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	3				7							State: 25 County: 025 Tract: 3	53	150	246	729	19	14	25	22
+G25002500004	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	4				7							State: 25 County: 025 Tract: 4	46	100	233	1044	10	19	25	52
+G25002500005	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	5				7							State: 25 County: 025 Tract: 5	29	83	69	859	16	21	14	74
+G2500250000601	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	601				7							State: 25 County: 025 Tract: 6.01	12	23	136	358	34	23	13	7
+G2500250000602	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	602				7							State: 25 County: 025 Tract: 6.02	55	43	116	295	46	35	67	63
+G2500250000701	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	701				7							State: 25 County: 025 Tract: 7.01	24	54	17	338	0	9	0	69
+G2500250000702	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	702				7							State: 25 County: 025 Tract: 7.02	21	47	52	480	6	39	24	58
+G25002500008	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	8				7							State: 25 County: 025 Tract: 8	51	153	246	670	48	28	90	57
+G2500250010101	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	10101				7							State: 25 County: 025 Tract: 101.01	0	10	32	159	0	10	0	6
+G2500250010102	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	10102				7							State: 25 County: 025 Tract: 101.02	0	15	0	36	0	0	0	6
+G25002500102	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	102				7							State: 25 County: 025 Tract: 102	24	56	102	379	16	45	6	53
+G25002500103	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	103				7							State: 25 County: 025 Tract: 103	34	32	46	84	36	35	39	6
+G25002500104	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	104				7							State: 25 County: 025 Tract: 104	16	38	40	461	12	29	26	79
+G25002500105	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	105				7							State: 25 County: 025 Tract: 105	0	8	15	205	0	0	0	11
+G25002500106	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	106				7							State: 25 County: 025 Tract: 106	0	30	31	264	9	0	0	0
+G25002500107	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	107				7							State: 25 County: 025 Tract: 107	0	102	60	515	0	0	23	14
+G25002500108	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	108				7							State: 25 County: 025 Tract: 108	8	59	86	550	0	0	0	33
+G25002500201	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	201				7							State: 25 County: 025 Tract: 201	25	93	106	533	0	0	9	0
+G25002500202	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	202				7							State: 25 County: 025 Tract: 202	0	34	44	267	7	32	12	19
+G25002500203	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	203				7							State: 25 County: 025 Tract: 203	0	112	102	604	13	0	0	40
+G25002500301	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	301				7							State: 25 County: 025 Tract: 301	0	16	105	271	0	0	17	30
+G25002500302	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	302				7							State: 25 County: 025 Tract: 302	5	12	49	208	8	25	8	10
+G25002500303	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	303				7							State: 25 County: 025 Tract: 303	7	47	24	503	0	9	5	13
+G25002500304	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	304				7							State: 25 County: 025 Tract: 304	8	14	141	371	0	0	31	30
+G25002500305	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	305				7							State: 25 County: 025 Tract: 305	20	12	65	187	0	0	16	25
+G2500250030599	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	30599				7							State: 25 County: 025 Tract: 305.99	0	0	0	0	0	0	0	0
+G25002500401	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	401				7							State: 25 County: 025 Tract: 401	13	31	81	165	0	0	0	6
+G25002500402	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	402				7							State: 25 County: 025 Tract: 402	23	23	53	155	21	0	27	0
+G25002500403	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	403				7							State: 25 County: 025 Tract: 403	37	23	115	322	21	41	36	7
+G25002500404	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	404				7							State: 25 County: 025 Tract: 404	13	53	151	296	10	40	46	8
+G25002500405	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	405				7							State: 25 County: 025 Tract: 405	38	28	111	172	11	8	0	7
+G25002500406	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	406				7							State: 25 County: 025 Tract: 406	13	6	26	22	0	0	0	0
+G25002500407	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	407				7							State: 25 County: 025 Tract: 407	36	42	96	269	0	0	37	0
+G25002500408	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	408				7							State: 25 County: 025 Tract: 408	38	10	52	105	60	35	64	18
+G25002500501	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	501				7							State: 25 County: 025 Tract: 501	63	71	179	401	42	75	91	56
+G25002500502	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	502				7							State: 25 County: 025 Tract: 502	45	103	233	421	21	24	51	32
+G25002500503	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	503				7							State: 25 County: 025 Tract: 503	29	22	77	109	40	42	43	6
+G25002500504	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	504				7							State: 25 County: 025 Tract: 504	36	36	94	242	0	7	7	18
+G25002500505	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	505				7							State: 25 County: 025 Tract: 505	16	44	105	187	7	8	13	5
+G25002500506	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	506				7							State: 25 County: 025 Tract: 506	14	10	60	263	0	0	14	17
+G25002500507	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	507				7							State: 25 County: 025 Tract: 507	30	20	84	164	0	5	36	16
+G25002500508	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	508				7							State: 25 County: 025 Tract: 508	38	53	109	260	25	20	5	29
+G25002500509	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	509				7							State: 25 County: 025 Tract: 509	81	54	160	467	18	30	60	44
+G25002500510	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	510				7							State: 25 County: 025 Tract: 510	82	63	246	579	22	20	87	44
+G25002500511	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	511				7							State: 25 County: 025 Tract: 511	65	113	332	837	0	18	53	46
+G25002500512	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	512				7							State: 25 County: 025 Tract: 512	52	36	124	369	0	17	44	33
+G25002500601	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	601				7							State: 25 County: 025 Tract: 601	31	58	191	532	12	27	14	4
+G25002500602	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	602				7							State: 25 County: 025 Tract: 602	33	90	116	360	7	12	23	0
+G25002500603	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	603				7							State: 25 County: 025 Tract: 603	39	129	176	420	29	19	26	53
+G25002500604	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	604				7							State: 25 County: 025 Tract: 604	93	104	306	633	17	11	24	61
+G25002500605	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	605				7							State: 25 County: 025 Tract: 605	60	55	127	333	39	35	47	42
+G25002500606	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	606				7							State: 25 County: 025 Tract: 606	4	12	48	64	22	10	6	6
+G2500250060699	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	60699				7							State: 25 County: 025 Tract: 606.99	0	0	0	0	0	0	0	0
+G25002500607	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	607				7							State: 25 County: 025 Tract: 607	6	28	99	67	59	36	122	16
+G25002500608	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	608				7							State: 25 County: 025 Tract: 608	0	6	30	167	5	0	29	0
+G25002500609	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	609				7							State: 25 County: 025 Tract: 609	28	35	82	242	8	0	54	24
+G25002500610	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	610				7							State: 25 County: 025 Tract: 610	21	55	148	214	61	92	124	42
+G25002500611	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	611				7							State: 25 County: 025 Tract: 611	25	30	102	156	16	21	91	59
+G25002500612	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	612				7							State: 25 County: 025 Tract: 612	11	6	58	70	7	6	6	0
+G25002500613	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	613				7							State: 25 County: 025 Tract: 613	0	9	23	93	5	0	0	0
+G25002500614	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	614				7							State: 25 County: 025 Tract: 614	0	6	8	66	0	0	0	0
+G25002500701	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	701				7							State: 25 County: 025 Tract: 701	12	31	40	193	0	5	0	12
+G25002500702	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	702				7							State: 25 County: 025 Tract: 702	47	45	165	304	22	16	57	37
+G25002500703	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	703				7							State: 25 County: 025 Tract: 703	38	44	41	189	4	8	4	18
+G25002500704	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	704				7							State: 25 County: 025 Tract: 704	4	42	107	139	18	23	19	34
+G25002500705	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	705				7							State: 25 County: 025 Tract: 705	48	89	227	345	38	45	65	57
+G25002500706	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	706				7							State: 25 County: 025 Tract: 706	17	59	98	200	0	15	5	7
+G25002500707	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	707				7							State: 25 County: 025 Tract: 707	38	0	64	101	0	28	21	0
+G25002500708	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	708				7							State: 25 County: 025 Tract: 708	40	34	132	193	19	18	31	37
+G25002500709	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	709				7							State: 25 County: 025 Tract: 709	46	97	112	199	15	38	43	21
+G25002500710	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	710				7							State: 25 County: 025 Tract: 710	0	27	32	106	0	0	0	0
+G25002500711	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	711				7							State: 25 County: 025 Tract: 711	30	13	3	34	0	13	0	14
+G25002500712	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	712				7							State: 25 County: 025 Tract: 712	33	18	66	40	42	17	52	0
+G25002500801	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	801				7							State: 25 County: 025 Tract: 801	4	0	18	26	11	9	10	10
+G25002500802	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	802				7							State: 25 County: 025 Tract: 802	33	70	98	59	20	0	40	13
+G25002500803	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	803				7							State: 25 County: 025 Tract: 803	64	21	79	102	68	26	156	10
+G25002500804	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	804				7							State: 25 County: 025 Tract: 804	40	48	115	58	32	36	26	13
+G25002500805	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	805				7							State: 25 County: 025 Tract: 805	62	215	251	309	29	46	177	47
+G25002500806	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	806				7							State: 25 County: 025 Tract: 806	28	6	35	33	26	23	74	12
+G25002500807	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	807				7							State: 25 County: 025 Tract: 807	19	18	11	20	0	0	0	0
+G25002500808	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	808				7							State: 25 County: 025 Tract: 808	50	22	107	65	85	55	32	36
+G25002500809	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	809				7							State: 25 County: 025 Tract: 809	10	46	106	245	8	40	32	23
+G25002500810	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	810				7							State: 25 County: 025 Tract: 810	8	102	150	332	91	98	29	62
+G25002500811	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	811				7							State: 25 County: 025 Tract: 811	37	34	79	170	0	32	24	9
+G25002500812	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	812				7							State: 25 County: 025 Tract: 812	85	87	235	215	151	105	92	10
+G25002500813	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	813				7							State: 25 County: 025 Tract: 813	72	26	197	249	147	61	146	51
+G25002500814	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	814				7							State: 25 County: 025 Tract: 814	0	30	65	97	47	37	22	8
+G25002500815	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	815				7							State: 25 County: 025 Tract: 815	34	47	119	271	62	7	53	0
+G25002500816	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	816				7							State: 25 County: 025 Tract: 816	20	0	42	45	0	0	9	6
+G25002500817	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	817				7							State: 25 County: 025 Tract: 817	116	31	250	273	37	30	63	19
+G25002500818	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	818				7							State: 25 County: 025 Tract: 818	41	42	129	191	34	33	60	22
+G25002500819	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	819				7							State: 25 County: 025 Tract: 819	58	68	265	322	17	15	70	0
+G25002500820	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	820				7							State: 25 County: 025 Tract: 820	39	66	218	243	24	73	80	39
+G25002500821	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	821				7							State: 25 County: 025 Tract: 821	185	157	321	327	133	186	136	40
+G25002500901	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	901				7							State: 25 County: 025 Tract: 901	103	54	337	305	102	66	120	59
+G25002500902	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	902				7							State: 25 County: 025 Tract: 902	23	82	102	80	51	75	80	20
+G25002500903	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	903				7							State: 25 County: 025 Tract: 903	33	81	196	198	69	65	104	33
+G25002500904	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	904				7							State: 25 County: 025 Tract: 904	26	43	116	92	16	7	22	10
+G25002500905	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	905				7							State: 25 County: 025 Tract: 905	41	6	57	70	50	34	17	0
+G25002500906	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	906				7							State: 25 County: 025 Tract: 906	50	36	75	140	51	29	47	22
+G25002500907	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	907				7							State: 25 County: 025 Tract: 907	40	50	121	453	8	26	22	31
+G25002500908	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	908				7							State: 25 County: 025 Tract: 908	23	11	61	121	5	9	13	0
+G25002500909	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	909				7							State: 25 County: 025 Tract: 909	40	24	116	8	43	13	31	0
+G25002500910	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	910				7							State: 25 County: 025 Tract: 910	24	49	90	356	27	32	16	11
+G25002500911	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	911				7							State: 25 County: 025 Tract: 911	59	102	329	548	47	58	52	23
+G25002500912	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	912				7							State: 25 County: 025 Tract: 912	71	114	104	370	22	34	87	0
+G25002500913	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	913				7							State: 25 County: 025 Tract: 913	32	97	76	182	49	34	61	17
+G25002500914	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	914				7							State: 25 County: 025 Tract: 914	50	64	107	127	43	40	63	0
+G25002500915	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	915				7							State: 25 County: 025 Tract: 915	100	133	186	384	43	66	103	23
+G25002500916	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	916				7							State: 25 County: 025 Tract: 916	53	52	96	219	15	43	55	15
+G25002500917	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	917				7							State: 25 County: 025 Tract: 917	59	68	219	243	9	36	95	17
+G25002500918	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	918				7							State: 25 County: 025 Tract: 918	26	93	236	185	114	31	134	6
+G25002500919	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	919				7							State: 25 County: 025 Tract: 919	140	60	168	153	59	49	132	14
+G25002500920	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	920				7							State: 25 County: 025 Tract: 920	205	88	256	287	94	79	141	16
+G25002500921	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	921				7							State: 25 County: 025 Tract: 921	67	137	306	625	49	47	55	48
+G25002500922	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	922				7							State: 25 County: 025 Tract: 922	33	73	226	359	38	22	27	0
+G25002500923	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	923				7							State: 25 County: 025 Tract: 923	147	71	221	81	64	35	43	29
+G25002500924	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	924				7							State: 25 County: 025 Tract: 924	135	107	419	304	131	53	199	66
+G25002501001	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	1001				7							State: 25 County: 025 Tract: 1001	103	67	206	198	96	33	158	31
+G25002501002	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	1002				7							State: 25 County: 025 Tract: 1002	59	73	124	136	82	77	60	9
+G25002501003	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	1003				7							State: 25 County: 025 Tract: 1003	106	25	228	181	47	36	120	40
+G25002501004	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	1004				7							State: 25 County: 025 Tract: 1004	148	56	312	502	26	32	54	59
+G25002501005	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	1005				7							State: 25 County: 025 Tract: 1005	177	90	307	359	89	57	127	47
+G2500250100601	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	100601				7							State: 25 County: 025 Tract: 1006.01	110	133	336	645	14	13	39	51
+G2500250100602	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	100602				7							State: 25 County: 025 Tract: 1006.02	12	47	151	183	6	11	17	19
+G25002501007	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	1007				7							State: 25 County: 025 Tract: 1007	100	88	284	828	0	8	25	12
+G25002501008	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	1008				7							State: 25 County: 025 Tract: 1008	84	93	266	781	23	11	28	13
+G25002501009	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	1009				7							State: 25 County: 025 Tract: 1009	91	121	253	508	18	6	19	20
+G2500250101001	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	101001				7							State: 25 County: 025 Tract: 1010.01	200	152	438	471	16	40	58	44
+G2500250101002	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	101002				7							State: 25 County: 025 Tract: 1010.02	94	127	487	364	43	62	113	18
+G2500250101101	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	101101				7							State: 25 County: 025 Tract: 1011.01	64	23	325	251	19	34	23	16
+G2500250101102	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	101102				7							State: 25 County: 025 Tract: 1011.02	64	62	271	219	82	54	172	44
+G2500250110101	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	110101				7							State: 25 County: 025 Tract: 1101.01	0	0	0	0	0	0	0	0
+G2500250110102	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	110102				7							State: 25 County: 025 Tract: 1101.02	79	135	244	497	42	29	39	28
+G25002501102	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	1102				7							State: 25 County: 025 Tract: 1102	20	24	68	319	7	24	12	19
+G25002501103	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	1103				7							State: 25 County: 025 Tract: 1103	42	59	146	322	6	24	12	8
+G2500250110401	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	110401				7							State: 25 County: 025 Tract: 1104.01	35	56	192	412	36	46	52	12
+G2500250110402	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	110402				7							State: 25 County: 025 Tract: 1104.02	60	125	218	582	11	15	18	7
+G2500250110501	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	110501				7							State: 25 County: 025 Tract: 1105.01	64	87	275	527	6	5	15	21
+G2500250110502	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	110502				7							State: 25 County: 025 Tract: 1105.02	62	136	153	601	20	36	32	6
+G2500250110601	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	110601				7							State: 25 County: 025 Tract: 1106.01	6	24	155	488	0	0	5	7
+G2500250110602	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	110602				7							State: 25 County: 025 Tract: 1106.02	65	176	270	808	15	29	51	13
+G25002501201	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	1201				7							State: 25 County: 025 Tract: 1201	12	110	314	979	12	24	28	27
+G25002501202	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	1202				7							State: 25 County: 025 Tract: 1202	42	99	197	321	50	56	21	24
+G25002501203	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	1203				7							State: 25 County: 025 Tract: 1203	102	91	276	342	121	36	168	13
+G25002501204	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	1204				7							State: 25 County: 025 Tract: 1204	69	101	217	547	11	27	22	71
+G25002501205	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	1205				7							State: 25 County: 025 Tract: 1205	15	55	105	144	60	59	44	36
+G25002501206	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	1206				7							State: 25 County: 025 Tract: 1206	49	35	150	258	17	11	33	5
+G25002501207	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	1207				7							State: 25 County: 025 Tract: 1207	14	40	52	251	19	16	65	6
+G25002501301	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	1301				7							State: 25 County: 025 Tract: 1301	92	102	297	1187	0	0	25	14
+G25002501302	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	1302				7							State: 25 County: 025 Tract: 1302	88	105	300	828	8	6	6	7
+G25002501303	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	1303				7							State: 25 County: 025 Tract: 1303	107	118	293	774	0	0	16	12
+G2500250130401	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	130401				7							State: 25 County: 025 Tract: 1304.01	82	107	308	1143	15	30	45	58
+G2500250130402	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	130402				7							State: 25 County: 025 Tract: 1304.02	93	116	310	860	6	0	7	14
+G2500250140101	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	140101				7							State: 25 County: 025 Tract: 1401.01	117	211	478	1041	75	74	91	53
+G2500250140102	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	140102				7							State: 25 County: 025 Tract: 1401.02	54	137	355	534	0	8	7	15
+G25002501402	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	1402				7							State: 25 County: 025 Tract: 1402	141	214	436	1156	6	21	52	66
+G25002501403	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	1403				7							State: 25 County: 025 Tract: 1403	76	141	300	663	15	23	56	20
+G25002501404	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	1404				7							State: 25 County: 025 Tract: 1404	231	140	446	806	44	48	86	22
+G25002501501	1980		1		1	Massachusetts	25		1120	Suffolk	25		5		440	1501				7							State: 25 County: 025 Tract: 1501	0	0	0	0	0	0	0	0
+G25002501601	1980		1		1	Massachusetts	25		1120	Suffolk	25		10		700	1601				7							State: 25 County: 025 Tract: 1601	79	96	261	525	93	74	102	62
+G25002501602	1980		1		1	Massachusetts	25		1120	Suffolk	25		10		700	1602				7							State: 25 County: 025 Tract: 1602	33	49	112	349	102	35	61	10
+G25002501603	1980		1		1	Massachusetts	25		1120	Suffolk	25		10		700	1603				7							State: 25 County: 025 Tract: 1603	0	0	0	0	0	0	0	0
+G25002501604	1980		1		1	Massachusetts	25		1120	Suffolk	25		10		700	1604				7							State: 25 County: 025 Tract: 1604	57	59	72	143	31	58	52	13
+G25002501605	1980		1		1	Massachusetts	25		1120	Suffolk	25		10		700	1605				7							State: 25 County: 025 Tract: 1605	77	156	432	944	71	96	106	59
+G25002501606	1980		1		1	Massachusetts	25		1120	Suffolk	25		10		700	1606				7							State: 25 County: 025 Tract: 1606	99	131	404	1008	56	55	71	39
+G25002501607	1980		1		1	Massachusetts	25		1120	Suffolk	25		10		700	1607				7							State: 25 County: 025 Tract: 1607	0	0	0	0	0	0	0	0
+G25002501701	1980		1		1	Massachusetts	25		1120	Suffolk	25		15		3510	1701				7							State: 25 County: 025 Tract: 1701	109	98	457	1049	11	32	54	21
+G25002501702	1980		1		1	Massachusetts	25		1120	Suffolk	25		15		3510	1702				7							State: 25 County: 025 Tract: 1702	97	54	370	548	33	0	53	26
+G25002501703	1980		1		1	Massachusetts	25		1120	Suffolk	25		15		3510	1703				7							State: 25 County: 025 Tract: 1703	108	151	499	981	0	21	25	13
+G25002501704	1980		1		1	Massachusetts	25		1120	Suffolk	25		15		3510	1704				7							State: 25 County: 025 Tract: 1704	73	86	292	645	6	10	55	6
+G25002501705	1980		1		1	Massachusetts	25		1120	Suffolk	25		15		3510	1705				7							State: 25 County: 025 Tract: 1705	39	82	196	605	29	45	30	59
+G25002501706	1980		1		1	Massachusetts	25		1120	Suffolk	25		15		3510	1706				7							State: 25 County: 025 Tract: 1706	80	92	308	755	18	11	44	39
+G25002501707	1980		1		1	Massachusetts	25		1120	Suffolk	25		15		3510	1707				7							State: 25 County: 025 Tract: 1707	122	101	297	859	68	73	133	43
+G25002501708	1980		1		1	Massachusetts	25		1120	Suffolk	25		15		3510	1708				7							State: 25 County: 025 Tract: 1708	69	105	327	574	0	13	55	42
+G25002501801	1980		1		1	Massachusetts	25		1120	Suffolk	25		20		5000	1801				7							State: 25 County: 025 Tract: 1801	58	85	282	700	0	0	0	16
+G25002501802	1980		1		1	Massachusetts	25		1120	Suffolk	25		20		5000	1802				7							State: 25 County: 025 Tract: 1802	88	113	311	612	0	11	6	27
+G25002501803	1980		1		1	Massachusetts	25		1120	Suffolk	25		20		5000	1803				7							State: 25 County: 025 Tract: 1803	51	69	334	479	0	0	10	16
+G25002501804	1980		1		1	Massachusetts	25		1120	Suffolk	25		20		5000	1804				7							State: 25 County: 025 Tract: 1804	30	18	111	283	7	12	14	28
+G25002501805	1980		1		1	Massachusetts	25		1120	Suffolk	25		20		5000	1805				7							State: 25 County: 025 Tract: 1805	49	122	228	511	3	13	45	23
+G25002707001	1980		1		1	Massachusetts	25			Worcester	27		5			7001											State: 25 County: 027 Tract: 7001	83	149	352	403	6	0	37	23
+G25002707011	1980		1		1	Massachusetts	25			Worcester	27		295			7011											State: 25 County: 027 Tract: 7011	166	191	589	725	19	37	55	12
+G25002707022	1980		1		1	Massachusetts	25			Worcester	27		205			7022											State: 25 County: 027 Tract: 7022	34	37	48	108	5	4	0	4
+G25002707031	1980		1		1	Massachusetts	25			Worcester	27		10			7031											State: 25 County: 027 Tract: 7031	98	93	238	417	14	31	25	29
+G25002707032	1980		1		1	Massachusetts	25			Worcester	27		10			7032											State: 25 County: 027 Tract: 7032	95	99	212	532	3	11	21	8
+G25002707033	1980		1		1	Massachusetts	25			Worcester	27		10			7033											State: 25 County: 027 Tract: 7033	45	94	219	431	20	0	11	7
+G25002707042	1980		1		1	Massachusetts	25			Worcester	27					7042											State: 25 County: 027 Tract: 7042	53	41	181	225	5	0	12	0
+G25002707051	1980		1		1	Massachusetts	25			Worcester	27		250			7051											State: 25 County: 027 Tract: 7051	166	159	453	706	6	16	25	16
+G25002707061	1980		1		1	Massachusetts	25			Worcester	27		110			7061											State: 25 County: 027 Tract: 7061	50	74	147	188	0	8	0	2
+G25002707071	1980		1		1	Massachusetts	25			Worcester	27		80		1370	7071											State: 25 County: 027 Tract: 7071	54	100	258	474	36	32	48	18
+G25002707072	1980		1		1	Massachusetts	25			Worcester	27		80		1370	7072											State: 25 County: 027 Tract: 7072	27	36	137	175	0	25	11	6
+G25002707073	1980		1		1	Massachusetts	25			Worcester	27		80		1370	7073											State: 25 County: 027 Tract: 7073	65	124	195	571	13	6	24	27
+G25002707074	1980		1		1	Massachusetts	25			Worcester	27		80		1370	7074											State: 25 County: 027 Tract: 7074	100	79	331	612	0	5	11	12
+G25002707075	1980		1		1	Massachusetts	25			Worcester	27		80		1370	7075											State: 25 County: 027 Tract: 7075	80	76	298	573	0	14	37	18
+G25002707081	1980		1		1	Massachusetts	25		2600	Worcester	27		290			7081											State: 25 County: 027 Tract: 7081	118	115	506	672	6	0	6	11
+G25002707091	1980		1		1	Massachusetts	25		2600	Worcester	27		125		2100	7091											State: 25 County: 027 Tract: 7091	49	35	79	78	6	0	0	5
+G25002707092	1980		1		1	Massachusetts	25		2600	Worcester	27		125		2100	7092											State: 25 County: 027 Tract: 7092	302	373	923	1361	49	84	50	77
+G25002707093	1980		1		1	Massachusetts	25		2600	Worcester	27		125		2100	7093											State: 25 County: 027 Tract: 7093	0	10	32	68	0	5	7	0
+G25002707094	1980		1		1	Massachusetts	25		2600	Worcester	27		125		2100	7094											State: 25 County: 027 Tract: 7094	124	146	327	607	51	73	43	17
+G25002707095	1980		1		1	Massachusetts	25		2600	Worcester	27		125		2100	7095											State: 25 County: 027 Tract: 7095	194	150	465	791	3	0	36	11
+G25002707096	1980		1		1	Massachusetts	25		2600	Worcester	27		125		2100	7096											State: 25 County: 027 Tract: 7096	30	37	101	168	11	10	0	5
+G25002707097	1980		1		1	Massachusetts	25		2600	Worcester	27		125		2100	7097											State: 25 County: 027 Tract: 7097	202	249	595	1117	28	44	67	54
+G25002707101	1980		1		1	Massachusetts	25		2600	Worcester	27		75		1280	7101											State: 25 County: 027 Tract: 7101	80	94	314	480	0	19	27	28
+G25002707102	1980		1		1	Massachusetts	25		2600	Worcester	27		75		1280	7102											State: 25 County: 027 Tract: 7102	88	158	513	750	33	42	35	20
+G25002707103	1980		1		1	Massachusetts	25		2600	Worcester	27		75		1280	7103											State: 25 County: 027 Tract: 7103	32	103	226	340	12	0	8	6
+G25002707104	1980		1		1	Massachusetts	25		2600	Worcester	27		75		1280	7104											State: 25 County: 027 Tract: 7104	20	49	172	395	0	6	0	6
+G25002707105	1980		1		1	Massachusetts	25		2600	Worcester	27		75		1280	7105											State: 25 County: 027 Tract: 7105	116	68	267	383	24	66	17	17
+G25002707106	1980		1		1	Massachusetts	25		2600	Worcester	27		75		1280	7106											State: 25 County: 027 Tract: 7106	96	165	501	871	35	59	74	31
+G25002707107	1980		1		1	Massachusetts	25		2600	Worcester	27		75		1280	7107											State: 25 County: 027 Tract: 7107	27	0	21	198	22	21	13	12
+G25002707108	1980		1		1	Massachusetts	25		2600	Worcester	27		75		1280	7108											State: 25 County: 027 Tract: 7108	56	105	266	539	13	41	69	19
+G25002707109	1980		1		1	Massachusetts	25		2600	Worcester	27		75		1280	7109											State: 25 County: 027 Tract: 7109	0	0	0	0	0	0	0	0
+G25002707110	1980		1		1	Massachusetts	25		2600	Worcester	27		75		1280	7110											State: 25 County: 027 Tract: 7110	67	95	162	335	5	28	21	23
+G25002707111	1980		1		1	Massachusetts	25		2600	Worcester	27		75		1280	7111											State: 25 County: 027 Tract: 7111	45	77	199	509	5	0	18	34
+G25002707121	1980		1		1	Massachusetts	25		2600	Worcester	27		130			7121											State: 25 County: 027 Tract: 7121	189	227	779	1084	20	10	48	23
+G25002707131	1980		1		1	Massachusetts	25			Worcester	27		115			7131											State: 25 County: 027 Tract: 7131	173	167	537	570	20	7	12	15
+G25002707141	1980		1		1	Massachusetts	25			Worcester	27		95			7141											State: 25 County: 027 Tract: 7141	248	409	354	218	26	41	0	8
+G25002707142	1980		1		1	Massachusetts	25			Worcester	27		95		9999	7142											State: 25 County: 027 Tract: 7142	121	89	444	458	8	0	7	0
+G25002707151	1980		1		1	Massachusetts	25			Worcester	27		35			7151											State: 25 County: 027 Tract: 7151	82	90	236	256	2	6	6	8
+G25002707161	1980		1		1	Massachusetts	25			Worcester	27		55		790	7161											State: 25 County: 027 Tract: 7161	183	193	409	821	37	24	40	38
+G25002707162	1980		1		1	Massachusetts	25			Worcester	27		55		790	7162											State: 25 County: 027 Tract: 7162	69	57	186	389	9	23	20	17
+G25002707163	1980		1		1	Massachusetts	25			Worcester	27		55		790	7163											State: 25 County: 027 Tract: 7163	87	100	203	388	16	25	26	0
+G25002707171	1980		1		1	Massachusetts	25		9240	Worcester	27		25			7171											State: 25 County: 027 Tract: 7171	45	49	211	247	2	2	4	9
+G25002707181	1980		1		1	Massachusetts	25		9240	Worcester	27		40			7181											State: 25 County: 027 Tract: 7181	76	135	256	441	12	5	20	7
+G25002707191	1980		1		1	Massachusetts	25		9240	Worcester	27		235			7191											State: 25 County: 027 Tract: 7191	150	184	459	575	6	17	34	0
+G25002707201	1980		1		1	Massachusetts	25			Worcester	27		200			7201											State: 25 County: 027 Tract: 7201	86	89	225	274	4	4	5	6
+G25002707211	1980		1		1	Massachusetts	25			Worcester	27					7211											State: 25 County: 027 Tract: 7211	174	139	398	557	14	9	17	21
+G25002707221	1980		1		1	Massachusetts	25			Worcester	27		20			7221											State: 25 County: 027 Tract: 7221	84	91	325	522	6	33	6	13
+G25002707231	1980		1		1	Massachusetts	25			Worcester	27					7231											State: 25 County: 027 Tract: 7231	93	68	203	339	12	30	16	17
+G25002707241	1980		1		1	Massachusetts	25			Worcester	27		285			7241											State: 25 County: 027 Tract: 7241	74	62	245	395	0	10	16	0
+G25002707251	1980		1		1	Massachusetts	25		9240	Worcester	27		170			7251											State: 25 County: 027 Tract: 7251	97	108	300	499	7	22	33	8
+G25002707261	1980		1		1	Massachusetts	25		9240	Worcester	27		230		9999	7261											State: 25 County: 027 Tract: 7261	83	168	360	527	13	6	6	27
+G25002707262	1980		1		1	Massachusetts	25		9240	Worcester	27		230		4070	7262											State: 25 County: 027 Tract: 7262	181	253	380	729	6	76	42	11
+G25002707271	1980		1		1	Massachusetts	25		9240	Worcester	27		185			7271											State: 25 County: 027 Tract: 7271	101	97	300	476	7	0	19	28
+G25002707281	1980		1		1	Massachusetts	25		9240	Worcester	27		100			7281											State: 25 County: 027 Tract: 7281	47	32	218	279	0	0	8	7
+G25002707282	1980		1		1	Massachusetts	25		9240	Worcester	27		100			7282											State: 25 County: 027 Tract: 7282	90	74	331	570	0	4	16	5
+G25002707283	1980		1		1	Massachusetts	25		9240	Worcester	27		100			7283											State: 25 County: 027 Tract: 7283	106	80	427	488	7	3	0	7
+G25002707284	1980		1		1	Massachusetts	25		9240	Worcester	27		100			7284											State: 25 County: 027 Tract: 7284	96	106	314	495	0	0	24	6
+G25002707291	1980		1		1	Massachusetts	25		9240	Worcester	27		280			7291											State: 25 County: 027 Tract: 7291	28	115	230	407	8	0	14	6
+G25002707292	1980		1		1	Massachusetts	25		9240	Worcester	27		280			7292											State: 25 County: 027 Tract: 7292	31	46	287	488	6	8	19	6
+G25002707301	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	7301											State: 25 County: 027 Tract: 7301	88	106	342	819	6	0	12	0
+G25002707302	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	7302											State: 25 County: 027 Tract: 7302	131	128	425	863	7	12	0	6
+G25002707303	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	7303											State: 25 County: 027 Tract: 7303	69	132	284	807	0	11	22	6
+G2500270730401	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	730401											State: 25 County: 027 Tract: 7304.01	117	114	291	731	11	23	52	14
+G2500270730402	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	730402											State: 25 County: 027 Tract: 7304.02	18	32	116	230	6	12	6	13
+G25002707305	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	7305											State: 25 County: 027 Tract: 7305	47	91	193	409	21	15	21	12
+G25002707306	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	7306											State: 25 County: 027 Tract: 7306	121	178	453	753	6	6	10	34
+G25002707307	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	7307											State: 25 County: 027 Tract: 7307	98	138	381	775	5	4	25	24
+G2500270730801	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	730801											State: 25 County: 027 Tract: 7308.01	92	95	292	549	0	0	25	13
+G2500270730802	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	730802											State: 25 County: 027 Tract: 7308.02	38	57	172	342	0	9	11	19
+G2500270730901	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	730901											State: 25 County: 027 Tract: 7309.01	56	94	261	544	19	13	18	12
+G2500270730902	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	730902											State: 25 County: 027 Tract: 7309.02	56	91	227	424	0	0	8	0
+G25002707310	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	7310											State: 25 County: 027 Tract: 7310	82	108	378	778	20	21	39	5
+G2500270731101	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	731101											State: 25 County: 027 Tract: 7311.01	68	86	195	494	15	52	64	32
+G2500270731102	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	731102											State: 25 County: 027 Tract: 7311.02	43	102	122	417	0	8	18	5
+G2500270731201	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	731201											State: 25 County: 027 Tract: 7312.01	91	118	316	730	47	48	76	43
+G2500270731202	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	731202											State: 25 County: 027 Tract: 7312.02	0	0	0	0	0	0	0	0
+G25002707313	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	7313											State: 25 County: 027 Tract: 7313	53	49	176	202	82	50	58	29
+G25002707314	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	7314											State: 25 County: 027 Tract: 7314	78	73	154	340	57	78	51	15
+G25002707315	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	7315											State: 25 County: 027 Tract: 7315	52	66	246	425	34	58	95	24
+G25002707316	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	7316											State: 25 County: 027 Tract: 7316	49	50	171	543	46	18	18	14
+G25002707317	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	7317											State: 25 County: 027 Tract: 7317	9	9	22	108	12	18	6	27
+G25002707318	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	7318											State: 25 County: 027 Tract: 7318	152	142	376	670	80	66	68	60
+G25002707319	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	7319											State: 25 County: 027 Tract: 7319	109	129	224	488	43	69	101	27
+G2500270732001	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	732001											State: 25 County: 027 Tract: 7320.01	42	60	139	107	180	198	230	25
+G2500270732002	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	732002											State: 25 County: 027 Tract: 7320.02	44	35	130	273	0	0	10	11
+G25002707321	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	7321											State: 25 County: 027 Tract: 7321	0	5	7	12	0	0	0	0
+G2500270732201	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	732201											State: 25 County: 027 Tract: 7322.01	14	52	196	429	5	10	7	10
+G2500270732202	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	732202											State: 25 County: 027 Tract: 7322.02	48	88	220	482	0	4	35	25
+G2500270732203	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	732203											State: 25 County: 027 Tract: 7322.03	9	81	92	279	26	4	26	12
+G25002707323	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	7323											State: 25 County: 027 Tract: 7323	102	168	513	999	32	14	65	62
+G25002707324	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	7324											State: 25 County: 027 Tract: 7324	122	158	279	719	84	89	110	38
+G25002707325	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	7325											State: 25 County: 027 Tract: 7325	36	60	55	236	6	4	21	10
+G25002707326	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	7326											State: 25 County: 027 Tract: 7326	44	175	213	574	21	35	17	58
+G25002707327	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	7327											State: 25 County: 027 Tract: 7327	70	110	211	468	12	23	29	17
+G25002707328	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	7328											State: 25 County: 027 Tract: 7328	70	131	345	883	14	0	55	23
+G2500270732901	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	732901											State: 25 County: 027 Tract: 7329.01	79	153	310	833	42	120	86	24
+G2500270732902	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	732902											State: 25 County: 027 Tract: 7329.02	0	0	1	2	0	0	0	0
+G25002707330	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	7330											State: 25 County: 027 Tract: 7330	52	96	235	433	26	27	34	12
+G2500270733101	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	733101											State: 25 County: 027 Tract: 7331.01	25	53	148	260	0	0	5	7
+G2500270733102	1980		1		1	Massachusetts	25		9240	Worcester	27		300		5030	733102											State: 25 County: 027 Tract: 7331.02	28	49	143	356	0	0	5	7
+G25002707351	1980		1		1	Massachusetts	25		9240	Worcester	27		120		9999	7351											State: 25 County: 027 Tract: 7351	138	164	368	638	5	18	18	0
+G25002707352	1980		1		1	Massachusetts	25		9240	Worcester	27		120			7352											State: 25 County: 027 Tract: 7352	68	115	314	463	22	12	23	0
+G25002707361	1980		1		1	Massachusetts	25		9240	Worcester	27		15			7361											State: 25 County: 027 Tract: 7361	29	77	162	345	0	0	21	7
+G25002707362	1980		1		1	Massachusetts	25		9240	Worcester	27		15			7362											State: 25 County: 027 Tract: 7362	86	83	313	538	7	9	0	7
+G25002707363	1980		1		1	Massachusetts	25		9240	Worcester	27		15			7363											State: 25 County: 027 Tract: 7363	13	76	179	423	0	0	0	0
+G25002707364	1980		1		1	Massachusetts	25		9240	Worcester	27		15			7364											State: 25 County: 027 Tract: 7364	50	30	218	418	6	0	0	6
+G25002707365	1980		1		1	Massachusetts	25		9240	Worcester	27		15			7365											State: 25 County: 027 Tract: 7365	81	106	338	485	0	3	20	0
+G25002707371	1980		1		1	Massachusetts	25		9240	Worcester	27		145			7371											State: 25 County: 027 Tract: 7371	118	91	364	617	11	4	25	21
+G25002707372	1980		1		1	Massachusetts	25		9240	Worcester	27		145			7372											State: 25 County: 027 Tract: 7372	38	41	112	285	0	0	21	0
+G25002707373	1980		1		1	Massachusetts	25		9240	Worcester	27		145			7373											State: 25 County: 027 Tract: 7373	96	97	414	687	42	22	40	13
+G25002707381	1980		1		1	Massachusetts	25		9240	Worcester	27		85			7381											State: 25 County: 027 Tract: 7381	43	117	197	323	8	0	14	12
+G25002707382	1980		1		1	Massachusetts	25		9240	Worcester	27		85			7382											State: 25 County: 027 Tract: 7382	147	224	414	612	32	6	17	20
+G25002707383	1980		1		1	Massachusetts	25		9240	Worcester	27		85			7383											State: 25 County: 027 Tract: 7383	80	73	236	445	5	0	17	13
+G25002707384	1980		1		1	Massachusetts	25		9240	Worcester	27					7384											State: 25 County: 027 Tract: 7384	0	0	0	0	0	0	0	0
+G25002707391	1980		1		1	Massachusetts	25		9240	Worcester	27		215			7391											State: 25 County: 027 Tract: 7391	84	104	261	568	0	17	34	29
+G25002707392	1980		1		1	Massachusetts	25		9240	Worcester	27		215			7392											State: 25 County: 027 Tract: 7392	54	155	263	775	12	15	17	34
+G25002707393	1980		1		1	Massachusetts	25		9240	Worcester	27		215			7393											State: 25 County: 027 Tract: 7393	70	124	271	536	5	0	8	13
+G25002707394	1980		1		1	Massachusetts	25		9240	Worcester	27		215			7394											State: 25 County: 027 Tract: 7394	102	143	516	595	6	0	14	0
+G25002707395	1980		1		1	Massachusetts	25		9240	Worcester	27		215			7395											State: 25 County: 027 Tract: 7395	114	119	463	564	0	4	7	0
+G25002707401	1980		1		1	Massachusetts	25		9240	Worcester	27		160			7401											State: 25 County: 027 Tract: 7401	273	329	706	730	0	0	30	5
+G25002707402	1980		1		1	Massachusetts	25		9240	Worcester	27		160		2889	7402											State: 25 County: 027 Tract: 7402	31	137	209	266	0	6	14	6
+G25002707411	1980		1		1	Massachusetts	25			Worcester	27		220			7411											State: 25 County: 027 Tract: 7411	189	176	603	661	10	0	13	6
+G25002707421	1980		1		1	Massachusetts	25		9240	Worcester	27				9999	7421											State: 25 County: 027 Tract: 7421	0	0	0	21	0	0	0	0
+G25002707422	1980		1		1	Massachusetts	25		9240	Worcester	27		275		9999	7422											State: 25 County: 027 Tract: 7422	72	106	378	422	7	6	15	13
+G25002707423	1980		1		1	Massachusetts	25		9240	Worcester	27		275		4610	7423											State: 25 County: 027 Tract: 7423	82	104	297	517	11	20	23	18
+G25002707424	1980		1		1	Massachusetts	25		9240	Worcester	27		275		9999	7424											State: 25 County: 027 Tract: 7424	183	84	485	663	0	0	11	0
+G25002707431	1980		1		1	Massachusetts	25		9240	Worcester	27		255			7431											State: 25 County: 027 Tract: 7431	126	133	282	478	6	11	14	7
+G25002707441	1980		1		1	Massachusetts	25			Worcester	27		140			7441											State: 25 County: 027 Tract: 7441	426	352	985	930	22	24	54	14
+G25002707442	1980		1		1	Massachusetts	25			Worcester	27		140		2530	7442											State: 25 County: 027 Tract: 7442	78	96	283	814	21	6	0	22
+G25002707443	1980		1		1	Massachusetts	25			Worcester	27		140		2530	7443											State: 25 County: 027 Tract: 7443	92	82	238	449	17	10	48	13
+G25002707444	1980		1		1	Massachusetts	25			Worcester	27		140		2530	7444											State: 25 County: 027 Tract: 7444	61	96	256	663	0	18	22	23
+G25002707451	1980		1		1	Massachusetts	25			Worcester	27		105			7451											State: 25 County: 027 Tract: 7451	69	69	328	524	14	6	27	32
+G25002707461	1980		1		1	Massachusetts	25			Worcester	27		135			7461											State: 25 County: 027 Tract: 7461	110	74	269	340	0	15	29	0
+G25002707471	1980		1		1	Massachusetts	25		6480	Worcester	27		30			7471				80							State: 25 County: 027 Tract: 7471	195	143	532	724	8	28	34	26
+G25002707481	1980		1		1	Massachusetts	25		6480	Worcester	27		150			7481				80							State: 25 County: 027 Tract: 7481	44	61	124	177	2	6	16	12
+G25002707491	1980		1		1	Massachusetts	25		9240	Worcester	27		260			7491											State: 25 County: 027 Tract: 7491	86	86	262	404	32	6	19	12
+G25002707492	1980		1		1	Massachusetts	25		9240	Worcester	27		260			7492											State: 25 County: 027 Tract: 7492	139	161	312	619	14	12	33	23
+G25002707501	1980		1		1	Massachusetts	25		9240	Worcester	27		165		4870	7501											State: 25 County: 027 Tract: 7501	120	163	319	623	17	44	33	11
+G25002707502	1980		1		1	Massachusetts	25		9240	Worcester	27		165			7502											State: 25 County: 027 Tract: 7502	113	131	367	538	27	21	9	17
+G25002707503	1980		1		1	Massachusetts	25		9240	Worcester	27		165		9999	7503											State: 25 County: 027 Tract: 7503	54	65	220	316	0	0	14	0
+G25002707511	1980		1		1	Massachusetts	25		9240	Worcester	27		245			7511											State: 25 County: 027 Tract: 7511	166	151	499	735	13	17	24	20
+G25002707521	1980		1		1	Massachusetts	25			Worcester	27		60			7521											State: 25 County: 027 Tract: 7521	151	85	268	432	14	17	6	21
+G25002707531	1980		1		1	Massachusetts	25		9240	Worcester	27		180		9999	7531											State: 25 County: 027 Tract: 7531	118	191	432	543	31	45	14	18
+G25002707532	1980		1		1	Massachusetts	25		9240	Worcester	27		180			7532											State: 25 County: 027 Tract: 7532	183	251	519	646	7	11	63	30
+G25002707541	1980		1		1	Massachusetts	25		9240	Worcester	27		270			7541											State: 25 County: 027 Tract: 7541	81	102	347	645	9	14	21	5
+G25002707542	1980		1		1	Massachusetts	25		9240	Worcester	27		270			7542											State: 25 County: 027 Tract: 7542	42	98	244	581	28	11	27	6
+G25002707543	1980		1		1	Massachusetts	25		9240	Worcester	27		270		4550	7543											State: 25 County: 027 Tract: 7543	45	80	166	413	35	31	26	22
+G25002707544	1980		1		1	Massachusetts	25		9240	Worcester	27		270		4550	7544											State: 25 County: 027 Tract: 7544	42	91	261	419	8	26	44	23
+G25002707551	1980		1		1	Massachusetts	25			Worcester	27		65			7551											State: 25 County: 027 Tract: 7551	51	52	229	507	9	29	19	14
+G25002707552	1980		1		1	Massachusetts	25			Worcester	27		65			7552											State: 25 County: 027 Tract: 7552	122	120	478	603	7	13	19	21
+G25002707561	1980		1		1	Massachusetts	25		9240	Worcester	27		50			7561											State: 25 County: 027 Tract: 7561	219	250	477	631	22	23	85	46
+G25002707571	1980		1		1	Massachusetts	25			Worcester	27		225		3980	7571											State: 25 County: 027 Tract: 7571	111	97	272	557	5	17	57	18
+G25002707572	1980		1		1	Massachusetts	25			Worcester	27		225		3980	7572											State: 25 County: 027 Tract: 7572	19	80	168	265	32	35	61	7
+G25002707573	1980		1		1	Massachusetts	25			Worcester	27		225		3980	7573											State: 25 County: 027 Tract: 7573	50	53	90	380	23	54	37	0
+G25002707574	1980		1		1	Massachusetts	25			Worcester	27		225		3980	7574											State: 25 County: 027 Tract: 7574	65	97	275	493	0	11	7	20
+G25002707575	1980		1		1	Massachusetts	25			Worcester	27		225		9999	7575											State: 25 County: 027 Tract: 7575	145	102	245	500	26	20	22	0
+G25002707581	1980		1		1	Massachusetts	25			Worcester	27		240			7581											State: 25 County: 027 Tract: 7581	152	129	525	697	0	16	49	22
+G25002707591	1980		1		1	Massachusetts	25		9240	Worcester	27		70			7591											State: 25 County: 027 Tract: 7591	49	47	142	262	9	4	8	17
+G25002707601	1980		1		1	Massachusetts	25		9240	Worcester	27		45			7601											State: 25 County: 027 Tract: 7601	40	70	175	369	43	4	24	8
+G25002707611	1980		1		1	Massachusetts	25		8000	Worcester	27		265			7611											State: 25 County: 027 Tract: 7611	29	76	275	492	39	21	9	5
