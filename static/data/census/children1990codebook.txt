@@ -1,0 +1,131 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0001_ds120_1990_blck_grp'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             1990
+Geographic level: Block Group (by State--County--Census Tract)
+Dataset:          1990 Census: STF 1 - 100% Data
+   NHGIS code:    1990_STF1
+   NHGIS ID:      ds120
+Breakdown(s):     Geographic Subarea:
+                     Total area (00)
+ 
+Tables:
+ 
+1. Household Size and Household Type
+   Universe:    Households
+   Source code: NP16
+   NHGIS code:  ET8
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        ANRCA:       Alaska Native Regional Corporation Code
+        RES_ONLYA:   American Indian Reservation [excluding trust lands] Code
+        TRUSTA:      American Indian Reservation [trust lands only] Code
+        AIANHH:      American Indian Area/Alaska Native Area/Hawaiian Home Land Name
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        RES_TRSTA:   Reservation/Trust Lands Code
+        BLOCKA:      Block Code
+        BLCK_GRPA:   Block Group Code
+        TRACTA:      Census Tract Code
+        CDA:         Congressional District (101st) Code
+        C_CITYA:     Consolidated City Code
+        COUNTY:      County Name
+        COUNTYA:     County Code
+        CTY_SUB:     County Subdivision Name
+        CTY_SUBA:    County Subdivision Code
+        DIVISION:    Division Name
+        DIVISIONA:   Division Code
+        MSA_CMSA:    Metropolitan Statistical Area/Consolidated Metropolitan Statistical Area Name
+        MSA_CMSAA:   Metropolitan Statistical Area/Consolidated Metropolitan Statistical Area Code
+        PLACE:       Place Name
+        PLACEA:      Place Code
+        PMSA:        Primary Metropolitan Statistical Area Name
+        PMSAA:       Primary Metropolitan Statistical Area Code
+        REGION:      Region Name
+        REGIONA:     Region Code
+        STATE:       State Name
+        STATEA:      State Code
+        URBRURALA:   Urban/Rural Code
+        URB_AREA:    Urban Area Name
+        URB_AREAA:   Urban Area Code
+        CD103A:      Congressional District (103rd) Code
+        ANPSADPI:    Area Name/PSAD Term/Part Indicator
+ 
+Breakdown:
+    Geographic Subarea: Total area (00)
+ 
+    Table 1:     Household Size and Household Type
+    Universe:    Households
+    Source code: NP16
+    NHGIS code:  ET8
+        ET8001:      1 person: Male householder
+        ET8002:      1 person: Female householder
+        ET8003:      2 or more persons: Family households: Married-couple family: With related children
+        ET8004:      2 or more persons: Family households: Married-couple family: No related children
+        ET8005:      2 or more persons: Family households: Other family: Male householder, no wife present: With related children
+        ET8006:      2 or more persons: Family households: Other family: Male householder, no wife present: No related children
+        ET8007:      2 or more persons: Family households: Other family: Female householder, no husband present: With related children
+        ET8008:      2 or more persons: Family households: Other family: Female householder, no husband present: No related children
+        ET8009:      2 or more persons: Nonfamily households: Male householder
+        ET8010:      2 or more persons: Nonfamily households: Female householder
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing NHGIS data (either tabular or GIS)
+  must cite it appropriately. The citation should include the following:
+
+    Minnesota Population Center. National Historical Geographic Information
+    System: Version 2.0. Minneapolis, MN: University of Minnesota 2011.
+
+* Publications and research reports employing school attendance areas data
+  (either tabular or GIS) must cite it appropriately. The citation should
+  include the following:
+
+    The College of William and Mary and the Minnesota Population Center.
+    School Attendance Boundary Information System (SABINS): Version 1.0.
+    Minneapolis, MN: University of Minnesota 2011.
+
+* If possible, citations should also include the URL for the NHGIS site:
+
+    https://www.nhgis.org/
+
+* If possible, citations involving school attendance areas should also include
+  the URL for the SABINS site:
+
+    http://www.sabinsdata.org/
+
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+Printed matter should be sent to:
+
+    NHGIS
+    Minnesota Population Center
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455
+
+Send electronic material to: nhgis@umn.edu
