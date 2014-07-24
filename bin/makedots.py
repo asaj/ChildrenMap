@@ -153,12 +153,14 @@ def main(args_dict):
 	input_csv = args_dict["input_csv"] 
 	csv_key_column = args_dict["csv_key_column"]
 	csv_sum_columns = args_dict["csv_sum_columns"]
+	csv_denominator_columns = args_dict["csv_denominator_columns"]
 	csv_restrict_column = args_dict["csv_restrict_column"]
 	csv_restrict_values_file = args_dict["csv_restrict_values_file"]
 	with open(csv_restrict_values_file) as json_file:
 		csv_restrict_values = json.load(json_file)
 	# Get a map of geographical features to number of children.
 	map_sum_data = map_sum_data_from_columns(input_csv, csv_key_column, csv_sum_columns, csv_restrict_column, csv_restrict_values) 
+	map_denominator_data = map_sum_data_from_columns(input_csv, csv_key_column, csv_denominator_columns, csv_restrict_column, csv_restrict_values) 
 
 	print "Processing: %s - Ctrl-Z to cancel"%input_geojson
 	merc = GlobalMercator()
@@ -194,6 +196,7 @@ def main(args_dict):
 	geojson_feats = [feat for feat in lyr]
 	geojson_keys = [feat.GetField(geo_field) for feat in geojson_feats]
 	map_geojson_sum = map_csv_sum_to_map_geojson_sum(geojson_keys, map_sum_data.keys(), map_sum_data)
+	map_geojson_denominator = map_csv_sum_to_map_geojson_sum(geojson_keys, map_denominator_data.keys(), map_denominator_data)
 
 	for feat in geojson_feats:
 		# Get population
@@ -226,6 +229,7 @@ def main(args_dict):
 			point_dict = {}
 			point_dict["lat"] = samplepoint.GetY()
 			point_dict["lng"] = samplepoint.GetX()
+			point_dict["density"] = (pop * 100) / map_geojson_denominator[geo_feat]
 			point_dict["distance"] = 10
 			point_dict["place_id"] = 1
 			points_list.append(point_dict)
@@ -254,20 +258,36 @@ args_dict["geo_feat_name"] = "GISJOIN"
 args_dict["input_csv"] = "../static/data/census/children2010.csv"
 args_dict["csv_key_column"] = "GISJOIN"
 args_dict["csv_sum_columns"] =  ["H8D008", "H8D012", "H8D015"]
+args_dict["csv_denominator_columns"] =  ["H8D001"]
 args_dict["csv_restrict_column"] = "TRACTA"
 args_dict["csv_restrict_values_file"] = "../static/data/census/cambridge_tracts.json"
-args_dict["output_json"] = "../static/data/children/children2010copy.json"
+args_dict["output_json"] = "../static/data/children/children2010density.json"
+main(args_dict)
+"""
+
+args_dict = {}
+args_dict["input_geojson"] = "../static/data/maps/MA-TRACTS.geojson"
+args_dict["geo_feat_name"] = "GISJOIN"
+args_dict["input_csv"] = "../static/data/census/children2000.csv"
+args_dict["csv_key_column"] = "GISJOIN"
+args_dict["csv_sum_columns"] =  ["GIO001", "GIO003", "GIO005"] 
+args_dict["csv_denominator_columns"] =  ["GIO001", "GIO002", "GIO003", "GIO004", "GIO005", "GIO006"]
+args_dict["csv_restrict_column"] = "TRACTA"
+args_dict["csv_restrict_values_file"] = "../static/data/census/cambridge_tracts.json"
+args_dict["output_json"] = "../static/data/children/children2000.json"
 main(args_dict)
 
+"""
 args_dict = {}
 args_dict["input_geojson"] = "../static/data/maps/MA-TRACTS.geojson"
 args_dict["geo_feat_name"] = "GISJOIN"
 args_dict["input_csv"] = "../static/data/census/children1990.csv"
 args_dict["csv_key_column"] = "GISJOIN"
 args_dict["csv_sum_columns"] =  ["ET8003", "ET8005", "ET8007"]
+args_dict["csv_denominator_columns"] =  ["ET8001", "ET8002", "ET8003", "ET8004", "ET8005", "ET8006", "ET8007", "ET8008", "ET8009", "ET8010"]
 args_dict["csv_restrict_column"] = "TRACTA"
 args_dict["csv_restrict_values_file"] = "../static/data/census/cambridge_tracts.json"
-args_dict["output_json"] = "../static/data/children/children1990.json"
+args_dict["output_json"] = "../static/data/children/children1990density.json"
 main(args_dict)
 
 args_dict = {}
@@ -276,9 +296,10 @@ args_dict["geo_feat_name"] = "GISJOIN"
 args_dict["input_csv"] = "../static/data/census/children1980.csv"
 args_dict["csv_key_column"] = "GISJOIN"
 args_dict["csv_sum_columns"] =  ["DI1001", "DI1002", "DI1003", "DI1005", "DI1006", "DI1007"]     
+args_dict["csv_denominator_columns"] =  ["DI1001", "DI1002", "DI1003", "DI1004", "DI1005", "DI1006", "DI1007", "DI1005"]     
 args_dict["csv_restrict_column"] = "TRACTA"
 args_dict["csv_restrict_values_file"] = "../static/data/census/cambridge_tracts.json"
-args_dict["output_json"] = "../static/data/children/children1980.json"
+args_dict["output_json"] = "../static/data/children/children1980density.json"
 main(args_dict)
 
 args_dict = {}
@@ -287,23 +308,24 @@ args_dict["geo_feat_name"] = "GISJOIN"
 args_dict["input_csv"] = "../static/data/census/children1970.csv"
 args_dict["csv_key_column"] = "GISJOIN"
 args_dict["csv_sum_columns"] =  ["C1W002", "C1W003", "C1W005", "C1W006", "C1W008", "C1W009"]
+args_dict["csv_denominator_columns"] =  ["C1W002", "C1W003", "C1W004", "C1W005", "C1W006", "C1W007", "C1W008", "C1W009"]
 args_dict["csv_restrict_column"] = "TRACTA"
 args_dict["csv_restrict_values_file"] = "../static/data/census/cambridge_tracts.json"
-args_dict["output_json"] = "../static/data/children/children1970.json"
+args_dict["output_json"] = "../static/data/children/children1970density.json"
 main(args_dict)
-"""
+
 args_dict = {}
 args_dict["input_geojson"] = "../static/data/maps/MA-TRACTS.geojson"
 args_dict["geo_feat_name"] = "GISJOIN"
 args_dict["input_csv"] = "../static/data/census/children1960.csv"
 args_dict["csv_key_column"] = "GISJOIN"
 args_dict["csv_sum_columns"] =  ["B8M002", "B8M003", "B8M005", "B8M007", "B8M008", "B8M010"]
+args_dict["csv_denominator_columns"] =  ["B8M002", "B8M003", "B8M005", "B8M007", "B8M008", "B8M010"]
 args_dict["csv_restrict_column"] = "TRACTA"
 args_dict["csv_restrict_values_file"] = "../static/data/census/cambridge_tracts.json"
 args_dict["output_json"] = "../static/data/children/children1960.json"
 main(args_dict)
 
-"""
 cambridge_tracts = [str(i) for i in range(352100, 355100)] 
 with open("../static/data/census/cambridge_tracts.json", 'w') as f:
   json.dump(cambridge_tracts, f, ensure_ascii=False)
