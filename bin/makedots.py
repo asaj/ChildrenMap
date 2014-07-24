@@ -281,7 +281,27 @@ args_dict["csv_restrict_values_file"] = "../static/data/census/cambridge_tracts.
 args_dict["output_json"] = "../static/data/children/children1980.json"
 main(args_dict)
 
+args_dict = {}
+args_dict["input_geojson"] = "../static/data/maps/MA-TRACTS.geojson"
+args_dict["geo_feat_name"] = "GISJOIN"
+args_dict["input_csv"] = "../static/data/census/children1970.csv"
+args_dict["csv_key_column"] = "GISJOIN"
+args_dict["csv_sum_columns"] =  ["C1W002", "C1W003", "C1W005", "C1W006", "C1W008", "C1W009"]
+args_dict["csv_restrict_column"] = "TRACTA"
+args_dict["csv_restrict_values_file"] = "../static/data/census/cambridge_tracts.json"
+args_dict["output_json"] = "../static/data/children/children1970.json"
+main(args_dict)
 """
+args_dict = {}
+args_dict["input_geojson"] = "../static/data/maps/MA-TRACTS.geojson"
+args_dict["geo_feat_name"] = "GISJOIN"
+args_dict["input_csv"] = "../static/data/census/children1960.csv"
+args_dict["csv_key_column"] = "GISJOIN"
+args_dict["csv_sum_columns"] =  ["B8M002", "B8M003", "B8M005", "B8M007", "B8M008", "B8M010"]
+args_dict["csv_restrict_column"] = "TRACTA"
+args_dict["csv_restrict_values_file"] = "../static/data/census/cambridge_tracts.json"
+args_dict["output_json"] = "../static/data/children/children1960.json"
+main(args_dict)
 
 """
 cambridge_tracts = [str(i) for i in range(352100, 355100)] 
