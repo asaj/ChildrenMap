@@ -15,6 +15,7 @@
 		<link rel="stylesheet" href="http://youarehere.cc/w/static/css/histograms.css" />
 		<link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="http://youarehere.cc/w/static/css/coffeeshops.css" />
+		<link rel="stylesheet" href="http://youarehere.cc/w/static/css/graffiti.css" />
 
 		<!---   Scripts    -->
 		<script src="http://youarehere.cc/w/static/libs/d3.v3.min.js"></script>
@@ -253,6 +254,7 @@ function drawLegend() {
   .text(function(d, i){ return legend_labels[i]; });
 
 	var description = ["with children under 18", "Percent of households"];
+
 	var legend_description = map.svg.selectAll("g.legend_description")
 	.data(description)
 	.enter().append("g")
@@ -262,8 +264,49 @@ function drawLegend() {
 	.attr("x", 20)
   .attr("y", function(d, i){ return 500 - (i*ls_h) - 3*ls_h - 4;})
 	.text(function(d, i){ return description[i];});
+
+/*
+
+	var data = [1, 2, 3, 5, 8, 13, 21];
+	var padding = {left: 200, right: 70, top: 5}; 
+	var graphWidth = 945 - padding.right - padding.left;
+
+	var graphHeight = 60 - padding.top;
+	var x = d3.scale.linear().domain([10])
+	    .range([0, graphWidth]);
+
+	var xAxis = d3.svg.axis().scale(x);
 	
+	// Create xAxis.
+	legend.append('g')
+		.attr('class', 'axis')
+		.attr('transform', 'translate(0,' + (graphHeight - 25) + ')')
+		.call(xAxis);
+
+
+	var margin = {top: 10, right: 30, bottom: 30, left: 30},
+  		width = 960 - margin.left - margin.right,
+			height = 500 - margin.top - margin.bottom;
+
+	var x = d3.scale.linear()
+	.domain([0, 25])
+	.range([0, width]);
+
+	var xAxis = d3.svg.axis()
+	.scale(x)
+	.orient("left")
+	.tickValues(data)
+	.innerTickSize([250])
+	.outerTickSize([250]);
+
+	var legend_bar = map.svg.selectAll("g.legend_bar")
+	.append("g")
+	.attr("class", "y axis")
+	.attr("transform", "translate(0," + height + ")")
+	.call(xAxis);
+*/
 }
+
 
 function drawPoints(points) {
 	map.tip.direction('ne');
@@ -436,23 +479,22 @@ function setupPlayButton() {
 
 		    <div id='essayContent'>
 		 		<p>
-		 			This map shows the location of independent coffee shops in Cambridge and the walking-shed communities associated with them. 
+		 			This map shows housholds with children under the age of 18. 
 		 		</p>
 
 		 		<p>
-		 			Independent coffee shops are positive markers of a living community.   They function as social spaces, urban offices, and places to see the world go by.  Communities are often formed by having spaces in which people can have casual interactions, and local and walkable coffee shops create those conditions, not only in the coffee shop themselves, but on the sidewalks around them.   We use maps to know where these coffee shop communities exist and where, by placing new coffee shops, we can help form them. 
+				Something about why this visualization is useful?
 		 		</p>
 		 		<p>
-					We applied two steps to generate the data displayed by the map. First, we used the <a href="https://developers.google.com/places/documentation/"> Google Places API</a> to locate all coffee shops in a given city. Second, for each point in the map we queried the walking route and distance to its nearest coffee shop using the <a href="https://developers.google.com/maps/documentation/distancematrix/">Google Distance Matrix API</a>. 				
+				The data displayed by this map was generated from 50 years of <a href="https://data2.nhgis.org/">census data</a>, which told us the number of households in a given census tract and which ones had at least one child under age 18. Other stuff here.
 		 		</p>
 		 		<p>
-				In the final map the colored areas represent a region which is walkable to a specific coffee shop (within one kilometer or 0.7 miles). The intensity of color at each point indicates its distance from its corresponding coffee shop.
+				In the final map each point represents a single houshold with children.  The color of each point indicates the relative density of households with children in that particular block group or census tract.
 										
 		 		</p>
 		 		<h4> Data Sources </h4>
 		 		<ol>
-		 			<li><a href="https://developers.google.com/places/documentation/"> Google Places API </a></li>
-		 			<li><a href="https://developers.google.com/maps/documentation/distancematrix/"> Google Distance Matrix API</a></li>
+		 			<li><a href="https://data2.nhgis.org/"> National Historical Geographic Information System </a></li>
 		 		</ol>
 				
 				<a id="viewMap" href="#"> View Map</a>
