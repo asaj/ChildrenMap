@@ -1,0 +1,102 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0005_ds92_1960_tract'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             1960
+Geographic level: Census Tract (by State--County)
+Dataset:          1960 Census: Population & Housing Data [Tracts: Major Cities & Surrounds]
+   NHGIS code:    1960_tPH
+   NHGIS ID:      ds92
+ 
+Tables:
+ 
+1. Married Couple Households by Age of Members
+   Universe:    Married Couples
+   Source code: NT26
+   NHGIS code:  B8M
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+    GISJOIN:     GIS Join Match Code
+    YEAR:        Data File Year
+    STATE:       State Name
+    STATEA:      State Code
+    COUNTY:      County Name
+    COUNTYA:     County Code
+    PRETRACTA:   Census Tract Prefix Code
+    TRACTA:      Census Tract Code
+    POSTTRCTA:   Census Tract Suffix Code
+    AREANAME:    Area Name
+ 
+Table 1:     Married Couple Households by Age of Members
+Universe:    Married Couples
+Source code: NT26
+NHGIS code:  B8M
+    B8M001:      White >> With own household
+    B8M002:      White >> With own child under 6 only
+    B8M003:      White >> With own child under 18
+    B8M004:      White >> With husband under 45
+    B8M005:      White >> Husband under 45, child under 18
+    B8M006:      Non-white >> With own household
+    B8M007:      Non-white >> With own child under 6 only
+    B8M008:      Non-white >> With own child under 18
+    B8M009:      Non-white >> With husband under 45
+    B8M010:      Non-white >> Husband under 45, child under 18
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing NHGIS data (either tabular or GIS)
+  must cite it appropriately. The citation should include the following:
+
+    Minnesota Population Center. National Historical Geographic Information
+    System: Version 2.0. Minneapolis, MN: University of Minnesota 2011.
+
+* Publications and research reports employing school attendance areas data
+  (either tabular or GIS) must cite it appropriately. The citation should
+  include the following:
+
+    The College of William and Mary and the Minnesota Population Center.
+    School Attendance Boundary Information System (SABINS): Version 1.0.
+    Minneapolis, MN: University of Minnesota 2011.
+
+* If possible, citations should also include the URL for the NHGIS site:
+
+    https://www.nhgis.org/
+
+* If possible, citations involving school attendance areas should also include
+  the URL for the SABINS site:
+
+    http://www.sabinsdata.org/
+
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+Printed matter should be sent to:
+
+    NHGIS
+    Minnesota Population Center
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455
+
+Send electronic material to: nhgis@umn.edu
