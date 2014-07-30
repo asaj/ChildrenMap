@@ -112,15 +112,34 @@ def main(args_dict):
 	args_dict["cambridge_tracts"] = restrict_values
 	map_tract_points = mt2b.create_points(args_dict, map_tract_children, map_tract_population)
 
+	total_children = 0
+	total_population = 0
+	for tract in map_tract_children.keys():
+		total_children += map_tract_children[tract]
+		total_population += map_tract_population[tract]
+	data = {}
+	city_data ={}
+	city_data["name"] = "cambridge"
+	city_data["children"] = total_children
+	city_data["population"] = total_population
+	data["cambridge"] = city_data
+
 	total_points = 0
 	for tract in map_tract_points.keys():
 		total_points += len(map_tract_points[tract])
 
-	print "Generated " + str(total_points) + " total points."
+	print "Generated " + str() + " total points."
 	# Write to file
 	print "Finished processing %s"%output_json
 	points_dict["points"] = map_tract_points
-	points_dict["num_points"] = total_points 
+	for tract in map_tract_points.keys():
+		tract_data = {}
+		tract_data["population"] = map_tract_population[tract]
+		tract_data["children"] = map_tract_children[tract]
+		tract_data["name"] = tract
+		data[tract] = tract_data
+
+	points_dict["data"] = data
 	points_dict["tracts"] = map_tract_points.keys()
 	with open(output_json, 'w') as f:
 	  json.dump(points_dict, f, ensure_ascii=False)

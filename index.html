@@ -16,6 +16,7 @@
 		<link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="http://youarehere.cc/w/static/css/coffeeshops.css" />
 		<link rel="stylesheet" href="http://youarehere.cc/w/static/css/graffiti.css" />
+		<link rel="stylesheet" href="static/css/chain-independent.css" />
 
 		<!---   Scripts    -->
 		<script src="http://youarehere.cc/w/static/libs/d3.v3.min.js"></script>
@@ -140,6 +141,7 @@ function setup(error, data1970, data1980, data1990, data2000, data2010) {
 		setupHelper();
 		drawAllPoints(yearPointsMap.get('2010'));
 		drawAllTracts(yearPointsMap.get('2010'));
+		drawHistogram(yearPointsMap.get('2010').data.cambridge);
 		drawGraph();
 		setupPlayButton();
 	}); 
@@ -223,7 +225,7 @@ function setupHelper() {
 	
 	
 	window.onhashchange = function () {
-		console.log('event', location.hash)
+		//console.log('event', location.hash)
 		if (location.hash == '') {
 			closeEssayBox(); 
 		}
@@ -393,14 +395,14 @@ function drawGraph() {
 		.offset([0, 10])
 		.direction('e')
 		.html(function(d) {
-			return "<div style=' max-width: 200px; font-weight: normal; text-align: center;'>" + d.text + "</div>";
+			return "<div style=' max-width: 200px; font-weight: normal; text-align: center;'>" + d + "</div>";
 		});
 	svg.call(tip);
 
 
 	// Create x and y scales.
 	var totalHouseholds = [];
-	yearPointsMap.keys().forEach(function (d) { totalHouseholds.push(yearPointsMap.get(d).num_points); return d;});
+	yearPointsMap.keys().forEach(function (d) { totalHouseholds.push(yearPointsMap.get(d).data.cambridge.children); return d;});
 	var minChildrenHouseholds = d3.min(totalHouseholds);
 	var maxChildrenHouseholds = d3.max(totalHouseholds);
 	
@@ -418,12 +420,10 @@ function drawGraph() {
 		.attr('transform', 'translate(0,' + (graphHeight - 25) + ')')
 		.call(xAxis);
 	
-	// D
 	var line = d3.svg.line()
 		.x(function (d) { return x(d)+ x.rangeBand()/2.0 })
-		.y(function (d) { return y(yearPointsMap.get(d).num_points); });
+		.y(function (d) { return y(yearPointsMap.get(d).data.cambridge.children); });
 	
-	// Line isn't working.
 	svg.append('path')
 		.datum(labels)
 		.attr('class', 'line')
@@ -439,11 +439,13 @@ function drawGraph() {
 		.attr('r', 3)
 		.attr('fill', '#D6D6D6')
 		// Tips not working.
+		/*
 		.on('mouseover', function (d, i) {
 			d3.select(this).attr('r', 5);
-			d.text = d.values.length + ' Graffiti Cases in ' + labels[i] + ', 2013';
-			tip.show(d);
-		})
+			d.text = yearPointsMap.get(d).data.cambridge.children + ' children in ' + labels[i];
+			d.text = "tits";
+			tip.show(d.text);
+		})*/
 		.on('mouseout', function (d) {
 			d3.selectAll('.line-dot')
 				.attr('r', function (d) {
@@ -455,6 +457,7 @@ function drawGraph() {
 		.on('click', function (d) {
 			gData = d.values; 
 			drawAllPoints(yearPointsMap.get(d));
+			drawHistogram(yearPointsMap.get(d).data.cambridge);
 			d3.selectAll('.line-dot').attr('fill', '#D6D6D6').attr('is-clicked', 'false');
 			d3.select(this).attr('r', 5).attr('fill', '#FC6262').attr('is-clicked', 'true');
 		});
@@ -467,7 +470,8 @@ function setupPlayButton() {
       d3.event.preventDefault();
       var callId = setInterval(function () {
         drawAllPoints(yearPointsMap.get(labels[i]));
-        graphSvg.selectAll('.line-dot')
+				drawHistogram(yearPointsMap.get(labels[i]).data.cambridge);
+        d3.selectAll('.line-dot')
           .transition()
           .attr('fill', function (d, j) {
             if (j == i) return '#FC6262';
@@ -482,8 +486,63 @@ function setupPlayButton() {
           i = 0;
           clearInterval(callId);
         }
-      }, 1200);
+      }, 3000);
     });
+}
+
+function drawHistogram(data) {
+	graphSvg = d3.select('#histogramContainer');
+	graphSvg.selectAll('svg').remove();
+
+	graphSvg = d3.select('#histogramContainer').append('svg')
+		.attr('width', 300)
+		.attr('height', 100); 
+	
+  graphSvg.append("linearGradient")                
+          .attr("id", "independentGradient")            
+          .attr("gradientUnits", "userSpaceOnUse")    
+          .attr("x1", '0').attr("y1", '0')         
+          .attr("x2", '100%').attr("y2", '0')      
+      .selectAll("stop")                      
+          .data([                             
+              {offset: "0%", color: '#A7DE1D'},       
+              {offset: "50%", color: '#A7DE1D'}, 
+              {offset: "75%", color: '#5EB56A'},   
+          ])                  
+      .enter().append("stop")         
+          .attr("offset", function(d) { return d.offset; })   
+          .attr("stop-color", function(d) { return d.color; });
+  
+	var children = data.children;
+	var population = data.population;
+	var numbers = [children, population];
+	graphSvg.selectAll('.bar')
+		.data(numbers)
+		.enter().append('rect')
+		.attr('class', function (d, i) {
+			return 'bar ' + (i == 0 ? 'children' : 'population');
+		})
+		.attr('x', 300)
+		.attr('y', function (d, i) { return i * 20 })
+		.attr('width', 0)
+		.attr('height', 15)
+		.transition()
+		.duration(2000)
+		.attr('x', function (d) { return 300 - (d / 500)})
+		.attr('width', function (d) { return (d / 500)});
+	
+	
+	graphSvg.selectAll('text')
+		.data(numbers)
+		.enter().append('text')
+		.attr('x', function (d, i) { return 290 - (d / 500)})
+		.attr('y', function (d, i) { return i * 20 + 10; })
+		.attr('text-anchor', 'end')
+	var text = [children + ' children', population + ' people']
+	graphSvg.selectAll('text')
+		.data(text)
+		.text(function (d) { return d })
+	d3.select('#location').text(data.name);	
 }
 
 </script>
@@ -515,6 +574,9 @@ function setupPlayButton() {
 	</div>
 	<div id="content">
 		<div id="mapContainer">
+		</div>
+		<div id="histogramContainer">
+			<h4 id="location">Cambridge</h4>
 		</div>
 	</div>
 		<div id='essayBox'>
