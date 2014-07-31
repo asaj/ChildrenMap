@@ -128,7 +128,7 @@ def main(args_dict):
 	for tract in map_tract_points.keys():
 		total_points += len(map_tract_points[tract])
 
-	print "Generated " + str() + " total points."
+	print "Generated " + str(total_points) + " total points."
 	# Write to file
 	print "Finished processing %s"%output_json
 	points_dict["points"] = map_tract_points
@@ -137,8 +137,18 @@ def main(args_dict):
 		tract_data["population"] = map_tract_population[tract]
 		tract_data["children"] = map_tract_children[tract]
 		tract_data["name"] = tract
+		lat = 0;
+		lng = 0;
+		center_data = {}
+		for point in map_tract_points[tract]:
+			lat += point["lat"]
+			lng += point["lng"]
+		lat = lat / len(map_tract_points[tract])
+		lng = lng / len(map_tract_points[tract])
+		center_data["lat"] = lat
+		center_data["lng"] = lng
+		tract_data["center"] = center_data
 		data[tract] = tract_data
-
 	points_dict["data"] = data
 	points_dict["tracts"] = map_tract_points.keys()
 	with open(output_json, 'w') as f:
