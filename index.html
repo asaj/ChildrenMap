@@ -316,24 +316,52 @@ function drawTract(tract, mapTractPoints) {
 	var points = mapTractPoints.points[tract];
 	var vertices = points.map(function (d, i) { d.coords = map.projection([d.lng, d.lat]); return d.coords;}); 
 	var hull = d3.geom.hull(vertices); 
-	map.svg.append('path')
+	var center = d3.geom.polygon(vertices).centroid();
+
+		var w = 960,
+			h = 500,
+			alpha = 40;
+    
+    offset = function(a,dx,dy) {
+        return a.map(function(d) { return [d[0]+dx,d[1]+dy]; });
+    };
+	
+    dsq = function(a,b) {
+        var dx = a[0]-b[0], dy = a[1]-b[1];
+        return dx*dx+dy*dy;
+    };
+	
+  asq = alpha*alpha;
+	var mesh = d3.geom.delaunay(vertices.filter(function(t) { 
+		return dsq(center, t) > 100;
+	})).filter(function(t) {
+		return dsq(t[0],t[1]) < asq && dsq(t[0],t[2]) < asq && dsq(t[1],t[2]) < asq;
+	})
+	console.log(mesh.length);
+	console.log(map.svg);
+	mesh.forEach(function(d) {
+		map.svg.append('path')
+    	.attr("d", "M" + d.join("L") + "Z")
+			.attr('fill', 'red')
+			.attr('fill-opacity', 0.5)
+			.attr('stroke', 'gray')
+			.attr('stroke-width', 2)
+			.attr('stroke-opacity', 0.0)
+			.attr('stroke-dasharray', '5 5')
+			.attr('class', 'hull_' + tract);
+	});
+/*
+	
+	map.svg.selectAll('#hull_' + tract)
 				.datum(tract)
-				.attr("d", line(hull))
-				.attr('fill', color)
-				.attr('fill-opacity', 0.0)
-				.attr('stroke', 'gray')
-				.attr('stroke-width', 2)
-				.attr('stroke-opacity', 0.0)
-				.attr('stroke-dasharray', '5 5')
-				.attr('class', 'hull')
 				.on('mouseover', function (d) {
-					var tract_data = mapTractPoints.data[d]
+					var tract_data = mapTractPoints.data[tract]
 					var tract_center = tract_data.center;
 					var location = map.projection([tract_center.lng, tract_center.lat]);
 					var text = map.svg.select('.tip-text').text(tract_data.name).attr('opacity', 1.0);
 					var bbox = text.node().getBBox();
 					var x = location[0]; var y = location[1]-bbox.height/2 - 5; 
-					map.svg.select('.tip').transition().attr('transform', 'translate(' + x + ',' + y + ')').attr('opacity', 0.7);
+					map.svg.select('.tip').transition().attr('transform', 'translate(' + x + ',' + y + ')').attr('opacity', 1);
 					map.svg.select('.tip').select('rect').attr('width', bbox.width + 20).attr('height', bbox.height + 10);
 					d3.select(this).transition().attr('fill-opacity', 0.1).attr('stroke-opacity', 0.8);
 				 })
@@ -341,6 +369,7 @@ function drawTract(tract, mapTractPoints) {
 					d3.select(this).transition().attr('fill-opacity', 0.0).attr('stroke-opacity', 0.0);
 					map.svg.selectAll('.tip').attr('opacity', 0);
 				});
+*/
 }
 
 function drawAllTracts(mapTractPoints) {
