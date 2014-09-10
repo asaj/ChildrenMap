@@ -9,6 +9,7 @@ from random import uniform
 import sqlite3
 import map_tracts_to_blocks as mt2b
 import csv
+import get_tract_boundaries as bounds
 
 # Maps geojson keys into arrays containing csv_keys.  Each csv_key should be mapped to exactly once.
 def map_sum_data_from_columns(csv_path, key_column, sum_columns, restrict_column, restrict_values):
@@ -111,6 +112,13 @@ def main(args_dict):
 	args_dict["geo_tract_name"] = "TRACTCE10"
 	args_dict["cambridge_tracts"] = restrict_values
 	map_tract_points = mt2b.create_points(args_dict, map_tract_children, map_tract_population)
+
+	geojson_path = "../static/data/maps/MA_blocks.geojson"
+	cambridge_tracts_path = "../static/data/census/cambridge_tracts.json"
+	geo_gisjoin_name = "GISJOIN"
+	geo_tract_name = "TRACTCE10"
+
+	map_tract_points = bounds.get_tract_boundaries(geojson_path, cambridge_tracts_path, geo_gisjoin_name, geo_tract_name)
 
 	total_children = 0
 	total_population = 0

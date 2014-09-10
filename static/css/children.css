@@ -3,8 +3,8 @@
 	position: relative;
 }
 
-circle:hover {
-	cursor: pointer;
+circle {
+	cursor: none;
 }
 
 .hull {
