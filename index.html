@@ -145,33 +145,21 @@ function drawTracts(jsonmap, path) {
 }
 
 function tractMouseOver(d) {
-	// Highlight tract
-	var selection = ".tract[tract='" + d.tract + "']";
-	map.svg.selectAll(selection).attr('fill', 'blue').attr('fill-opacity', 0.5);
-	// Highlight histogram bar
 	selection = "rect[tract='" + d.tract + "']";
 	var bar = d3.selectAll("#histogramContainer").selectAll(selection);
 	bar.attr('fill', 'purple');
   var tractsData = mapYearPoints.get(currentYear).data;
 	histogram.mouseover(tractsData[d.tract]);
 	histogram.tip.show(tractsData[d.tract], bar[0][0]); 
-
-	updateStatistics(d.tract, currentYear);
 }
 
 function tractMouseOut(d) {
-	// Reset tract color
-	var selection = ".tract[tract='" + d.tract + "']";
-	map.svg.selectAll(selection).attr('fill', 'grey').attr('fill-opacity', 0.05);
-	// Reset histogram bar
 	selection = "rect[tract='" + d.tract + "']";
 	var bar = d3.selectAll("#histogramContainer").selectAll(selection);
 	bar.attr('fill', '#ABABAB');
   var tractsData = mapYearPoints.get(currentYear).data;
 	histogram.mouseout(tractsData[d.tract]);
 	histogram.tip.hide(tractsData[d.tract], bar[0][0]);
-
-	updateStatistics("cambridge", currentYear);
 }
 
 function drawPoints(year) {
@@ -345,12 +333,12 @@ function drawHistogram(year) {
     mouseover: function (d, i) {
       d.text = '<b>' + d.name + '</b><br/>' + Math.round((d.children * 100) / d.population) + '% children';
 			var selection = ".tract[tract='" + d.name + "']";
-			map.svg.selectAll(selection).attr('fill', 'blue').attr('fill-opacity', 0.5);
+			map.svg.selectAll(selection).attr("stroke", "black").attr("stroke-width", 4);
 			updateStatistics(d.name, currentYear);
     },
     mouseout: function (d, i) {
 			var selection = ".tract[tract='" + d.name + "']";
-			map.svg.selectAll(selection).attr('fill', 'grey').attr('fill-opacity', 0.05);
+			map.svg.selectAll(selection).attr("stroke", "none");
 			updateStatistics("cambridge", currentYear);
     }
   };
