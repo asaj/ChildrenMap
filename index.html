@@ -137,17 +137,41 @@ function drawTracts(jsonmap, path) {
 		.attr('fill', 'grey')
 		.attr('fill-opacity', 0.05)
 		.on('mouseover', function (d) {
-			d3.select(this).transition().attr('fill', 'blue').attr('fill-opacity', 0.5);
-			console.log(d);
-			var selection = "rect[tract='" + d.tract + "']";
-			console.log(d3.selectAll("#histogramContainer").selectAll(selection));
-			d3.selectAll("#histogramContainer").selectAll(selection).;
-			updateStatistics(d.tract, currentYear);
+			tractMouseOver(d);
 		})
 		.on('mouseleave', function(d) {
-			d3.select(this).transition().attr('fill', 'grey').attr('fill-opacity', 0.05);
-			updateStatistics("cambridge", currentYear);
+			tractMouseOut(d);
 		})
+}
+
+function tractMouseOver(d) {
+	// Highlight tract
+	var selection = ".tract[tract='" + d.tract + "']";
+	map.svg.selectAll(selection).attr('fill', 'blue').attr('fill-opacity', 0.5);
+	// Highlight histogram bar
+	selection = "rect[tract='" + d.tract + "']";
+	var bar = d3.selectAll("#histogramContainer").selectAll(selection);
+	bar.attr('fill', 'purple');
+  var tractsData = mapYearPoints.get(currentYear).data;
+	histogram.mouseover(tractsData[d.tract]);
+	histogram.tip.show(tractsData[d.tract], bar[0][0]); 
+
+	updateStatistics(d.tract, currentYear);
+}
+
+function tractMouseOut(d) {
+	// Reset tract color
+	var selection = ".tract[tract='" + d.tract + "']";
+	map.svg.selectAll(selection).attr('fill', 'grey').attr('fill-opacity', 0.05);
+	// Reset histogram bar
+	selection = "rect[tract='" + d.tract + "']";
+	var bar = d3.selectAll("#histogramContainer").selectAll(selection);
+	bar.attr('fill', '#ABABAB');
+  var tractsData = mapYearPoints.get(currentYear).data;
+	histogram.mouseout(tractsData[d.tract]);
+	histogram.tip.hide(tractsData[d.tract], bar[0][0]);
+
+	updateStatistics("cambridge", currentYear);
 }
 
 function drawPoints(year) {
@@ -168,14 +192,10 @@ function drawPoints(year) {
 			.attr('density', function(d) {return d.density})
 			.attr('fill', function (d) { d.color = color(d.density); return d.color; })
 			.on('mouseover', function(d) {
-				var selection = ".tract[tract='" + tract + "']";
-				map.svg.selectAll(selection).transition().attr('fill', 'blue').attr('fill-opacity', 0.5);
-				updateStatistics(tract, year);
+				tractMouseOver(d);
 			})
 			.on('mouseleave', function(d) {
-				var selection = ".tract[tract='" + tract + "']";
-				map.svg.selectAll(selection).transition().attr('fill', 'grey').attr('fill-opacity', 0.05);
-				updateStatistics("cambridge", year);
+				tractMouseOut(d);
 			})
 	})
 } 
@@ -325,12 +345,12 @@ function drawHistogram(year) {
     mouseover: function (d, i) {
       d.text = '<b>' + d.name + '</b><br/>' + Math.round((d.children * 100) / d.population) + '% children';
 			var selection = ".tract[tract='" + d.name + "']";
-			map.svg.selectAll(selection).transition().attr('fill', 'blue').attr('fill-opacity', 0.5);
+			map.svg.selectAll(selection).attr('fill', 'blue').attr('fill-opacity', 0.5);
 			updateStatistics(d.name, currentYear);
     },
     mouseout: function (d, i) {
 			var selection = ".tract[tract='" + d.name + "']";
-			map.svg.selectAll(selection).transition().attr('fill', 'grey').attr('fill-opacity', 0.05);
+			map.svg.selectAll(selection).attr('fill', 'grey').attr('fill-opacity', 0.05);
 			updateStatistics("cambridge", currentYear);
     }
   };
@@ -346,7 +366,8 @@ function updateHistogram(year) {
 	tractsList.sort(function(a, b) { return d3.descending(tractsData[a].children/tractsData[a].population, tractsData[b].children/tractsData[b].population)});
 	var data = tractsList.map(function (d) { return tractsData[d]});
   histogram.updateData({data: data});
-	d3.selectAll("#histogramContainer").selectAll("rect").attr('tract', function(d, i) {return d.name});
+	d3.selectAll("#histogramContainer").selectAll("rect")
+		.attr('tract', function(d, i) {return d.name});
 }
 	
 function setupEssayBox() {
