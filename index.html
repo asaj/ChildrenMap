@@ -1,4 +1,3 @@
-
 <!Doctype HTML>
 <html>
 	<head>
@@ -6,18 +5,15 @@
 		<!---   Styles   -->
 		<link href="http://youarehere.cc/w/static/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
 		<link href="http://youarehere.cc/w/static/bootstrap-select/bootstrap-select.css" rel="stylesheet"/>
-		<!-- <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'> -->
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 		
 		<meta property="og:image" content="http://youarehere.cc/static/media/coffeeshops/cambridge.jpg" />
 		<meta property="og:title" content="Children in Cambridge, MA" />
-		<link rel="stylesheet" href="http://youarehere.cc/w/static/css/histograms.css" />
 		<link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="http://youarehere.cc/w/static/css/histograms.css" />
 		<link rel="stylesheet" href="http://youarehere.cc/w/static/css/coffeeshops.css" />
 		<link rel="stylesheet" href="http://youarehere.cc/w/static/css/graffiti.css" />
-		<link rel="stylesheet" href="static/css/chain-independent.css" />
-		<link rel="stylesheet" href="static/css/graffiti.css" />
 
 		<!---   Scripts    -->
 		<script src="http://youarehere.cc/w/static/libs/d3.v3.min.js"></script>
@@ -26,6 +22,7 @@
 		<script src="http://youarehere.cc/w/static/bootstrap/js/bootstrap.min.js"></script>
 		<script src="http://youarehere.cc/w/static/bootstrap-select/bootstrap-select.js"></script>
 		<script src="http://youarehere.cc/w/static/js/d3-utils.js"></script>
+		<script src="http://youarehere.cc/w/static/libs/topojson.v1.min.js"></script>
 		<script src="http://d3js.org/queue.v1.min.js"></script>
 		<script>
 		
@@ -50,57 +47,15 @@
 		});
 		</script>
 
-		<style type="text/css">
-		  .embedded {
-		    overflow: hidden;
-		  }
-		  .embedded .navElements {
-		    display: none;
-		  }
-		  .embedded #footer {
-		    display: none;
-		  }
-		  #showOriginal { color: #DE1028 }
-		  .embedded .title-container {
-		    margin-top: 0;
-		  }
-		  .title-logo {
-		    display: none;
-		    float: left;
-		    width: 40px;
-		    height: 40px;
-		    margin-right: 5px;
-		  }
-		  .title-logo img { width: 100%; height: 100% }
-		  .embedded .title-logo {
-		    display: block;
-		  }
-		  .embedded > .container {
-		    margin-bottom: 0;
-		  }
-		  .embedded .title {
-		    font-size: 18px !important;
-		  }
-		  .embedded .subtitle {
-		    font-size: 12px !important;
-		  }
-		</style>
-
-<script src="http://youarehere.cc/w/static/libs/topojson.v1.min.js"></script>
-
 <script>
 var labels = [1970, 1980, 1990, 2000, 2010];
 var histogram;
-var yearPointsMap = d3.map();
-var currentYear = '2010';
-var mapTractsXvalue = d3.map();
-var tip;
-var kmToMile = 0.621371; 
+var mapYearPoints = d3.map();
+var currentYear;
 var color = d3.scale.linear().domain([0, 50]).range(['blue', 'red']);
-var statistics = ["Cambridge 2010", "Population: 1234", "Children: 123"];
+var bbox = [[-122.416667 - .21, 37.783333 - .05], [-122.416667 + .21, 37.783333 + .05]];
 var bbox = [[-71.110556 - .05, 42.373611 - .037], [-71.110556 + .05, 42.403611 + .023]];
 var SCALE = 1.3;
-
 var line = d3.svg.line()
 	.interpolate("basis-closed")
 	.x(function (d) { return d[0]})
@@ -120,30 +75,30 @@ window.onload = function () {
 	}
 	map = new D3Map(mapOptions); 
 	queue()
-	 	.defer(d3.json, '../static/data/maps/CAMBRIDGE-TRACTS.geojson')
-		.defer(d3.json, '../static/data/age/age1970.json')
-		.defer(d3.json, '../static/data/age/age1980.json')
-		.defer(d3.json, '../static/data/age/age1990.json')
-		.defer(d3.json, '../static/data/age/age2000.json')
-		.defer(d3.json, '../static/data/age/age2010.json')
+	 	.defer(d3.json, '../static/data/maps/CAMBRIDGE_tract_2010.geojson')
+		.defer(d3.json, '../static/data/points/children_data_1970.json')
+		.defer(d3.json, '../static/data/points/children_data_1980.json')
+		.defer(d3.json, '../static/data/points/children_data_1990.json')
+		.defer(d3.json, '../static/data/points/children_data_2000.json')
+		.defer(d3.json, '../static/data/points/children_data_2010.json')
 		.await(setup);
 }
 
 function setup(error, jsonmap, data1970, data1980, data1990, data2000, data2010) {	
 	map.loadGeoJSON(function () {
-		yearPointsMap.set(2010, data2010);
-		yearPointsMap.set(2000, data2000);
-		yearPointsMap.set(1990, data1990);
-		yearPointsMap.set(1980, data1980);
-		yearPointsMap.set(1970, data1970);
+		mapYearPoints.set(2010, data2010);
+		mapYearPoints.set(2000, data2000);
+		mapYearPoints.set(1990, data1990);
+		mapYearPoints.set(1980, data1980);
+		mapYearPoints.set(1970, data1970);
+		var path = d3.geo.path().projection(map.projection);
 		handleProjectionFromBoundingBox(bbox, 1000, 600);
+		drawTracts(jsonmap, path);
 		setupEssayBox();
 		drawLegend();
 		drawGraph();
-		var path = d3.geo.path().projection(map.projection);
-		drawTracts(jsonmap, path);
-		drawPoints(yearPointsMap.get(currentYear), currentYear);
-		drawHistogram(yearPointsMap.get(currentYear));
+		drawPoints('2010');
+		drawHistogram('2010');
 		setupPlayButton();
 	});
 }
@@ -171,10 +126,6 @@ function handleProjectionFromBoundingBox(bbox ,width, height) {
 
 function drawTracts(jsonmap, path) {
 	var features = jsonmap.features;
-	function parseJSON(element, index, array) {
-		features[index] = JSON.parse(element);
-	}
-	features.forEach(parseJSON);
 	var tracts = map.svg.selectAll('.tract')
 		.data(features)
 		.enter().append('path')
@@ -186,36 +137,29 @@ function drawTracts(jsonmap, path) {
 		.attr('fill', 'grey')
 		.attr('fill-opacity', 0.05)
 		.on('mouseover', function (d) {
-			d3.select(this).transition().attr('fill', 'red').attr('fill-opacity', 0.5);
-			updateStatistics(yearPointsMap.get(currentYear), d.tract, currentYear);
+			d3.select(this).transition().attr('fill', 'blue').attr('fill-opacity', 0.5);
+			console.log(d);
+			var selection = "rect[tract='" + d.tract + "']";
+			console.log(d3.selectAll("#histogramContainer").selectAll(selection));
+			d3.selectAll("#histogramContainer").selectAll(selection).;
+			updateStatistics(d.tract, currentYear);
 		})
 		.on('mouseleave', function(d) {
 			d3.select(this).transition().attr('fill', 'grey').attr('fill-opacity', 0.05);
-			updateStatistics(yearPointsMap.get(currentYear), "cambridge", currentYear);
+			updateStatistics("cambridge", currentYear);
 		})
 }
 
-function updateStatistics(tractPointsMap, tract, year) {
-	statistics[0] = "Children: " + tractPointsMap.data[tract].children; 
-	statistics[1] = "Population: " + tractPointsMap.data[tract].population; 
-	if (tract == "cambridge") {
-		//statistics[2] = tractPointsMap.data[tract].name + ", " + year; 
-		statistics[2] = "Cambridge, " + year; 
-	} else {
-		statistics[2] = "Tract " + tractPointsMap.data[tract].name + ", " + year; 
-	}
-	drawStatistics(statistics);
-}
-
-function drawPoints(tractPointsMap, year) {
+function drawPoints(year) {
 	currentYear = year;
-	updateStatistics(tractPointsMap, "cambridge", year);
+	mapTractPoints = mapYearPoints.get(year);
+	updateStatistics("cambridge", year);
 	map.svg.selectAll('circle').remove();
 	// Place children dots.	
-	tractPointsMap.tracts.forEach(function (tract) {
-		var vertices = tractPointsMap.points[tract].map(function (d, i) { d.coords = map.projection([d.lng, d.lat]); return d.coords;}); 
+	mapTractPoints.tracts.forEach(function (tract) {
+		var vertices = mapTractPoints.points[tract].map(function (d, i) { d.coords = map.projection([d.lng, d.lat]); return d.coords;}); 
 		var selection = ".tract[tract='" + tract + "']";
-		map.svg.selectAll(selection).data(tractPointsMap.points[tract])
+		map.svg.selectAll(selection).data(mapTractPoints.points[tract])
 			.enter().append('circle')
 			.attr('cx', function (d) { return d.coords[0];})
 			.attr('cy', function (d) { return d.coords[1];})
@@ -225,63 +169,16 @@ function drawPoints(tractPointsMap, year) {
 			.attr('fill', function (d) { d.color = color(d.density); return d.color; })
 			.on('mouseover', function(d) {
 				var selection = ".tract[tract='" + tract + "']";
-				map.svg.selectAll(selection).transition().attr('fill', 'red').attr('fill-opacity', 0.5);
+				map.svg.selectAll(selection).transition().attr('fill', 'blue').attr('fill-opacity', 0.5);
+				updateStatistics(tract, year);
 			})
 			.on('mouseleave', function(d) {
 				var selection = ".tract[tract='" + tract + "']";
 				map.svg.selectAll(selection).transition().attr('fill', 'grey').attr('fill-opacity', 0.05);
+				updateStatistics("cambridge", year);
 			})
 	})
 } 
-	
-
-function setupEssayBox() {
-	var essayBoxShown = false;
-	$('#showMore').click(function(e){
-		e.preventDefault();
-		map.svg.select('.tip').attr('opacity', 0.0);
-		window.location.hash = '#/description';
-	    essayBoxShown = !essayBoxShown;
-		if (essayBoxShown) {
-			$('#essayBox').css('display', 'block');
-		    $('#essayBox').animate({'opacity':1.0}, 500);
-			$(this).text(' ... view map ');
-		} else {
-			closeEssayBox();
-			$(this).text(' ... more ');
-		}
-		
-	  })
- 
-	  $('#essayBox-close').click(function(){
-	    closeEssayBox();
-		$('#showMore').text(' ... more ');
-	  });
-	  
-	  $('#essayBox').click(function () {
-		  closeEssayBox(); 
-		  $('#showMore').text(' ... more ');
-	  });
-  
-	 function closeEssayBox(){
-	  $('#essayBox').animate({'opacity':0.0}, 500, function () {
-	  	$('#essayBox').css('display', 'none');
-	  })
-      essayBoxShown = false;
-	}
-	
-	$('#viewMap').on('click', function (e) {
-		e.preventDefault(); 
-	}); 
-	
-	
-	window.onhashchange = function () {
-		//console.log('event', location.hash)
-		if (location.hash == '') {
-			closeEssayBox(); 
-		}
-	}
-}
 
 function drawLegend() {
   var color_domain = [0, 10, 20, 30, 40, 50]
@@ -332,6 +229,19 @@ function drawStatistics(data) {
 	.text(function(d) {return d;});
 }
 
+function updateStatistics(tract, year) {
+	var statistics = ["", "", ""]
+	statistics[0] = "Children: " + mapYearPoints.get(year).data[tract].children; 
+	statistics[1] = "Population: " + mapYearPoints.get(year).data[tract].population; 
+	if (tract == "cambridge") {
+		//statistics[2] = mapYearPoints.get(year).data[tract].name + ", " + year; 
+		statistics[2] = "Cambridge, " + year; 
+	} else {
+		statistics[2] = "Tract " + mapYearPoints.get(year).data[tract].name + ", " + year; 
+	}
+	drawStatistics(statistics);
+}
+
 function drawGraph() {
 	var padding = {left: 200, right: 70, top: 5}; 
 	var graphWidth = 945 - padding.right - padding.left;
@@ -344,30 +254,16 @@ function drawGraph() {
 		.append('g')
 		.attr('transform', 'translate(' + padding.left + ',' + padding.top + ')');
 	graphSvg = svg;
-	
-	
-	var tip = d3.tip()
-		.attr('class', 'd3-tip')
-		.offset([0, 10])
-		.direction('e')
-		.html(function(d) {
-			return "<div style=' max-width: 200px; font-weight: normal; text-align: center;'>" + d + "</div>";
-		});
-	svg.call(tip);
-
 
 	// Create x and y scales.
 	var totalHouseholds = [];
-	yearPointsMap.keys().forEach(function (d) { totalHouseholds.push(yearPointsMap.get(d).data.cambridge.children); return d;});
+	mapYearPoints.keys().forEach(function (d) { totalHouseholds.push(mapYearPoints.get(d).data.cambridge.children); return d;});
 	var minChildrenHouseholds = d3.min(totalHouseholds);
 	var maxChildrenHouseholds = d3.max(totalHouseholds);
 	
-	// var x = d3.scale.linear().domain([0, 11]).range([0, graphWidth]);
 	var y = d3.scale.linear().domain([minChildrenHouseholds, maxChildrenHouseholds]).range([30, 0]);
 	
-	var x = d3.scale.ordinal()
-        .domain(labels) 
-		.rangeRoundBands([0, graphWidth], 0.05);
+	var x = d3.scale.ordinal().domain(labels) .rangeRoundBands([0, graphWidth], 0.05);
 	var xAxis = d3.svg.axis().scale(x);
 	
 	// Create xAxis.
@@ -378,7 +274,7 @@ function drawGraph() {
 	
 	var line = d3.svg.line()
 		.x(function (d) { return x(d)+ x.rangeBand()/2.0 })
-		.y(function (d) { return y(yearPointsMap.get(d).data.cambridge.children); });
+		.y(function (d) { return y(mapYearPoints.get(d).data.cambridge.children); });
 	
 	svg.append('path')
 		.datum(labels)
@@ -394,59 +290,24 @@ function drawGraph() {
 		.attr('cy', line.y())
 		.attr('r', 3)
 		.attr('fill', '#D6D6D6')
-		// Tips not working.
-		/*
-		.on('mouseover', function (d, i) {
-			d3.select(this).attr('r', 5);
-			d.text = yearPointsMap.get(d).data.cambridge.children + ' children in ' + labels[i];
-			d.text = "tits";
-			tip.show(d.text);
-		})*/
 		.on('mouseout', function (d) {
 			d3.selectAll('.line-dot')
 				.attr('r', function (d) {
 					if (d3.select(this).attr('is-clicked') == 'true') return 5;
 					return 3;
 				})
-			tip.hide();
 		})
 		.on('click', function (d) {
 			gData = d.values; 
-			drawPoints(yearPointsMap.get(d), d);
+			drawPoints(d);
 			d3.selectAll('.line-dot').attr('fill', '#D6D6D6').attr('is-clicked', 'false');
 			d3.select(this).attr('r', 5).attr('fill', '#FC6262').attr('is-clicked', 'true');
-			updateHistogram(yearPointsMap.get(d));
+			updateHistogram(d);
 		});
 }
 
-function setupPlayButton() {
-  var i = 0;
-  d3.select('#playButton')
-    .on('click', function () {
-      d3.event.preventDefault();
-      var callId = setInterval(function () {
-        drawPoints(yearPointsMap.get(labels[i]), labels[i]);
-				updateHistogram(yearPointsMap.get(labels[i]));
-        d3.selectAll('.line-dot')
-          .transition()
-          .attr('fill', function (d, j) {
-            if (j == i) return '#FC6262';
-            return '#D6D6D6';
-          })
-          .attr('r', function (d, j) {
-            if (j == i) return 5;
-            return 3;
-          });
-        i++;
-        if (i >= labels.length) {
-          i = 0;
-          clearInterval(callId);
-        }
-      }, 3000);
-    });
-}
-
-function drawHistogram(mapTractPoints) {
+function drawHistogram(year) {
+	var mapTractPoints = mapYearPoints.get(year);
   var tractsList = mapTractPoints.tracts;
   var tractsData = mapTractPoints.data;
 	tractsList.sort(function(a, b) { return d3.descending(tractsData[a].children/tractsData[a].population, tractsData[b].children/tractsData[b].population)});
@@ -464,39 +325,101 @@ function drawHistogram(mapTractPoints) {
     mouseover: function (d, i) {
       d.text = '<b>' + d.name + '</b><br/>' + Math.round((d.children * 100) / d.population) + '% children';
 			var selection = ".tract[tract='" + d.name + "']";
-			map.svg.selectAll(selection).transition().attr('fill', 'red').attr('fill-opacity', 0.5);
-			updateStatistics(mapTractPoints, d.name, currentYear);
+			map.svg.selectAll(selection).transition().attr('fill', 'blue').attr('fill-opacity', 0.5);
+			updateStatistics(d.name, currentYear);
     },
     mouseout: function (d, i) {
 			var selection = ".tract[tract='" + d.name + "']";
 			map.svg.selectAll(selection).transition().attr('fill', 'grey').attr('fill-opacity', 0.05);
-			updateStatistics(mapTractPoints, "cambridge", currentYear);
+			updateStatistics("cambridge", currentYear);
     }
   };
   histogram = new SimpleBarChart(chartOptions);
   histogram.initialize();
-  histogram.updateData({data: data});
-	addTractToHistogram(mapTractPoints, histogram);
+	updateHistogram(year);
 }
 
-function addTractToHistogram(mapTractPoints, histogram) {
-	console.log(histogram);
-  var tractsList = mapTractPoints.tracts;
-  var tractsData = mapTractPoints.data;
-	histogram.data.forEach(function(d) {
-	var xval = histogram.x(histogram.xValue(d));
-	//var xval2 = histogram.x(d[histogram.datumKey]);
-	mapTractsXvalue.set(d.name, xval);
-	});
-}
-
-function updateHistogram(mapTractPoints) {
+function updateHistogram(year) {
+	var mapTractPoints = mapYearPoints.get(year);
   var tractsList = mapTractPoints.tracts;
   var tractsData = mapTractPoints.data;
 	tractsList.sort(function(a, b) { return d3.descending(tractsData[a].children/tractsData[a].population, tractsData[b].children/tractsData[b].population)});
 	var data = tractsList.map(function (d) { return tractsData[d]});
   histogram.updateData({data: data});
-	addTractToHistogram(mapTractPoints, histogram);
+	d3.selectAll("#histogramContainer").selectAll("rect").attr('tract', function(d, i) {return d.name});
+}
+	
+function setupEssayBox() {
+	var essayBoxShown = false;
+	$('#showMore').click(function(e){
+		e.preventDefault();
+		window.location.hash = '#/description';
+	    essayBoxShown = !essayBoxShown;
+		if (essayBoxShown) {
+			$('#essayBox').css('display', 'block');
+		    $('#essayBox').animate({'opacity':1.0}, 500);
+			$(this).text(' ... view map ');
+		} else {
+			closeEssayBox();
+			$(this).text(' ... more ');
+		}
+		
+	  })
+ 
+	  $('#essayBox-close').click(function(){
+	    closeEssayBox();
+		$('#showMore').text(' ... more ');
+	  });
+	  
+	  $('#essayBox').click(function () {
+		  closeEssayBox(); 
+		  $('#showMore').text(' ... more ');
+	  });
+  
+	 function closeEssayBox(){
+	  $('#essayBox').animate({'opacity':0.0}, 500, function () {
+	  	$('#essayBox').css('display', 'none');
+	  })
+      essayBoxShown = false;
+	}
+	
+	$('#viewMap').on('click', function (e) {
+		e.preventDefault(); 
+	}); 
+	
+	
+	window.onhashchange = function () {
+		if (location.hash == '') {
+			closeEssayBox(); 
+		}
+	}
+}
+
+function setupPlayButton() {
+  var i = 0;
+  d3.select('#playButton')
+    .on('click', function () {
+      d3.event.preventDefault();
+      var callId = setInterval(function () {
+        drawPoints(labels[i]);
+				updateHistogram(labels[i]);
+        d3.selectAll('.line-dot')
+          .transition()
+          .attr('fill', function (d, j) {
+            if (j == i) return '#FC6262';
+            return '#D6D6D6';
+          })
+          .attr('r', function (d, j) {
+            if (j == i) return 5;
+            return 3;
+          });
+        i++;
+        if (i >= labels.length) {
+          i = 0;
+          clearInterval(callId);
+        }
+      }, 3000);
+    });
 }
 
 </script>
