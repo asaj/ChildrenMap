@@ -52,10 +52,11 @@ var labels = [1970, 1980, 1990, 2000, 2010];
 var histogram;
 var mapYearPoints = d3.map();
 var currentYear;
-var color = d3.scale.linear().domain([0, 50]).range(['blue', 'red']);
+var color = d3.scale.linear().domain([0, 20, 40]).range(['grey','blue', 'red']);
+var fillOpacity = d3.scale.linear().domain([0, 40]).range([0, 1]);
 var bbox = [[-122.416667 - .21, 37.783333 - .05], [-122.416667 + .21, 37.783333 + .05]];
-var bbox = [[-71.110556 - .05, 42.373611 - .037], [-71.110556 + .05, 42.403611 + .023]];
-var SCALE = 1.3;
+var bbox = [[-71.110556 - .05, 42.373611 - .04], [-71.110556 + .05, 42.403611 + .02]];
+var SCALE = 2;
 var line = d3.svg.line()
 	.interpolate("basis-closed")
 	.x(function (d) { return d[0]})
@@ -69,18 +70,26 @@ window.onload = function () {
 	var mapOptions = {
 		width: 1000, 
 		height: 600,
-		scale: 1.30,
+		scale: 1.7,
 		svgContainer: '#mapContainer',
 		lookup: 'cambridge',
 	}
 	map = new D3Map(mapOptions); 
 	queue()
+	/*
+	 	.defer(d3.json, '../static/data/maps/SF_tract_2010.geojson')
+		.defer(d3.json, '../static/data/points/SF_children_data_1970.json')
+		.defer(d3.json, '../static/data/points/SF_children_data_1980.json')
+		.defer(d3.json, '../static/data/points/SF_children_data_1990.json')
+		.defer(d3.json, '../static/data/points/SF_children_data_2000.json')
+		.defer(d3.json, '../static/data/points/SF_children_data_2010.json')
+	*/
 	 	.defer(d3.json, '../static/data/maps/CAMBRIDGE_tract_2010.geojson')
-		.defer(d3.json, '../static/data/points/children_data_1970.json')
-		.defer(d3.json, '../static/data/points/children_data_1980.json')
-		.defer(d3.json, '../static/data/points/children_data_1990.json')
-		.defer(d3.json, '../static/data/points/children_data_2000.json')
-		.defer(d3.json, '../static/data/points/children_data_2010.json')
+		.defer(d3.json, '../static/data/points/CAMBRIDGE_children_data_1970.json')
+		.defer(d3.json, '../static/data/points/CAMBRIDGE_children_data_1980.json')
+		.defer(d3.json, '../static/data/points/CAMBRIDGE_children_data_1990.json')
+		.defer(d3.json, '../static/data/points/CAMBRIDGE_children_data_2000.json')
+		.defer(d3.json, '../static/data/points/CAMBRIDGE_children_data_2010.json')
 		.await(setup);
 }
 
@@ -94,11 +103,11 @@ function setup(error, jsonmap, data1970, data1980, data1990, data2000, data2010)
 		var path = d3.geo.path().projection(map.projection);
 		handleProjectionFromBoundingBox(bbox, 1000, 600);
 		drawTracts(jsonmap, path);
+		drawPoints('2010');
+		drawHistogram('2010');
 		setupEssayBox();
 		drawLegend();
 		drawGraph();
-		drawPoints('2010');
-		drawHistogram('2010');
 		setupPlayButton();
 	});
 }
@@ -165,7 +174,7 @@ function tractMouseOut(d) {
 function drawPoints(year) {
 	currentYear = year;
 	mapTractPoints = mapYearPoints.get(year);
-	updateStatistics("cambridge", year);
+	updateStatistics("city", year);
 	map.svg.selectAll('circle').remove();
 	// Place children dots.	
 	mapTractPoints.tracts.forEach(function (tract) {
@@ -241,9 +250,8 @@ function updateStatistics(tract, year) {
 	var statistics = ["", "", ""]
 	statistics[0] = "Children: " + mapYearPoints.get(year).data[tract].children; 
 	statistics[1] = "Population: " + mapYearPoints.get(year).data[tract].population; 
-	if (tract == "cambridge") {
-		//statistics[2] = mapYearPoints.get(year).data[tract].name + ", " + year; 
-		statistics[2] = "Cambridge, " + year; 
+	if (tract == "city") {
+		statistics[2] = mapYearPoints.get(year).data[tract].name + ", " + year; 
 	} else {
 		statistics[2] = "Tract " + mapYearPoints.get(year).data[tract].name + ", " + year; 
 	}
@@ -265,7 +273,7 @@ function drawGraph() {
 
 	// Create x and y scales.
 	var totalHouseholds = [];
-	mapYearPoints.keys().forEach(function (d) { totalHouseholds.push(mapYearPoints.get(d).data.cambridge.children); return d;});
+	mapYearPoints.keys().forEach(function (d) { totalHouseholds.push(mapYearPoints.get(d).data.city.children); return d;});
 	var minChildrenHouseholds = d3.min(totalHouseholds);
 	var maxChildrenHouseholds = d3.max(totalHouseholds);
 	
@@ -282,7 +290,7 @@ function drawGraph() {
 	
 	var line = d3.svg.line()
 		.x(function (d) { return x(d)+ x.rangeBand()/2.0 })
-		.y(function (d) { return y(mapYearPoints.get(d).data.cambridge.children); });
+		.y(function (d) { return y(mapYearPoints.get(d).data.city.children); });
 	
 	svg.append('path')
 		.datum(labels)
@@ -298,6 +306,7 @@ function drawGraph() {
 		.attr('cy', line.y())
 		.attr('r', 3)
 		.attr('fill', '#D6D6D6')
+		.attr('year', function(d) {return d})
 		.on('mouseout', function (d) {
 			d3.selectAll('.line-dot')
 				.attr('r', function (d) {
@@ -312,6 +321,8 @@ function drawGraph() {
 			d3.select(this).attr('r', 5).attr('fill', '#FC6262').attr('is-clicked', 'true');
 			updateHistogram(d);
 		});
+	var selection = ".line-dot[year='" + currentYear + "']";
+	d3.selectAll(selection).attr('r', 5).attr('fill', '#FC6262').attr('is-clicked', 'true');
 }
 
 function drawHistogram(year) {
@@ -320,6 +331,7 @@ function drawHistogram(year) {
   var tractsData = mapTractPoints.data;
 	tractsList.sort(function(a, b) { return d3.descending(tractsData[a].children/tractsData[a].population, tractsData[b].children/tractsData[b].population)});
 	var data = tractsList.map(function (d) { return tractsData[d]});
+	console.log(data);
   var chartOptions = {
     margin: {top: 5, left: 200, right: 70, bottom: 0},
     width: 945,
@@ -339,7 +351,7 @@ function drawHistogram(year) {
     mouseout: function (d, i) {
 			var selection = ".tract[tract='" + d.name + "']";
 			map.svg.selectAll(selection).attr("stroke", "none");
-			updateStatistics("cambridge", currentYear);
+			updateStatistics("city", currentYear);
     }
   };
   histogram = new SimpleBarChart(chartOptions);
@@ -353,6 +365,7 @@ function updateHistogram(year) {
   var tractsData = mapTractPoints.data;
 	tractsList.sort(function(a, b) { return d3.descending(tractsData[a].children/tractsData[a].population, tractsData[b].children/tractsData[b].population)});
 	var data = tractsList.map(function (d) { return tractsData[d]});
+	console.log(data);
   histogram.updateData({data: data});
 	d3.selectAll("#histogramContainer").selectAll("rect")
 		.attr('tract', function(d, i) {return d.name});
@@ -408,12 +421,12 @@ function setupPlayButton() {
   var i = 0;
   d3.select('#playButton')
     .on('click', function () {
+			d3.selectAll("#playIcon").attr("class", "fa fa-spinner");
       d3.event.preventDefault();
       var callId = setInterval(function () {
         drawPoints(labels[i]);
 				updateHistogram(labels[i]);
         d3.selectAll('.line-dot')
-          .transition()
           .attr('fill', function (d, j) {
             if (j == i) return '#FC6262';
             return '#D6D6D6';
@@ -423,11 +436,14 @@ function setupPlayButton() {
             return 3;
           });
         i++;
+				if (i == labels.length) {
+					d3.selectAll("#playIcon").attr("class", "fa fa-play");
+				}
         if (i >= labels.length) {
           i = 0;
           clearInterval(callId);
         }
-      }, 3000);
+      }, 1000);
     });
 }
 
@@ -446,7 +462,7 @@ function setupPlayButton() {
 					<h3 class="title" style="font-size: 36px; color:#545454"> Cambridge </h3>
 				</a> 
 				<div class="subtitle">
-					This map shows the location of households with children in cambridge
+					This map shows the location of children under the age of 18 in Cambridge
 					<a id="showMore" href="#"> ... more </a>
 				</div>
 			</div>
@@ -455,11 +471,11 @@ function setupPlayButton() {
 	<div id="graphContainer">
 		<div class="graph-title">
 			<h4>Over Time</h4>
-			<a id="playButton" href="#"> <i class="fa fa-play"></i> Play Animation </a>
+			<a id="playButton" href="#"> <i id="playIcon" class="fa fa-play"></i> Play Animation </a>
 		</div>
 	</div>
-	<div id="content">
-		<div id="mapContainer">
+	<div id="content" style="height: 620px">
+		<div id="mapContainer" style="height: 620px">
 		</div>
 	</div>
 		<div id="histogramContainer">
@@ -470,18 +486,16 @@ function setupPlayButton() {
 
 		    <div id='essayContent'>
 		 		<p>
-		 			This map shows housholds with children under the age of 18. 
+				This map visualizes the number and distribution of children aged 17 and under in the city of Cambridge, Massachusetts from 1970 - 2010.
 		 		</p>
 
 		 		<p>
-				Something about why this visualization is useful?
+				Like all things in cities, the population of school aged children is constantly changing. This map helps show how the distribution of that population has changed over the past 40 years in the hope that this data can be used to make smarter decisions about where to place schools and other resources for children.  On a macro-level, the pronounced and continued reduction of the population of children in the city over the past 40 years makes us question whether we are creating our cities to be less friendly to children and families.  
 		 		</p>
+				<p>
+				You can explore this map on three levels: city, year, and census tract.  Each child as reported by the US Census is represented as a single dot on the map.  Clicking through the years in the graph at the top of the page allows you to visualize this data across each decade from 1970 to 2010.  For each year, you can hover over a census tract to see the total population, number, and percentage of children in that census tract.  The color of the dots in each tract represents the percentage of the population in that tract under age 18. 
 		 		<p>
-				The data displayed by this map was generated from 50 years of <a href="https://data2.nhgis.org/">census data</a>, which told us the number of households in a given census tract and which ones had at least one child under age 18. Other stuff here.
-		 		</p>
-		 		<p>
-				In the final map each point represents a single houshold with children.  The color of each point indicates the relative density of households with children in that particular block group or census tract.
-										
+				The data displayed by this map was generated from 50 years of <a href="https://data2.nhgis.org/">census data</a>, which gives us a breakdown of the population of each census tract by age group. 
 		 		</p>
 		 		<h4> Data Sources </h4>
 		 		<ol>
